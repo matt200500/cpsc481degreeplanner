@@ -1,3 +1,7 @@
+# IF you want to see the course and degree page do this for now:
+http://localhost:3000/degree/(insert degree name here)
+http://localhost:3000/course/(insert course name here)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

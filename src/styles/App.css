@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---------------------------------------- for all pages, removing x axis scrollbar ---------------------------*/
+body {
+  overflow-x: hidden; /* Removes the x-axis scrollbar */
+  /* overflow-y: scroll;*/
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #171c22;
+  font-family: monospace;
+
+}
+/* in case we dont want to show upgly scrollbar*/
+/* ::-webkit-scrollbar {
+    display: none; 
+} */
+
+
+/* -------------------------- for navbar at top of all pages --------------------------------*/
+.Navigation ul {
+  z-index: 100; /* makes sure that the navigation bar is on top of everything*/
+  position: fixed; /*makes nav bar always in same place on screen*/
+  display: flex;
+  justify-content: center; /*keep links in center of page*/
+  flex-wrap: wrap; /* wraps around screen when it cannot fit*/
+  top: 0%; /*ensures it is at very top of screen*/
+  width: 100%; /*esure links take up their entire space*/
+  margin: 0px;
+  padding: 20px 0;
+  overflow: hidden; /*hides overflow of bar when screen size changes*/
+  background-color: #0a131b;
+}
+.Navigation li {
+  list-style-type: none; /*removes list styling*/
+}
+
+.Navigation li a{
+  font-family: monospace;
+  display: inline;
+  color: #948979;
+  font-size: clamp(1.5rem, 2vw, 2rem); 
+  text-decoration: none; /*remove text decoration*/
+  text-align: center;
+  padding: 20px;
+}
+
+.Navigation li a:hover{ /*when hover over link*/
+  background-color: #000000;
+  color: #ccc;
+  transition: background-color 0.5s ease; /*when user hovefs, make the transition smooth and change background and word color*/
+}
+
+/*------------------------------------------------ for footer at bottom to make appear at bottom -------------------*/
+footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+

@@ -1,0 +1,145 @@
+.course-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    min-height: 100vh;  
+    text-align: center; 
+  }
+
+.course-search {
+    align-items: center; 
+}
+
+
+/*---------------------- FOR MAIN TEXT AND ALL h1 and h2 -----------------------------------*/
+.course-nav h1 {
+    text-align: center;
+    color: #DFD0B8;
+    font-family:monospace;
+    font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.course-nav h2{
+    color: #ac9f8b;
+    flex-wrap: wrap; /*wrap header when it cant fit*/
+    font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically changes font size*/
+    grid-area: header;
+}
+
+/*---------------------------------- FOR THE COURSE SEARCH --------------------------------*/
+
+.course-search  {
+    margin-bottom: 20px;
+}
+
+.course-search input {
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.course-search select {
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    cursor: pointer;
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+
+}
+
+/* Change dropdown appearance on hover */
+.course-search select:hover {
+    background-color: #e0e0e0; 
+}
+
+.course-search select:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+}
+
+.course-search button {
+    background-color: #15ca51;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.course-search button:hover {
+    background-color: #0baa40; 
+}
+
+.course-search button:disabled {
+    background-color: #b0b0b0; 
+    cursor: not-allowed; 
+}
+ 
+
+
+
+
+/*---------------------- FOR OUTPUT LIST -----------------------------------*/
+.course-list {
+    max-width: 50%;
+    width: 100%;
+    border: 2px solid #05080c;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #05080c;
+    transition: background-color 0.5s ease;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: left; /* Align the content to the left */
+}
+
+.course-list ul {
+    color: wheat;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.course-list li {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space between the course name and button */
+    align-items: center; /* Vertically align items */
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.course-list li button {
+    margin-left: 10px; 
+    background-color: #ac9f8b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.course-list li button:hover {
+    background-color: #8b7a56; 
+}
+ 

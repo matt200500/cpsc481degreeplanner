@@ -1,0 +1,26 @@
+.CoursePage {
+    padding: 20px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .CoursePage h1 {
+    color: #DFD0B8; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
+    font-family: monospace;
+
+  }
+  
+  .CoursePage h2 {
+    color: #ac9f8b;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/
+  }
+

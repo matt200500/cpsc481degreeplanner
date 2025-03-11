@@ -1,0 +1,20 @@
+.footer {
+    background-color: #101b27;
+    padding-bottom: 5%;
+
+    /*makes words break and wrap if they cannot fit on screen*/
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
+}
+  
+  .footer p {
+    text-align: center; /*keeps text in center*/
+    color: #948979;
+    font-family:monospace;
+    font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically change font size*/
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    margin-top: 0;
+}
