@@ -13,7 +13,7 @@ function CoursePage() {
       <h2>__________________________________________________________</h2>
       <h2>Prerequisistes: Math 231, Math 233</h2>
       <h2>Antirequisites: Math 201</h2>
-      <h2>Difficulty: * * * </h2>
+      <h2>Difficulty: * * *       Total ratings = 36</h2>
       <div className='difficulty_selecter'>
           {/* difficulty dropdown */}
           <select>
