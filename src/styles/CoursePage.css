@@ -24,3 +24,51 @@
     font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/
   }
 
+
+  .difficulty_selecter {
+    margin-bottom: 20px;
+}
+
+.difficulty_selecter select {
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    cursor: pointer;
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+    margin-right: 20px;
+}
+
+/* Change dropdown appearance on hover */
+.difficulty_selecter select:hover {
+    background-color: #e0e0e0; 
+}
+
+.difficulty_selecter select:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+}
+
+.difficulty_selecter button {
+    background-color: #15ca51;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.difficulty_selecter button:hover {
+    background-color: #0baa40; 
+}
+
+.difficulty_selecter button:disabled {
+    background-color: #b0b0b0; 
+    cursor: not-allowed; 
+}
+ 

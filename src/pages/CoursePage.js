@@ -14,6 +14,21 @@ function CoursePage() {
       <h2>Prerequisistes: Math 231, Math 233</h2>
       <h2>Antirequisites: Math 201</h2>
       <h2>Difficulty: * * * </h2>
+      <div className='difficulty_selecter'>
+          {/* difficulty dropdown */}
+          <select>
+              <option value="" disabled hidden>Rate course...</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+          </select>
+          {/* Search button */}
+          <button>
+              Rate Course
+          </button>
+      </div>
     </div>
   );
 }
