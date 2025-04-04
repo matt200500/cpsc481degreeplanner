@@ -1,0 +1,73 @@
+.LoginPage {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .LoginPage h1 {
+    color: #DFD0B8; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
+    font-family: monospace;
+  }
+
+  .LoginForm {
+    flex-direction: column;
+    max-width: 30%;
+    width: 100%;
+    border: 2px solid #05080c;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #05080c;
+    margin-bottom: 20px;
+    white-space: normal;
+  }
+
+  .LoginForm input {
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.LoginForm button {
+    background-color: #DFD0B8; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+.LoginForm button:hover {
+    background-color: #ac9f8b; 
+    transform: scale(1.05); 
+}
+
+.LoginForm button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}
+.LoginForm button:disabled:hover {
+    transform: none; 
+}
+
+.LoginForm label {
+    display: block; 
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    font-size: 1rem; 
+    color: #ac9f8b; 
+}
