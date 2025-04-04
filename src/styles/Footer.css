@@ -1,5 +1,5 @@
 .footer {
-    background-color: #101b27;
+    background-color: #a50034;
     padding-bottom: 5%;
 
     /*makes words break and wrap if they cannot fit on screen*/
@@ -10,7 +10,7 @@
   
   .footer p {
     text-align: center; /*keeps text in center*/
-    color: #948979;
+    color: #d9d9d9;
     font-family:monospace;
     font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically change font size*/
     padding-bottom: 0px;

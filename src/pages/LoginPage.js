@@ -14,17 +14,19 @@ function LoginPage() {
       };
   return (
     <div className='LoginPage'>
-      <h1>Enter Login Credentials</h1>
-      <div className='LoginForm'>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="username">Username:</label>
-          <input type="text" id="username" name="username" required onChange={(e) => setUsername(e.target.value)}/>
+        <div className='LoginBox'>
+            <h1>Enter User Login Credentials</h1>
+            <div className='LoginForm'>
+                <form onSubmit={handleSubmit}>
+                <label htmlFor="username">Username:</label>
+                <input type="text" id="username" name="username" required onChange={(e) => setUsername(e.target.value)}/>
 
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
+                <label htmlFor="password">Password:</label>
+                <input type="password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
 
-          <button type="submit" disabled={!isFormValid}>Login</button>
-          </form>
+                <button type="submit" disabled={!isFormValid}>Login</button>
+                </form>
+            </div>
         </div>
     </div>
   );

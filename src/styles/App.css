@@ -44,7 +44,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #171c22;
+  background-color: #FFFFFF;
   font-family: monospace;
 
 }
@@ -66,25 +66,32 @@ body {
   margin: 0px;
   padding: 20px 0;
   overflow: hidden; /*hides overflow of bar when screen size changes*/
-  background-color: #0a131b;
+  background-color: #A50034; /*white background*/
 }
 .Navigation li {
   list-style-type: none; /*removes list styling*/
+  color: #FFFFFF;
 }
 
 .Navigation li a{
   font-family: monospace;
-  display: inline;
-  color: #948979;
+  display: inline-block;
+  color: #D50032;
   font-size: clamp(1.5rem, 2vw, 2rem); 
   text-decoration: none; /*remove text decoration*/
   text-align: center;
   padding: 20px;
+  border: 2x solid #A50034;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  transition: background-color 0.5s, color 0.5s;
+  margin: 0px 10px;
+  
 }
 
 .Navigation li a:hover{ /*when hover over link*/
-  background-color: #000000;
-  color: #ccc;
+  background-color: #d9d9d9;
+  color: #A50034;
   transition: background-color 0.5s ease; /*when user hovefs, make the transition smooth and change background and word color*/
 }
 
