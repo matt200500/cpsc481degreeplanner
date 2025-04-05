@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../styles/CourseNav.css';
 
+var courseData = require("../mockData/mock_courses.json")
+
 function CourseNav() {
   const [course, setCourse] = useState("");
   const [level, setLevel] = useState("");
@@ -39,13 +41,26 @@ function CourseNav() {
         </select>
 
         {/* couse number field*/}
-        <input 
-          type="text" 
-          placeholder="Enter Course Number..." 
-          value={level} 
-          onChange={(e) => setLevel(e.target.value)} 
-        />
-
+        <div className="dropdown">
+            <input 
+              type="text" 
+              placeholder="Enter Course Number..." 
+              value={level} 
+              onChange={(e) => setLevel(e.target.value)} />
+            <div className="dropdown-select">
+              {courseData.filter(item => {
+                const selectedCourse = course;
+                const courseNumber = item.course_number;
+                const courseProgram = item.program;
+                
+                // filter for courses within the selected program and matching typed numbers
+                return selectedCourse && level && selectedCourse === courseProgram && courseNumber.startsWith(level) && courseNumber !== level;
+              })
+              .map((item) => (
+                <div onClick={() => setLevel(item.course_number)}className="dropdown-row"> {item.course_number} </div>
+              ))}
+            </div>
+        </div>
         {/* button to search */}
         <button onClick={handleSearch} disabled={!course || !level}>
           Search
