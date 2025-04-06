@@ -48,14 +48,10 @@ function CourseNav() {
               value={level} 
               onChange={(e) => setLevel(e.target.value)} />
             <div className="dropdown-select">
-              {courseData.filter(item => {
-                const selectedCourse = course;
-                const courseNumber = item.course_number;
-                const courseProgram = item.program;
-                
+              {courseData.filter(
                 // filter for courses within the selected program and matching typed numbers
-                return selectedCourse && level && selectedCourse === courseProgram && courseNumber.startsWith(level) && courseNumber !== level;
-              })
+                item => course && level && course === item.program && item.course_number.startsWith(level) && item.course_number !== level
+              )
               .map((item) => (
                 <div onClick={() => setLevel(item.course_number)}className="dropdown-row"> {item.course_number} </div>
               ))}
@@ -70,32 +66,23 @@ function CourseNav() {
         {error && <p style={{ color: "red" }}>{error}</p>}
         
       </div>
-
-      {/* list of courses (contains nothing rn) */}
-      <div className="course-list">
-        <ul>
-          <li>
-            Course 1
-            <button onClick={() => handleCourseClick('Course 1')}>View</button>
-          </li>
-          <li>
-            Course 2
-            <button onClick={() => handleCourseClick('Course 2')}>View</button>
-          </li>
-          <li>
-            Course 3
-            <button onClick={() => handleCourseClick('Course 3')}>View</button>
-          </li>
-          <li>
-            Course 4
-            <button onClick={() => handleCourseClick('Course 4')}>View</button>
-          </li>
-          <li>
-            Course 5
-            <button onClick={() => handleCourseClick('Course 5')}>View</button>
-          </li>
-        </ul>
-      </div>
+      
+      {/*list of courses*/}
+      { course || level ? (
+        <div className="course-list">
+          <ul>
+            {courseData.filter(
+              item => item.program === course && item.course_number.startsWith(level)
+            )
+            .map((item) => (
+                  <li> {item.program} {item.course_number} 
+                    <button onClick={() => handleCourseClick('Course 1')}>View</button>
+                  </li>
+                ))}
+          </ul>
+        </div>
+        ) : <h3>Select a course</h3>  }
+           
     </div>
   );
 }

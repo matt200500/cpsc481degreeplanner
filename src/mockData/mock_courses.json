@@ -8,14 +8,37 @@
     },
     {
         "program": "MATH",
-        "course_number": "231"
+        "course_number": "251",
+        "info": "",
+        "prereq": "",
+        "antireq": ""
     },
     {
         "program": "CPSC",
-        "course_number": "211"
+        "course_number": "201",
+        "info": "",
+        "prereq": "",
+        "antireq": ""
     },
     {
         "program": "CPSC",
-        "course_number": "201"
+        "course_number": "211",
+        "info": "",
+        "prereq": "",
+        "antireq": ""
+    },
+    {
+        "program": "ART",
+        "course_number": "231",
+        "info": "",
+        "prereq": "",
+        "antireq": ""
+    },
+    {
+        "program": "ART",
+        "course_number": "313",
+        "info": "",
+        "prereq": "",
+        "antireq": ""
     }
 ]
