@@ -56,15 +56,19 @@ function DegreeNav() {
         <select value={degreeInput} onChange={(e) => setDegreeInput(e.target.value)}>
           <option value="" disabled hidden>Select Degree Program...</option>
           <option value="Default">All Programs</option>
-          <option value="ART">Art</option>
-          <option value="BIO">Biology</option>
-          <option value="CHEM">Chemistry</option>
-          <option value="CPSC">Computer Science</option>
-          <option value="ENG">Engineering</option>
+          <option value="Arts">Art</option>
+          <option value="Art History">Art History</option>
+          <option value="Biology">Biology</option>
+          <option value="Business Administration">Business Administration</option>
+          <option value="Chemistry">Chemistry</option>
+          <option value="Computer Science">Computer Science</option>
+          <option value="Finance">Finance</option>
+          <option value="Graphic Design">Graphic Design</option>
           <option value="HIST">History</option>
-          <option value="MATH">Math</option>
+          <option value="Mathematics">Math</option>
+          <option value="Marketing">Marketing</option>
           <option value="PSYC">Psychology</option>
-          <option value="PHYS">Physics</option>
+          <option value="Physics">Physics</option>
         </select>
 
         {/* Search button */}
