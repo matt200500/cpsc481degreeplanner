@@ -6,7 +6,7 @@ const degreeData = require("../mockData/mock_degrees.json"); // Ensure correct d
 
 function DegreeNav() {
   const [facultyInput, setFacultyInput] = useState("");
-  const [degreeInput, setDegreeInput] = useState("");  // Degree is optional now
+  const [degreeInput, setDegreeInput] = useState(""); 
   const [faculty, setFaculty] = useState(""); 
   const [degree, setDegree] = useState(""); 
   const [error, setError] = useState(""); 
@@ -15,17 +15,16 @@ function DegreeNav() {
   const navigate = useNavigate();
 
   const handleSearch = () => {
-    if (!facultyInput) {  // Only check for faculty input
+    if (!facultyInput) { 
       setError("Faculty must be selected.");
     } else {
       setError("");
-      setFaculty(facultyInput);  // Set the faculty
-      setDegree(degreeInput);    // Degree is optional
-      setSearched(true);         // Enable searching
+      setFaculty(facultyInput);  
+      setDegree(degreeInput);    
+      setSearched(true);         
     }
   };
 
-  // Filtering logic: if degreeInput is empty, filter by faculty only
   const filteredDegrees = searched
     ? degreeData.filter(item => {
         const matchesFaculty = faculty === "Default" || item.faculty === faculty;
@@ -34,7 +33,6 @@ function DegreeNav() {
       })
     : degreeData;
 
-  // Navigate to the degree page
   const handleDegreeClick = (facultyName, degreeName) => {
     navigate(`/degree/${facultyName}${degreeName}`);
   };
