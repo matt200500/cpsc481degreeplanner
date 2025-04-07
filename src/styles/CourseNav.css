@@ -15,7 +15,7 @@
 /*---------------------- FOR MAIN TEXT AND ALL h1 and h2 -----------------------------------*/
 .course-nav h1 {
     text-align: center;
-    color: #DFD0B8;
+    color: #a50034;
     font-family:monospace;
     font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
     padding-bottom: 0px;
@@ -24,7 +24,7 @@
 }
 
 .course-nav h2{
-    color: #ac9f8b;
+    color: #c72c41;
     flex-wrap: wrap; /*wrap header when it cant fit*/
     font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically changes font size*/
     grid-area: header;
@@ -62,18 +62,8 @@
     transition: all 0.3s ease; 
 }
 
-/* Change dropdown appearance on hover */
-.course-search select:hover {
-    background-color: #e0e0e0; 
-}
-
-.course-search select:focus {
-    border-color: #4CAF50; 
-    outline: none; 
-}
-
 .course-search button {
-    background-color: #15ca51;
+    background-color: #a50034;
     border: none;
     border-radius: 5px;
     color: white;
@@ -84,7 +74,7 @@
 }
 
 .course-search button:hover {
-    background-color: #0baa40; 
+    background-color: #c72c41; 
 }
 
 .course-search button:disabled {
@@ -124,10 +114,10 @@
 .course-list {
     max-width: 50%;
     width: 100%;
-    border: 2px solid #05080c;
+    border: 2px solid #d9d9d9;
     border-radius: 30px;
     padding: 20px;
-    background-color: #05080c;
+    background-color: #d9d9d9;
     transition: background-color 0.5s ease;
     margin-bottom: 20px;
     word-wrap: break-word;
@@ -137,7 +127,7 @@
 }
 
 .course-list ul {
-    color: wheat;
+    color: #a50034;
     list-style-type: none;
     padding: 0;
     margin: 0; /* Remove default margin */
@@ -153,7 +143,7 @@
 
 .course-list li button {
     margin-left: 10px; 
-    background-color: #ac9f8b;
+    background-color: #a50034;
     border: none;
     border-radius: 5px;
     color: white;
@@ -164,6 +154,6 @@
 }
 
 .course-list li button:hover {
-    background-color: #8b7a56; 
+    background-color: #c72c41; 
 }
  

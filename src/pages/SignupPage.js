@@ -14,18 +14,21 @@ function SignupPage() {
       };
   return (
     <div className='SignupPage'>
-      <h1>Enter a new account</h1>
-      <div className='SignupForm'>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="username">Username:</label>
-          <input type="text" id="username" name="username" required onChange={(e) => setUsername(e.target.value)}/>
+      <div className='SignupBox'>
+        <h1>Enter a new account</h1>
+        <div className='SignupForm'>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="username">Username:</label>
+            <input type="text" id="username" name="username" required onChange={(e) => setUsername(e.target.value)}/>
 
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
+            <label htmlFor="password">Password:</label>
+            <input type="password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
 
-          <button type="submit" disabled={!isFormValid}>Signup</button>
-          </form>
-        </div>
+            <label></label>
+            <button type="submit" disabled={!isFormValid}>Signup</button>
+            </form>
+          </div>
+      </div>
     </div>
   );
 }

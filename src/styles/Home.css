@@ -8,8 +8,19 @@
     text-align: center; 
   }
   
+  .HomeBox {
+    background-color: #dfdfdf; /* light background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* soft shadow */
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .Home h1 {
-    color: #DFD0B8; 
+    color: #a50034; 
     font-size: 2rem;
     margin-bottom: 20px;
     font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
@@ -18,7 +29,7 @@
   }
   
   .Home h2 {
-    color: #ac9f8b;
+    color: #c72c41;
     font-size: 1.2rem;
     margin-bottom: 40px;
     font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/

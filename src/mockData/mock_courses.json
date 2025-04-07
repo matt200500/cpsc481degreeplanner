@@ -4,41 +4,54 @@
         "course_number": "249",
         "info": "An introduction to single variable calculus. Limits, derivatives and integrals of algebraic, exponential, logarithmic and trigonometric functions play a central role. Additional topics include applications of differentiation; the fundamental theorem of calculus, improper integrals and applications of integration.",
         "prereq": "MATH 212",
-        "antireq": "MATH 249"
+        "antireq": "MATH 249",
+        "difficulty": 3,
+        "total_ratings": 36
     },
     {
         "program": "MATH",
         "course_number": "251",
         "info": "",
         "prereq": "",
-        "antireq": ""
+        "antireq": "",
+        "difficulty": 3,
+        "total_ratings": 36
+
     },
     {
         "program": "CPSC",
         "course_number": "201",
         "info": "",
         "prereq": "",
-        "antireq": ""
+        "antireq": "",
+        "difficulty": 3,
+        "total_ratings": 37
     },
     {
         "program": "CPSC",
         "course_number": "211",
         "info": "",
         "prereq": "",
-        "antireq": ""
+        "antireq": "",
+        "difficulty": 3,
+        "total_ratings": 36
     },
     {
         "program": "ART",
         "course_number": "231",
         "info": "",
         "prereq": "",
-        "antireq": ""
+        "antireq": "",
+        "difficulty": 3
     },
     {
         "program": "ART",
         "course_number": "313",
         "info": "",
         "prereq": "",
-        "antireq": ""
+        "antireq": "",
+        "difficulty": 3,
+        "total_ratings": 36
+
     }
 ]

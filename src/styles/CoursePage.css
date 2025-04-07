@@ -7,9 +7,21 @@
     align-items: center; 
     text-align: center; 
   }
+
+  .CourseBox {
+    background-color: #dfdfdf; /* light background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* soft shadow */
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   .CoursePage h1 {
-    color: #DFD0B8; 
+    color: #a50034; 
     font-size: 2rem;
     margin-bottom: 20px;
     font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
@@ -18,18 +30,31 @@
   }
   
   .CoursePage h2 {
-    color: #ac9f8b;
+    color: #413839;
     font-size: 1.2rem;
     margin-bottom: 40px;
-    font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/
+    font-size: clamp(1rem, 10vw, 1.5rem);
   }
 
+  .CoursePage h3 {
+    color: #c72c41;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-size: clamp(1rem, 10vw, 1.5rem);
+  }
+  
+  .value {
+    color: #413839; 
+  }
+  
 
-  .difficulty_selecter {
+  /*--------------------------------- FOR SELECTING DIFFICULTY ------------------------------*/
+.difficulty_selector {
     margin-bottom: 20px;
+    display: flex;
 }
 
-.difficulty_selecter select {
+.difficulty_selector select {
     background-color: #f4f4f4; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
@@ -42,18 +67,9 @@
     margin-right: 20px;
 }
 
-/* Change dropdown appearance on hover */
-.difficulty_selecter select:hover {
-    background-color: #e0e0e0; 
-}
 
-.difficulty_selecter select:focus {
-    border-color: #4CAF50; 
-    outline: none; 
-}
-
-.difficulty_selecter button {
-    background-color: #15ca51;
+.CourseBox button {
+    background-color: #a50034;
     border: none;
     border-radius: 5px;
     color: white;
@@ -63,12 +79,11 @@
     transition: background-color 0.3s;
 }
 
-.difficulty_selecter button:hover {
-    background-color: #0baa40; 
+.CourseBox button:hover {
+    background-color: #c72c41; 
 }
 
-.difficulty_selecter button:disabled {
+.CourseBox button:disabled {
     background-color: #b0b0b0; 
     cursor: not-allowed; 
 }
- 

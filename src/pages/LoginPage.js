@@ -24,6 +24,7 @@ function LoginPage() {
                 <label htmlFor="password">Password:</label>
                 <input type="password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
 
+                <label></label>
                 <button type="submit" disabled={!isFormValid}>Login</button>
                 </form>
             </div>

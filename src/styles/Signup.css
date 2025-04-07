@@ -1,20 +1,40 @@
 .SignupPage {
-    padding: 20px;
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
     text-align: center; 
+
   }
 
   .SignupPage h1 {
-    color: #DFD0B8; 
+    color: #a50034; 
     font-size: 2rem;
     margin-bottom: 20px;
-    font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
+    font-size: 50px; /*dynamically change font size*/
     font-family: monospace;
   }
+
+  .SignupBox {
+    background-color: #dfdfdf; /* light background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* soft shadow */
+    max-width: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .SignupForm {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 20px;
+    justify-items: center;
+}
+
 
   .SignupForm input {
     background-color: #f4f4f4; 
@@ -25,12 +45,10 @@
     color: #333; 
     max-width: 300px; 
     transition: all 0.3s ease; 
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 .SignupForm button {
-    background-color: #DFD0B8; 
+    background-color: #a50034; 
     color: #fff; 
     border: none; 
     border-radius: 5px; 
@@ -40,7 +58,7 @@
     transition: all 0.3s ease; 
 }
 .SignupForm button:hover {
-    background-color: #ac9f8b; 
+    background-color: #c72c41; 
     transform: scale(1.05); 
 }
 
@@ -58,5 +76,5 @@
     margin-top: 20px;
     margin-bottom: 10px; 
     font-size: 1rem; 
-    color: #ac9f8b; 
+    color: #a50034;
 }
