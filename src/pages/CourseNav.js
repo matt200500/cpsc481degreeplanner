@@ -37,7 +37,6 @@ function CourseNav() {
       navigate(`/course/${program}${course_number}`);
     };
 
-  
 
   return (
     <div className="course-nav">
@@ -99,7 +98,7 @@ function CourseNav() {
             <li key={index}>
               {item.program} {item.course_number}
               <button onClick={() => handleCourseClick(item.program, item.course_number)}>
-                View
+                View Details
               </button>
             </li>
           ))}

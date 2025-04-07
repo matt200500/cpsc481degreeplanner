@@ -15,7 +15,7 @@
 /*---------------------- FOR MAIN TEXT AND ALL h1 and h2 -----------------------------------*/
 .degree-nav h1 {
     text-align: center;
-    color: #DFD0B8;
+    color: #a50034;
     font-family:monospace;
     font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
     padding-bottom: 0px;
@@ -24,16 +24,32 @@
 }
 
 .degree-nav h2{
-    color: #ac9f8b;
+    color: #c72c41;
     flex-wrap: wrap; /*wrap header when it cant fit*/
     font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically changes font size*/
     grid-area: header;
 }
 
-/*---------------------------------- FOR THE DEGREE SEARCH --------------------------------*/
+/*---------------------------------- FOR THE COURSE SEARCH --------------------------------*/
 
 .degree-search  {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.degree-search input {
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .degree-search select {
@@ -46,21 +62,10 @@
     cursor: pointer;
     max-width: 300px; 
     transition: all 0.3s ease; 
-    margin-right: 20px;
-}
-
-/* Change dropdown appearance on hover */
-.degree-search select:hover {
-    background-color: #e0e0e0; 
-}
-
-.degree-search select:focus {
-    border-color: #4CAF50; 
-    outline: none; 
 }
 
 .degree-search button {
-    background-color: #15ca51;
+    background-color: #a50034;
     border: none;
     border-radius: 5px;
     color: white;
@@ -71,26 +76,50 @@
 }
 
 .degree-search button:hover {
-    background-color: #0baa40; 
+    background-color: #c72c41; 
 }
 
 .degree-search button:disabled {
     background-color: #b0b0b0; 
     cursor: not-allowed; 
 }
- 
 
+/* For the predictive search for the course number input */
 
+.dropdown-select {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f5f5f5;
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 1rem;
+    color: #333; 
+    max-width: 300px; 
+    transition: all 0.3s ease; 
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: 10;
+}
 
+.dropdown-select:empty {
+    display: none;
+}
+
+.dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}
 
 /*---------------------- FOR OUTPUT LIST -----------------------------------*/
 .degree-list {
     max-width: 50%;
     width: 100%;
-    border: 2px solid #05080c;
+    border: 2px solid #d9d9d9;
     border-radius: 30px;
     padding: 20px;
-    background-color: #05080c;
+    background-color: #d9d9d9;
     transition: background-color 0.5s ease;
     margin-bottom: 20px;
     word-wrap: break-word;
@@ -100,8 +129,10 @@
 }
 
 .degree-list ul {
-    color: wheat;
+    color: #a50034;
     list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
     padding: 0;
     margin: 0; /* Remove default margin */
 }
@@ -116,7 +147,7 @@
 
 .degree-list li button {
     margin-left: 10px; 
-    background-color: #ac9f8b;
+    background-color: #a50034;
     border: none;
     border-radius: 5px;
     color: white;
@@ -127,6 +158,6 @@
 }
 
 .degree-list li button:hover {
-    background-color: #8b7a56; 
+    background-color: #c72c41; 
 }
  

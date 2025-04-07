@@ -48,19 +48,19 @@ function CoursePage() {
         <h1>{courseName} details</h1>
         <h2>{updatedCourseInfo.info}</h2>
         <h3>
-          <span className="label">Prerequisites: </span> 
+          <span className="label" title="Prerequisites are courses you must complete before taking this one.">Prerequisites: </span> 
           <span className="value">{updatedCourseInfo.prereq}</span>
         </h3>        
         <h3>
-          <span className="label">Antirequisistes: </span>
+          <span className="label" title="Antirequisites are courses you cannot take if you have already taken this one.">Antirequisites: </span>
           <span className="value">{updatedCourseInfo.antireq}</span>
         </h3>
         <h3>
-          <span className="label">Difficulty: </span>
+          <span className="label" title='Difficulty of courses are on a scale of 1 - 5, which dynamically changes from user ratings of a course'>Difficulty: </span>
           <span className="value">{updatedCourseInfo.difficulty}/5</span>
         </h3>
         <h3>
-          <span className="label">Total Ratings: </span>
+          <span className="label" title='This consists of the total ratings of this course by all students who rated it'>Total Ratings: </span>
           <span className="value">{updatedCourseInfo.total_ratings}</span>
         </h3>
 
@@ -81,7 +81,7 @@ function CoursePage() {
             Rate Course
           </button>
         </div>
-        <button id='returnbutton' onClick={() => window.history.back()} className="back-button"> Back to Search</button>
+        <button id='return' onClick={() => window.history.back()} className="back-button"> Back to Search</button>
       </div>
     </div>
   );
