@@ -28,12 +28,10 @@ function SignupPage() {
             });
             const data = await response.json(); // Parse JSON response
             if (response.ok) {
-                console.log('Signup successful:', data);
-                alert('Signup successful!');
-                navigate('/')
-                // Handle success
+                alert(`Welcome ${username}, your account has been created successfully!`);
+                navigate('/');
             } else {
-                throw new Error(data.message || 'Failed to signup');
+                alert(data.message || "Signup failed");
             }
         } catch (error) {
             console.error('Signup error:', error);

@@ -15,17 +15,29 @@ db.serialize(() => {
     db.run("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, password TEXT)");
 });
 
-// Endpoint to register a new user
 server.post('/signup', (req, res) => {
-    console.log('Received signup request', req.body)
     const { username, password } = req.body;
-    const sql = `INSERT INTO users (username, password) VALUES (?, ?)`;
 
-    db.run(sql, [username, password], function(err) {
+    // Step 1: Check if user already exists
+    const checkSql = `SELECT * FROM users WHERE username = ?`;
+    db.get(checkSql, [username], (err, row) => {
         if (err) {
-            return res.status(500).send({ message: "Error registering user" });
+            return res.status(500).send({ message: 'Database error while checking user.' });
         }
-        res.status(201).send({ message: "User registered", userId: this.lastID });
+
+        if (row) {
+            // User already exists
+            return res.status(400).send({ message: 'Username already exists. Please choose another one.' });
+        }
+
+        // Step 2: If not exists, insert new user
+        const insertSql = `INSERT INTO users (username, password) VALUES (?, ?)`;
+        db.run(insertSql, [username, password], function (err) {
+            if (err) {
+                return res.status(500).send({ message: 'Error registering user.' });
+            }
+            res.status(201).send({ message: 'User registered', userId: this.lastID });
+        });
     });
 });
 

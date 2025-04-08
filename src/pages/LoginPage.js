@@ -1,17 +1,42 @@
 import React, {useState} from 'react';
-import '../styles/Login.css'; // Import your CSS file
+import '../styles/Login.css';
+import { useNavigate } from 'react-router-dom';// Import your CSS file
 function LoginPage() {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
     const isFormValid = username.trim() !== '' && password.trim() !== '';
 
 
-    const handleSubmit = (e) => {
+    // Handle form submission
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // handle login logic here
-      };
+        if (!isFormValid) return; // Early return if form is not valid
+
+        try {
+            // Send POST request to '/login' endpoint
+            const response = await fetch('http://localhost:3001/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username, password })
+            });
+            const data = await response.json(); // Parse JSON response
+            if (response.ok) {
+                alert(`Welcome back, ${username}!`);
+                navigate('/'); // redirect to homepage
+            } else {
+                alert(`Login failed: ${data.message || 'Unknown error'}`);
+            }
+        } catch (error) {
+            console.error('Login error:', error);
+            alert('Login failed: Could not connect to server');
+        }
+    };
+
   return (
     <div className='LoginPage'>
         <div className='LoginBox'>
