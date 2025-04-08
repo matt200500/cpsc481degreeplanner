@@ -7,10 +7,11 @@
     align-items: center; 
     text-align: center; 
   }
-  
+
+/*---------------------- FOR MAIN TEXT AND ALL h1 and h2 -----------------------------------*/
+
   .DegreePage h1 {
-    color: #DFD0B8; 
-    font-size: 2rem;
+    color: #a50034;
     margin-bottom: 20px;
     font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
     font-family: monospace;
@@ -18,15 +19,43 @@
   }
   
   .DegreePage h2 {
-    color: #ac9f8b;
-    font-size: 1.2rem;
+    color: #c72c41;
     margin-bottom: 40px;
     font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/
   }
 
+.course-list {
+    background-color: #ddd; /* light grey background */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.course-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #888;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.course-list button {
+    background-color: #8c1c3f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.course-name {
+    color: #a50034; /* or whatever red matches your theme */
+    font-weight: bold;
+}
+
   .DegreePage p {
-    color: #ac9f8b;
-    font-size: 1rem;
+    color: #c72c41;
     margin-bottom: 40px;
     font-size: clamp(1rem, 10vw, 1.5rem); /*dynamically change*/
   }
