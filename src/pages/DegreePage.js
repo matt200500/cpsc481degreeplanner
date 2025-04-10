@@ -68,11 +68,13 @@ export default function DegreePage() {
     return (
         <div className="DegreePage">
             <h1>
-                Bachelor of {degreeName ? degreeName.toUpperCase() : 'CPSC'}
+                {degreePlans[degreeName]?.name
+                    ? `Bachelor of ${degreePlans[degreeName].name}`
+                    : 'Degree Not Found'}
             </h1>
 
             <h2 className="year-heading">
-                Recommended Courses{' '}
+                Required Courses{' '}
                 <select
                     className="year-dropdown"
                     value={selectedYear}
