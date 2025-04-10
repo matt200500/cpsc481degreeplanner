@@ -1,162 +1,933 @@
 [
-    {
-      "program": "MATH",
-      "course_number": "249",
-      "taken": false,
-      "info": "An introduction to single variable calculus...",
-      "prereq": "MATH 212",
-      "antireq": "MATH 249",
-      "difficulty": 3,
-      "total_ratings": 36
-    },
-    {
-      "program": "MATH",
-      "course_number": "251",
-      "taken": false,
-      "info": "",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 36
-    },
-    {
-      "program": "CPSC",
-      "course_number": "201",
-      "taken": false,
-      "info": "",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 37
-    },
-    {
-      "program": "CPSC",
-      "course_number": "211",
-      "taken": false,
-      "info": "",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 36
-    },
-    {
-      "program": "ART",
-      "course_number": "231",
-      "taken": false,
-      "info": "",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3
-    },
-    {
-      "program": "ART",
-      "course_number": "313",
-      "taken": false,
-      "info": "",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 36
-    },
-    {
-      "program": "CHEM",
-      "course_number": "101",
-      "taken": false,
-      "info": "Introductory chemistry course.",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 2,
-      "total_ratings": 24
-    },
-    {
-      "program": "PHYS",
-      "course_number": "211",
-      "taken": false,
-      "info": "Mechanics and waves.",
-      "prereq": "PHYS 101",
-      "antireq": "",
-      "difficulty": 4,
-      "total_ratings": 40
-    },
-    {
-      "program": "BIO",
-      "course_number": "202",
-      "taken": false,
-      "info": "Cell biology and genetics.",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 32
-    },
-    {
-      "program": "ART",
-      "course_number": "101",
-      "taken": false,
-      "info": "Intro to visual arts.",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 2,
-      "total_ratings": 18
-    },
-    {
-      "program": "ART",
-      "course_number": "202",
-      "taken": false,
-      "info": "Modern art movements.",
-      "prereq": "ART 101",
-      "antireq": "",
-      "difficulty": 2,
-      "total_ratings": 20
-    },
-    {
-      "program": "BUS",
-      "course_number": "101",
-      "taken": false,
-      "info": "Introduction to business management.",
-      "prereq": "",
-      "antireq": "",
-      "difficulty": 2,
-      "total_ratings": 25
-    },
-    {
-      "program": "BUS",
-      "course_number": "201",
-      "taken": false,
-      "info": "Principles of marketing.",
-      "prereq": "BUS 101",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 22
-    },
-    {
-      "program": "BUS",
-      "course_number": "310",
-      "taken": false,
-      "info": "Corporate finance basics.",
-      "prereq": "BUS 101",
-      "antireq": "",
-      "difficulty": 4,
-      "total_ratings": 29
-    },
-    {
-      "program": "MATH",
-      "course_number": "311",
-      "taken": false,
-      "info": "Linear algebra and matrices.",
-      "prereq": "MATH 249",
-      "antireq": "",
-      "difficulty": 4,
-      "total_ratings": 30
-    },
-    {
-      "program": "CPSC",
-      "course_number": "329",
-      "taken": false,
-      "info": "Cybersecurity fundamentals.",
-      "prereq": "CPSC 201",
-      "antireq": "",
-      "difficulty": 3,
-      "total_ratings": 28
-    }
-  ]
-  
+
+  {
+    "program": "CPSC",
+    "course_number": "203",
+    "title": "Introduction to Problem Solving using Application Software",
+    "info": "Introduction to computer fundamentals; contemporary topics such as security and privacy, and the Internet and World Wide Web. Problem solving, analysis and design using application software such as spreadsheets and word processors.",
+    "prereq": null,
+    "antireq": "Not open for registration to Computer Science majors.",
+    "difficulty": 2,
+    "total_ratings": 46
+  },
+  {
+    "program": "CPSC",
+    "course_number": "217",
+    "title": "Introduction to Computer Science for Multidisciplinary Studies I",
+    "info": "Introduction to problem solving, analysis and design of small‑scale computational systems and implementation using a procedural programming language.",
+    "prereq": null,
+    "antireq": "Credit for Computer Science 217 and any of 215, 231, 235, Data Science 211, Computer Engineering 339, Engineering 233 or Digital Engineering 233 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 58
+  },
+  {
+    "program": "CPSC",
+    "course_number": "219",
+    "title": "Introduction to Computer Science for Multidisciplinary Studies II",
+    "info": "Continuation of 217 with emphasis on object‑oriented analysis and design using an object‑oriented language. Design, modularization and programming style.",
+    "prereq": "Computer Science 217 or Data Science 211.",
+    "antireq": "Credit for Computer Science 219 and any of 233, 235, Electrical Engineering 497 or Computer Engineering 493 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 62
+  },
+  {
+    "program": "CPSC",
+    "course_number": "231",
+    "title": "Introduction to Computer Science for Computer Science Majors I",
+    "info": "Problem solving, analysis and design of small‑scale computational systems, implemented in a procedural language. For CS majors.",
+    "prereq": "Admission to Computer Science, Bioinformatics, or Natural Science with a primary concentration in Computer Science.",
+    "antireq": "Credit for Computer Science 231 and any of 215, 217, 235, Data Science 211, Computer Engineering 339, Engineering 233, or Digital Engineering 233 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 74
+  },
+  {
+    "program": "CPSC",
+    "course_number": "233",
+    "title": "Introduction to Computer Science for Computer Science Majors II",
+    "info": "Continuation of 231. Object‑oriented analysis and design, implementation in an OO language, with focus on design, modularization and style.",
+    "prereq": "Computer Science 231 and admission to Computer Science, Bioinformatics, or Natural Science with a primary concentration in Computer Science.",
+    "antireq": "Credit for Computer Science 233 and any of 219, 235, Electrical Engineering 497 or Computer Engineering 493 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 81
+  },
+  {
+    "program": "CPSC",
+    "course_number": "235",
+    "title": "Advanced Introduction to Computer Science",
+    "info": "Accelerated introduction covering both procedural and object‑oriented programming; emphasis on design, modularization, and style.",
+    "prereq": "Consent of the Department.",
+    "antireq": "Credit for Computer Science 235 and any of 215, 217, 219, 231, 233, Computer Engineering 339, 493 or Data Science 211 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 55
+  },
+  {
+    "program": "CPSC",
+    "course_number": "251",
+    "title": "Theoretical Foundations of Computer Science I",
+    "info": "Proof techniques, recursion, discrete structures, counting, probability basics with computer science applications.",
+    "prereq": "Computer Science 219 or 231.",
+    "antireq": "Credit not allowed with Mathematics 271 or 273.",
+    "difficulty": 4,
+    "total_ratings": 60
+  },
+  {
+    "program": "CPSC",
+    "course_number": "304",
+    "title": "A Survey of Computer Science for Non‑Majors",
+    "info": "Broad overview of computing topics such as hardware, graphics, AI, networks, security, etc.",
+    "prereq": null,
+    "antireq": "Not open to CS majors or students with ≥3 units of 300‑level CS credit.",
+    "difficulty": 2,
+    "total_ratings": 37
+  },
+  {
+    "program": "CPSC",
+    "course_number": "313",
+    "title": "Introduction to Computability",
+    "info": "Finite automata, regular expressions, context‑free grammars, Turing machines; language classes and their relationships.",
+    "prereq": "Mathematics 271 or 273; and Philosophy 279 or 377; and 3 units from Computer Science 219, 233 or 235.",
+    "antireq": "Credit not allowed with Computer Science 351.",
+    "difficulty": 5,
+    "total_ratings": 48
+  },
+  {
+    "program": "CPSC",
+    "course_number": "319",
+    "title": "Data Structures, Algorithms, and Their Applications",
+    "info": "Core data structures (arrays, lists, trees, graphs), searching, sorting, basic algorithm analysis for non‑majors.",
+    "prereq": "3 units from Computer Science 219, 233, 235, Computer Engineering 335, 339 or Software Engineering for Engineers 337.",
+    "antireq": "Credit not allowed with Computer Science 331.",
+    "difficulty": 3,
+    "total_ratings": 68
+  },
+  {
+    "program": "CPSC",
+    "course_number": "329",
+    "title": "Explorations in Information Security and Privacy",
+    "info": "Survey of information security and privacy topics motivated by puzzles; introduces legal and ethical considerations.",
+    "prereq": "Mathematics 30‑1, 30‑2 or 31.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 42
+  },
+  {
+    "program": "CPSC",
+    "course_number": "331",
+    "title": "Data Structures, Algorithms, and Their Analysis",
+    "info": "Fundamental data structures and rigorous algorithm analysis for CS majors; emphasis on correctness proofs.",
+    "prereq": "3 units from Computer Science 251, Mathematics 271 or 273; and 3 units from Computer Science 219, 233, 235, Computer Engineering 335, 339 or Software Engineering for Engineers 337.",
+    "antireq": "Credit not allowed with Computer Science 319.",
+    "difficulty": 4,
+    "total_ratings": 77
+  },
+  {
+    "program": "CPSC",
+    "course_number": "335",
+    "title": "Intermediate Information Structures",
+    "info": "Advanced hashing, search algorithms, trees, string structures and tools for information manipulation.",
+    "prereq": "Computer Science 319 or 331.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 39
+  },
+  {
+    "program": "CPSC",
+    "course_number": "351",
+    "title": "Theoretical Foundations of Computer Science II",
+    "info": "Probability theory, automata, decidability and undecidability, complexity of computational models.",
+    "prereq": "See calendar (multiple math/CS prerequisites).",
+    "antireq": "Credit not allowed with Computer Science 313.",
+    "difficulty": 5,
+    "total_ratings": 50
+  },
+  {
+    "program": "CPSC",
+    "course_number": "355",
+    "title": "Computing Machinery I",
+    "info": "Relationship between high‑level languages, assembly, and machine code; CPU architecture and data representation.",
+    "prereq": "3 units from Computer Science 219, 233 or 235.",
+    "antireq": "Credit not allowed with 265 or Computer Engineering 369.",
+    "difficulty": 4,
+    "total_ratings": 65
+  },
+  {
+    "program": "CPSC",
+    "course_number": "359",
+    "title": "Computing Machinery II",
+    "info": "Hardware and microprocessor design; linking digital logic to sequential machines capable of executing algorithms.",
+    "prereq": "Computer Science 355 and Philosophy 279 or 377.",
+    "antireq": "Credit not allowed with 325, 455 or Computer Engineering 415.",
+    "difficulty": 5,
+    "total_ratings": 40
+  },
+  {
+    "program": "CPSC",
+    "course_number": "393",
+    "title": "Metacognition in Self‑Directed Learning Methodologies",
+    "info": "Develop reflective life‑long learning practice; independent work with self‑assessment in CS topics.",
+    "prereq": "Computer Science 219, 233 or Data Science 311 and enrolment in approved major.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 31
+  },
+  {
+    "program": "CPSC",
+    "course_number": "399",
+    "title": "Special Topics in Computer Science",
+    "info": "Exploration of various CS areas; topic changes yearly.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "CPSC",
+    "course_number": "405",
+    "title": "Software Entrepreneurship",
+    "info": "Develop business models, build prototypes, pitch software‑based ventures; taught with Business faculty.",
+    "prereq": "Software Engineering 300 or 301.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 47
+  },
+  {
+    "program": "CPSC",
+    "course_number": "409",
+    "title": "History of Computation",
+    "info": "Survey of computation history from early devices to modern era.",
+    "prereq": "Computer Science 355.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 36
+  },
+  {
+    "program": "CPSC",
+    "course_number": "411",
+    "title": "Compiler Construction",
+    "info": "Lexical analysis, parsing, attribute grammars, and compiler tools.",
+    "prereq": "Computer Science 319 or 331; and Computer Science 355 or Computer Engineering 369.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 52
+  },
+  {
+    "program": "CPSC",
+    "course_number": "413",
+    "title": "Design and Analysis of Algorithms I",
+    "info": "Greedy, divide‑and‑conquer, dynamic programming; tractable vs intractable problems.",
+    "prereq": "Computer Science 331; and 313 or 351; and Mathematics 211 or 213; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 70
+  },
+  {
+    "program": "CPSC",
+    "course_number": "418",
+    "title": "Introduction to Cryptography",
+    "info": "Symmetric and public‑key crypto, data integrity, digital signatures, key management, security notions.",
+    "prereq": "Computer Science 331 and 3 units from Computer Science 351, Mathematics 271, 273, 315 or Pure Mathematics 315.",
+    "antireq": "Credit not allowed with CS 429, 557, MATH 318, PMATH 329 or 418.",
+    "difficulty": 5,
+    "total_ratings": 44
+  },
+  {
+    "program": "CPSC",
+    "course_number": "433",
+    "title": "Artificial Intelligence",
+    "info": "Objectives, key techniques and achievements in AI.",
+    "prereq": "Computer Science 313 or 351; and Philosophy 279 or 377.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 61
+  },
+  {
+    "program": "CPSC",
+    "course_number": "441",
+    "title": "Computer Networks",
+    "info": "Layered protocols, switching, Internet protocols, multimedia networking.",
+    "prereq": "Computer Science 319 or 331; and Computer Science 355 or Computer Engineering 369.",
+    "antireq": "Credit not allowed with Electrical Engineering 573.",
+    "difficulty": 4,
+    "total_ratings": 59
+  },
+  {
+    "program": "CPSC",
+    "course_number": "449",
+    "title": "Programming Paradigms",
+    "info": "Principles of functional and logic programming; data types, lazy evaluation, interpretation principles.",
+    "prereq": "Computer Science 319 or 331; Computer Science 313 or 351; and Philosophy 279 or 377.",
+    "antireq": "Credit not allowed with 349.",
+    "difficulty": 4,
+    "total_ratings": 48
+  },
+  {
+    "program": "CPSC",
+    "course_number": "453",
+    "title": "Introduction to Computer Graphics",
+    "info": "Raster graphics, transformations, viewing, shading, ray tracing, basic modelling.",
+    "prereq": "Computer Science 319 or 331; and Mathematics 211 or 213; and 3 units from Mathematics 253, 267, 277, 283 or Applied Mathematics 219.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 57
+  },
+  {
+    "program": "CPSC",
+    "course_number": "457",
+    "title": "Principles of Operating Systems",
+    "info": "Performance measurement; concurrency; resource management.",
+    "prereq": "Computer Science 319 or 331; and Computer Science 355 or Computer Engineering 369.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 63
+  },
+  {
+    "program": "CPSC",
+    "course_number": "471",
+    "title": "Data Base Management Systems",
+    "info": "Relational databases, SQL, normalization, ER design.",
+    "prereq": "Computer Science 319 or 331.",
+    "antireq": "Credit not allowed with Business Technology Management 331.",
+    "difficulty": 3,
+    "total_ratings": 66
+  },
+  {
+    "program": "CPSC",
+    "course_number": "481",
+    "title": "Human‑Computer Interaction I",
+    "info": "Principles of design, prototyping and evaluation of user interfaces.",
+    "prereq": "3 units from Software Engineering 300, 301, Software Engineering 480 or Data Science 311.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "CPSC",
+    "course_number": "491",
+    "title": "Techniques for Numerical Computation",
+    "info": "Numerical solutions of equations, integration, interpolation.",
+    "prereq": "Computer Science 319 or 331; and Mathematics 211 or 213; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": "Credit not allowed with MATH 391, 493 or ENG 407 or CHE 407.",
+    "difficulty": 4,
+    "total_ratings": 38
+  },
+  {
+    "program": "CPSC",
+    "course_number": "505",
+    "title": "Foundations of Access Control",
+    "info": "Formal models and policy languages for access control; safety and resiliency analysis.",
+    "prereq": "Computer Science 413 and 449.",
+    "antireq": "Credit not allowed with 601.40 or 604.",
+    "difficulty": 5,
+    "total_ratings": 33
+  },
+  {
+    "program": "CPSC",
+    "course_number": "511",
+    "title": "Introduction to Complexity Theory",
+    "info": "Complexity classes, NP‑completeness, probabilistic and parallel complexity theories.",
+    "prereq": "Computer Science 413.",
+    "antireq": "Credit not allowed with 611.",
+    "difficulty": 5,
+    "total_ratings": 41
+  },
+  {
+    "program": "CPSC",
+    "course_number": "525",
+    "title": "Principles of Computer Security",
+    "info": "Security policies, protection mechanisms, reference monitors, formal models, legal and ethical considerations.",
+    "prereq": "Computer Science 457; and 3 units from Computer Science 351, Mathematics 271 or 273.",
+    "antireq": "Credit not allowed with 529 or 625.",
+    "difficulty": 5,
+    "total_ratings": 35
+  },
+  {
+    "program": "CPSC",
+    "course_number": "544",
+    "title": "Machine Learning",
+    "info": "Techniques for learning rules, parameters, trees, graphs, sequences; pre‑/post‑processing techniques.",
+    "prereq": "Computer Science 433.",
+    "antireq": "Credit not allowed with 599.44.",
+    "difficulty": 4,
+    "total_ratings": 72
+  },
+  {
+    "program": "CPSC",
+    "course_number": "559",
+    "title": "Introduction to Distributed Systems",
+    "info": "Designing distributed systems resilient to concurrency, failures and heterogeneity.",
+    "prereq": "Computer Science 441 and 457.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 54
+  },
+  {
+    "program": "CPSC",
+    "course_number": "571",
+    "title": "Design and Implementation of Database Systems",
+    "info": "Query optimization, recovery, concurrency, distribution.",
+    "prereq": "Computer Science 471.",
+    "antireq": "Credit not allowed with 671.",
+    "difficulty": 5,
+    "total_ratings": 46
+  },
+  {
+    "program": "CPSC",
+    "course_number": "573",
+    "title": "Visualization and Analytics",
+    "info": "Full data‑analysis lifecycle; exploratory statistics, visualization, ethics.",
+    "prereq": "3 units from Computer Science 319, 331 or Data Science 311.",
+    "antireq": "Credit not allowed with 599.87.",
+    "difficulty": 3,
+    "total_ratings": 58
+  },
+  {
+    "program": "CPSC",
+    "course_number": "585",
+    "title": "Games Programming",
+    "info": "Techniques for implementing computer games; multimedia environments, rendering engines, interaction.",
+    "prereq": "Computer Science 453 and consent of the Department.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 40
+  },
+  {
+    "program": "CPSC",
+    "course_number": "591",
+    "title": "Rendering",
+    "info": "Illumination models, ray tracing, Monte Carlo, radiosity, real‑time shading.",
+    "prereq": "Computer Science 453.",
+    "antireq": "Credit not allowed with 691.",
+    "difficulty": 5,
+    "total_ratings": 37
+  },
+  {
+    "program": "MATH",
+    "course_number": "177",
+    "title": "Further Topics from Mathematics 277",
+    "info": "An overview of the basic notions in multivariate calculus: vector functions and differentiation, curves and parametrization, functions of several variables, partial differentiation, differentiability, implicit functions, extreme values.",
+    "prereq": "Mathematics 267; and Mathematics 211 or 213.",
+    "antireq": null,
+    "difficulty": 1,
+    "total_ratings": 59
+  },
+  {
+    "program": "MATH",
+    "course_number": "205",
+    "title": "Mathematical Explorations",
+    "info": "A mathematics appreciation course. Topics selected by the instructor to provide a contemporary mathematical perspective and experiences in mathematical thinking. May include historical material on the development of classical mathematical ideas as well as the evolution of recent mathematics.",
+    "prereq": "One of Mathematics 30-1, 30-2, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 48
+  },
+  {
+    "program": "MATH",
+    "course_number": "209",
+    "title": "Applied and Computational Linear Algebra for Energy Engineers",
+    "info": "An introduction to systems of linear equations, vectors in Euclidean space, matrix algebra, linear transformations, eigenvalues and engenvectors. Geometrical applications and computing techniques will be emphasized. Students will complete a project using mathematical software.",
+    "prereq": "Admission to the Energy Engineering Program.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 44
+  },
+  {
+    "program": "MATH",
+    "course_number": "211",
+    "title": "Linear Methods I",
+    "info": "An introduction to systems of linear equations, vectors in Euclidean space and matrix algebra. Additional topics include linear transformations, determinants, complex numbers, eigenvalues, and applications.",
+    "prereq": "One of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": "Credit for Mathematics 211 and 213 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 100
+  },
+  {
+    "program": "MATH",
+    "course_number": "212",
+    "title": "Mathematical Ways of Thinking",
+    "info": "A mathematical exploration course focused on investigating fundamental mathematical concepts and their applications. The course is designed to prepare students for further study in mathematics and to meet the mathematical requirements for their program of study. Learners will build conceptual understanding together with technical skill in applying the ideas covered in the course to solve problems. This course pairs elements from high school mathematics and introductory university mathematics with Indigenous Ways of Knowing.",
+    "prereq": "Mathematics 20-1 or 30-2 and admission to an Indigenous Pathway program.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 42
+  },
+  {
+    "program": "MATH",
+    "course_number": "213",
+    "title": "Linear Algebra I",
+    "info": "A rigorous introduction to the theory of vector spaces, with an emphasis on proof writing and abstract reasoning. Topics include fields, subspaces, bases and dimension, linear transformations, determinants, eigenvalues and eigenvectors.",
+    "prereq": "A grade of 90 per cent or higher in both Mathematics 30-1 and Mathematics 31 or consent of the Department.",
+    "antireq": "Credit for Mathematics 213 and 211 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 85
+  },
+  {
+    "program": "MATH",
+    "course_number": "249",
+    "title": "Introductory Calculus",
+    "info": "An introduction to single variable calculus. Limits, derivatives and integrals of algebraic, exponential, logarithmic and trigonometric functions play a central role. Additional topics include applications of differentiation; the fundamental theorem of calculus, improper integrals and applications of integration.",
+    "prereq": "One of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": "Not open to students with 50 per cent or higher in Mathematics 31 or a grade of \"C\" or higher in Mathematics 3 offered through University of Calgary Continuing Education, except with special departmental permission. Credit for Mathematics 249 and either 265 or 275 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 35
+  },
+  {
+    "program": "MATH",
+    "course_number": "265",
+    "title": "University Calculus I",
+    "info": "An introduction to single variable calculus intended for students with credit in high school calculus. Limits, derivatives, and integrals of algebraic, exponential, logarithmic and trigonometric functions play a central role. Additional topics include applications of differentiation; the fundamental theorem of calculus, improper integrals and applications of integration. Differential calculus in several variables will also be introduced.",
+    "prereq": "One of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education); and Mathematics 31 or Mathematics 3 (offered by Continuing Education).",
+    "antireq": "Credit for Mathematics 265 and either 249 or 275 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 34
+  },
+  {
+    "program": "MATH",
+    "course_number": "267",
+    "title": "University Calculus II",
+    "info": "A concluding treatment of single variable calculus and an introduction to calculus in several variables. Single variable calculus: techniques of integration, sequences, series, convergence tests, and Taylor series. Calculus of several variables: partial differentiation, multiple integration, parametric equations, and applications",
+    "prereq": "3 units from Mathematics 249, 265 or 275.",
+    "antireq": "Credit for Mathematics 267 and 277 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 42
+  },
+  {
+    "program": "MATH",
+    "course_number": "271",
+    "title": "Discrete Mathematics",
+    "info": "An introduction to proof techniques and abstract mathematical reasoning: sets, relations and functions; mathematical induction; integers, primes, divisibility and modular arithmetic; counting and combinatorics; elements of probability, discrete random variables and Bayes\u2019 theorem.",
+    "prereq": "Mathematics 211 or 213.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 58
+  },
+  {
+    "program": "MATH",
+    "course_number": "273",
+    "title": "Numbers and Proofs",
+    "info": "A rigorous introduction to proof techniques and abstract mathematical reasoning with an emphasis on number systems: functions, sets and relations; the integers, prime numbers, divisibility and modular arithmetic; induction and recursion; real numbers; Cauchy sequences and completeness; complex numbers.",
+    "prereq": "A grade of 90 per cent or higher in both Mathematics 30-1 and 31 or consent of the Department.",
+    "antireq": null,
+    "difficulty": 2,
+    "total_ratings": 60
+  },
+  {
+    "program": "MATH",
+    "course_number": "275",
+    "title": "Calculus for Engineers and Scientists",
+    "info": "An extensive treatment of differential and integral calculus in a single variable, with an emphasis on applications. Differentiation: derivative laws, the mean value theorem, optimization, curve sketching and other applications. Integral calculus: the fundamental theorem of calculus, techniques of integration, improper integrals, and areas of planar regions. Infinite series: power series, Taylor\u2019s theorem and Taylor series.",
+    "prereq": "One of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education); and Mathematics 31 or Mathematics 3 (offered by Continuing Education).",
+    "antireq": "Credit for Mathematics 275 and either 249 or 265 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 95
+  },
+  {
+    "program": "MATH",
+    "course_number": "277",
+    "title": "Multivariable Calculus for Engineers and Scientists",
+    "info": "An introduction to calculus of several real variables: curves and parametrizations, partial differentiation, the chain rule, implicit functions; integration in two and three variables and applications; optimization and Lagrange multipliers.",
+    "prereq": "Mathematics 275; and Mathematics 211 or 213.",
+    "antireq": "Credit for Mathematics 277 and 267 will not be allowed.",
+    "difficulty": 2,
+    "total_ratings": 34
+  },
+  {
+    "program": "MATH",
+    "course_number": "305",
+    "title": "Inside Mathematics",
+    "info": "An exploration of the usually tacit elements of mathematical concepts and processes, the course focuses on strategies for unpacking concepts and for sustained engagement in inquiry.",
+    "prereq": "Mathematics 211 or 213; and Mathematics 271 or 273.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 56
+  },
+  {
+    "program": "MATH",
+    "course_number": "307",
+    "title": "Complex Analysis I",
+    "info": "An initial treatment of complex analytic functions in a single variable. Topics include differentiation, Cauchy-Riemann equations, line integration, Cauchy\u2019s theorem and Cauchy\u2019s integral formula, Taylor\u2019s theorem, the residue theorem, and applications to definite integrals.",
+    "prereq": "Mathematics 211 or 213; and Mathematics 267 or 277; and Mathematics 271 or 273.",
+    "antireq": "Credit for Mathematics 307 and 421 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 100
+  },
+  {
+    "program": "MATH",
+    "course_number": "311",
+    "title": "Linear Methods II",
+    "info": "An introductory course in the theory of abstract vector spaces: linear independence, spanning sets, basis and dimension; linear transformations and the rank-nullity theorem; the Gram-Schmidt algorithm and orthogonal diagonalization; singular value decomposition and other applications.",
+    "prereq": "Mathematics 211 or 213.",
+    "antireq": "Credit for Mathematics 311 and 313 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 84
+  },
+  {
+    "program": "MATH",
+    "course_number": "313",
+    "title": "Linear Algebra II",
+    "info": "The theory of linear operators acting on finite dimensional vector spaces: invariant subspaces, diagonalization and triangulation; canonical forms; inner product spaces and orthogonalization; spectral theory; singular value decomposition and other applications.",
+    "prereq": "Mathematics 213.",
+    "antireq": "Credit for Mathematics 311 and 313 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 59
+  },
+  {
+    "program": "MATH",
+    "course_number": "315",
+    "title": "Algebra I",
+    "info": "A broad overview of the elementary theory of groups, rings and fields. Group theory: cyclic, symmetric, alternating, dihedral and classical matrix groups, cosets and Lagrange\u2019s theorem, group homomorphisms, normal subgroups, quotient groups and the isomorphism theorem. Rings and fields: the integers modulo n, polynomial rings, ring homomorphisms, ideals, quotient rings the isomorphism theorem, unique factorization domains, principal ideal domains, Euclidean domains and the construction of finite fields.",
+    "prereq": "Mathematics 271 or 273.",
+    "antireq": "Credit for Mathematics 315 and Pure Mathematics 317 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 88
+  },
+  {
+    "program": "MATH",
+    "course_number": "318",
+    "title": "Introduction to Cryptography",
+    "info": "The basics of cryptography, with emphasis on attaining well-defined and practical notions of security. Symmetric and public-key cryptosystems; one-way and trapdoor functions; mechanisms for data integrity; digital signatures; key management; applications to the design of cryptographic systems. Assessment will primarily focus on mathematical theory and proof-oriented homework problems; additional application programming exercises will be available for extra credit.",
+    "prereq": "Mathematics 211 or 213; and Mathematics 271 or 273.",
+    "antireq": "Credit for Mathematics 318 and any of Pure Mathematics 329, Computer Science 418, 429, or 557 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 66
+  },
+  {
+    "program": "MATH",
+    "course_number": "319",
+    "title": "Transformation Geometry",
+    "info": "Geometric transformations in the Euclidean plane: Symmetry, Frieze, and Wallpaper groups.",
+    "prereq": "Mathematics 211 or 213; and Mathematics 271 or 273.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "MATH",
+    "course_number": "322",
+    "title": "Curves and Surfaces",
+    "info": "The fundamentals of the theory of curves and surfaces in three dimensional space. The theory of curves studies global properties of curves such as the four vertex theorem. The theory of surfaces introduces the fundamental quadratic forms of a surface, intrinsic and extrinsic geometry of surfaces, and the Gauss-Bonnet theorem.",
+    "prereq": "Mathematics 271 or 273; and Mathematics 367; and Mathematics 375 or 376.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 51
+  },
+  {
+    "program": "MATH",
+    "course_number": "325",
+    "title": "Introduction to Optimization",
+    "info": "An example driven overview of optimization problems: quadratic forms, minimum energy and distance, least squares, generalized inverses, location and classification of critical points, variational treatment of eigenvalues, Lagrange multipliers and linear programming.",
+    "prereq": "Mathematics 311 or 313; and Mathematics 367.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 85
+  },
+  {
+    "program": "MATH",
+    "course_number": "327",
+    "title": "Number Theory",
+    "info": "Divisibility and the Euclidean algorithm, modular arithmetic and congruences, quadratic reciprocity, arithmetic functions, distribution of primes.",
+    "prereq": "Mathematics 271 or 273.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 74
+  },
+  {
+    "program": "MATH",
+    "course_number": "331",
+    "title": "Advanced Calculus for Energy Engineering",
+    "info": "A broad introduction to ordinary differential equations, multivariable calculus and elements of vector calculus. Differential equations: linear ordinary differential equations, and systems of linear ordinary differential equations. Calculus of several variables: partial differentiation, the chain rule, double and triple integrals. Vector Calculus: vector fields, line integrals, and flux integrals.",
+    "prereq": "Mathematics 209 and admission to the Energy Engineering program.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 66
+  },
+  {
+    "program": "MATH",
+    "course_number": "335",
+    "title": "Analysis I",
+    "info": "A rigorous treatment of the theory of functions of a single real variable: functions, countable and uncountable sets; the axioms and basic topology of the real numbers; convergence of sequences; limits of functions, continuity and uniform continuity; differentiability and the mean value theorem; the Riemann integral and the fundamental theorem of calculus; series and convergence tests.",
+    "prereq": "Mathematics 267 or 277; and Mathematics 271 or 273.",
+    "antireq": "Credit for Mathematics 335 and 355 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 50
+  },
+  {
+    "program": "MATH",
+    "course_number": "361",
+    "title": "Linear Methods III",
+    "info": "Canonical forms. Inner product spaces, invariant subspaces and spectral theory. Quadratic forms.",
+    "prereq": "Mathematics 311 or a grade of \"B+\" or higher in Mathematics 213; and Mathematics 267 or 277.",
+    "antireq": "Credit for Mathematics 361 and 313 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 58
+  },
+  {
+    "program": "MATH",
+    "course_number": "367",
+    "title": "University Calculus III",
+    "info": "An overview of differential calculus in several variables and vector calculus. Functions of several variables; limits, continuity, differentiability, partial differentiation, applications including optimization and Lagrange multipliers. Vector calculus: vector functions, line integrals and surface integrals, Green\u2019s theorem, Stokes\u2019 theorem, and the Divergence theorem.",
+    "prereq": "Mathematics 267 or 277; and Mathematics 211 or 213.",
+    "antireq": "Credit for Mathematics 367 and 377 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 74
+  },
+  {
+    "program": "MATH",
+    "course_number": "371",
+    "title": "Combinatorics and Graph Theory",
+    "info": "Counting techniques, generating functions, inclusion-exclusion, introduction to graph theory.",
+    "prereq": "Mathematics 271 or 273; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 44
+  },
+  {
+    "program": "MATH",
+    "course_number": "375",
+    "title": "Differential Equations for Engineers and Scientists",
+    "info": "Definition, existence and uniqueness of solutions; first order and higher order equations and applications; Homogeneous systems; Laplace transform; partial differential equations of mathematical physics.",
+    "prereq": "Mathematics 277; or both 267 and 177.",
+    "antireq": "Credit for Mathematics 375 and 376 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 42
+  },
+  {
+    "program": "MATH",
+    "course_number": "376",
+    "title": "Differential Equations I",
+    "info": "Classification of ordinary differential equations, first and second order equations with applications, series solutions about regular points and singular points, special functions, Laplace transform.",
+    "prereq": "Mathematics 211; and 267 or 277.",
+    "antireq": "Credit for Mathematics 376 and 375 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 79
+  },
+  {
+    "program": "MATH",
+    "course_number": "383",
+    "title": "Introduction to Mathematical Finance",
+    "info": "An introduction to the fundamental concepts of mathematical finance in an elementary setting. Topics include: risk, return, no arbitrage principle; basic financial derivatives: options, forwards and future contracts; risk free assets, time value of money, zero coupon bonds; risky assets, binomial tree model, fundamental theorem of asset pricing; portfolio management and capital asset pricing model; no arbitrage pricing of financial derivatives; hedging.",
+    "prereq": "Statistics 321.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 43
+  },
+  {
+    "program": "MATH",
+    "course_number": "391",
+    "title": "Numerical Analysis I",
+    "info": "Interpolation and approximation, numerical integration and differentiation, numerical methods for the solution of non-linear equations, systems of linear equations and the eigenvalue problem, introduction to a scientific computing software.",
+    "prereq": "Mathematics 211 or 213; and Mathematics 267 or 277; and 3 units from Computer Science 217, 231, 235 or Data Science 211.",
+    "antireq": "Credit for Mathematics 391 and Computer Science 491 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 76
+  },
+  {
+    "program": "MATH",
+    "course_number": "401",
+    "title": "Special Topics",
+    "info": "Higher level topics which can be repeated for credit.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 75
+  },
+  {
+    "program": "MATH",
+    "course_number": "413",
+    "title": "Introduction to Partial Differential Equations",
+    "info": "First order partial differential equations, Sturm-Liouville systems, Fourier series, Double Fourier series, Fourier integrals, Applications to boundary value problems in bounded and unbounded domains, Bessel function with applications.",
+    "prereq": "Mathematics 375 or 376; and Mathematics 367.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 64
+  },
+  {
+    "program": "MATH",
+    "course_number": "429",
+    "title": "Cryptography: Design and Analysis of Cryptosystems",
+    "info": "Review of basic algorithms and complexity. Designing and attacking public key cryptosystems based on number theory. Basic techniques for primality testing, factoring and extracting discrete logarithms. Elliptic curve cryptography. Additional topics may include knapsack systems, zero knowledge, attacks on hash functions, identity-based cryptography, and quantum cryptography.",
+    "prereq": "Mathematics 315; and Mathematics 318 or Computer Science 418.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 36
+  },
+  {
+    "program": "MATH",
+    "course_number": "431",
+    "title": "Algebra II",
+    "info": "An intermediate course in the theory of groups and fields. Group theory: group actions, Sylow theorems, solvable, nilpotent and p-groups, simplicity of alternating groups and PSL(n,q). Field theory: algebraic and transcendental extensions, separability and normality, Galois theory, insolvability of the general quintic equation, and computation of Galois groups over the rationals.",
+    "prereq": "Mathematics 315; and Mathematics 311 or 313.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 89
+  },
+  {
+    "program": "MATH",
+    "course_number": "445",
+    "title": "Analysis II",
+    "info": "An intermediate course in the theory of metric spaces and the continuous functions that act on them: metric spaces and normed vector spaces; complete metric spaces and the Baire category theorem; continuous functions on compact metric spaces and uniform convergence; the contraction mapping principle and applications; theorems of Stone-Weierstrass and Arzel\u00e0-Ascoli; differentiability on Euclidean spaces and the implicit function theorem.",
+    "prereq": "Mathematics 367; and Mathematics 311 or 313; and Mathematics 335 or 355.",
+    "antireq": "Credit for Mathematics 445 and 447 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 99
+  },
+  {
+    "program": "MATH",
+    "course_number": "476",
+    "title": "Differential Equations II",
+    "info": "Existence and uniqueness theorems, comparison and oscillation theorems, Green's functions, Sturm-Liouville problems, systems of equations, phase portraits, stability.",
+    "prereq": "Mathematics 375 or 376; and Mathematics 367; and Mathematics 335 or 355.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 46
+  },
+  {
+    "program": "MATH",
+    "course_number": "493",
+    "title": "Numerical Analysis II",
+    "info": "Numerical solution of ordinary differential equations, single and multi-step methods, numerical solution of boundary value problems, numerical solution of partial differential equations, stability analysis.",
+    "prereq": "Mathematics 375 or 376; and Mathematics 413; and 3 units from Mathematics 391, Computer Science 491 or Geophysics 419.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 79
+  },
+  {
+    "program": "MATH",
+    "course_number": "501",
+    "title": "Measure and Integration",
+    "info": "Abstract measure theory, basic integration theorems, Fubini's theorem, Radon-Nikodym theorem, Lp Spaces, Riesz representation theorems.",
+    "prereq": "Mathematics 445 or 447; and 3 units of Mathematics in the Field of Mathematics at the 400 level or higher.",
+    "antireq": "Credit for Mathematics 501 and any one of Mathematics 601, Pure Mathematics 501 or 601 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 41
+  },
+  {
+    "program": "MATH",
+    "course_number": "502",
+    "title": "Topics in Mathematics",
+    "info": "Study in advanced topics that may include reading projects, seminars, lectures, term papers and other aspects of training in theory or research methodology.",
+    "prereq": "6 units of Mathematics courses in the Field of Mathematics at the 400 level or above.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 68
+  },
+  {
+    "program": "MATH",
+    "course_number": "503",
+    "title": "The Mathematics of Wavelets, Signal and Image Processing",
+    "info": "Continuous and discrete Fourier transforms, the Fast Fourier Transform, wavelet transforms, multiresolution analysis and orthogonal wavelet bases, and applications.",
+    "prereq": "3 units from Mathematics 391, Computer Science 491 or Geophysics 419; and 6 units of Mathematics in the Field of Mathematics at the 400 level or above.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 77
+  },
+  {
+    "program": "MATH",
+    "course_number": "511",
+    "title": "Algebra III",
+    "info": "A sophisticated introduction to modules over rings, especially commutative rings with identity. Major topics include: snake lemma; free modules; tensor product; hom-tensor duality; finitely presented modules; invariant factors; free resolutions; and the classification of finitely generated modules over principal ideal domains. Adjoint functors play a large role. The course includes applications to linear algebra, including rational forms.",
+    "prereq": "Mathematics 431; and Mathematics 313 or 361; and 3 units of Mathematics in the Field of Mathematics at the 400 level or higher.",
+    "antireq": "Credit for Mathematics 511 and 607 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 55
+  },
+  {
+    "program": "MATH",
+    "course_number": "515",
+    "title": "Foundations",
+    "info": "Set theory, mathematical logic, and category theory. Topics covered will vary based on interests of students and instructor.",
+    "prereq": "Mathematics 431; and Mathematics 335 or 355.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 39
+  },
+  {
+    "program": "MATH",
+    "course_number": "516",
+    "title": "Senior Project",
+    "info": "A capstone course intended for Mathematics students in the final year of study (excluding those in the honours program or the statistics concentration). Students will investigate scientific or social issues by applying mathematical methods acquired in previous mathematics courses. A final project will be submitted at the end of the term and its contents summarized in a presentation.",
+    "prereq": "6 units in the Field of Mathematics at the 400 level or above.",
+    "antireq": "Credit for Mathematics 516 and 518 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 36
+  },
+  {
+    "program": "MATH",
+    "course_number": "518",
+    "title": "Honours Thesis",
+    "info": "A capstone course intended for Honours Mathematics students in their final year of study. Students will produce and present a substantial thesis under the supervision of a faculty member. The emphasis is on how to address theoretical or real world scientific or social issues by applying the various mathematical methods acquired in the earlier years in a unified and appropriate way.",
+    "prereq": "6 units in the Field of Mathematics at the 400 level or above.",
+    "antireq": "Credit for Mathematics 518 and 516 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 60
+  },
+  {
+    "program": "MATH",
+    "course_number": "521",
+    "title": "Complex Analysis II",
+    "info": "A rigorous study of function of a single complex variable. Holomorphic function, Cauchy integral formula and its applications. Conformal mappings. Fractional linear transformations. Argument principle. Schwarz lemma. Conformal self-maps of the unit disk.",
+    "prereq": "Mathematics 307; and Mathematics 445 or 447; and 3 units of Mathematics in the Field of Mathematics at the 400 level or above.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 68
+  },
+  {
+    "program": "MATH",
+    "course_number": "525",
+    "title": "Introduction to Algebraic Topology",
+    "info": "An introduction to the algebraic invariants that distinguish topological spaces. Specifically, the course focuses on the fundamental group and its applications, and homology. Students will be introduced to the basics of homological algebra.",
+    "prereq": "Mathematics 431; and Mathematics 445 or 447.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 41
+  },
+  {
+    "program": "MATH",
+    "course_number": "527",
+    "title": "Computational Number Theory",
+    "info": "An investigation of major problems in computational number theory, with emphasis on practical techniques and their computational complexity. Topics include basic integer arithmetic algorithms, finite fields, primality proving, factoring methods, algorithms in algebraic number fields.",
+    "prereq": "Mathematics 327 and 431.",
+    "antireq": "Credit for Mathematics 527 and 643 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 60
+  },
+  {
+    "program": "MATH",
+    "course_number": "545",
+    "title": "Analysis III",
+    "info": "Sequences and series of functions; Lebesgue integration on the line, Fourier series and the Fourier transform, pointwise convergence theorems, distributions and generalized functions.",
+    "prereq": "Mathematics 445 or 447; and 3 units of Mathematics in the Field of Mathematics at the 400 level or above.",
+    "antireq": "Credit for Mathematics 545 and 603 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 43
+  },
+  {
+    "program": "MATH",
+    "course_number": "581",
+    "title": "Stochastic Calculus for Finance",
+    "info": "Martingales in discrete and continuous time, risk-neutral valuations, discrete- and continuous-time (B,S)-security markets, Cox-Ross-Rubinstein formula, Wiener and Poisson processes, Ito formula, stochastic differential equations, Girsanov\u2019s theorem, Black-Scholes and Merton formulas, stopping times and American options, stochastic interest rates and their derivatives, energy and commodity models and derivatives, value-at-risk and risk management.",
+    "prereq": "Mathematics 383; and 6 units of Mathematics in the Field of Mathematics at the 400 level or above.",
+    "antireq": "Credit for Mathematics 581 and 681 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 79
+  },
+  {
+    "program": "MATH",
+    "course_number": "583",
+    "title": "Computational Finance",
+    "info": "Review of financial asset price and option valuation models; model calibration; tree-based methods; finite-difference methods; Monte Carlo simulation; Fourier methods.",
+    "prereq": "Mathematics 383, 413 and 493.",
+    "antireq": "Credit for Mathematics 583 and 683 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 66
+  },
+  {
+    "program": "MATH",
+    "course_number": "585",
+    "title": "Stochastic Processes",
+    "info": "Stochastic processes are fundamental to the study of mathematical finance, but are also of vital importance in many other areas, from neuroscience to electrical engineering. Topics to be covered: Elements of stochastic processes, Markov chains and processes, Renewal processes, Martingales (discrete and continuous times), Brownian motion, Branching processes, Stationary processes, Diffusion processes, The Feynman-Kac formula, Kolmogorov backward/forward equations, Dynkin\u2019s formula.",
+    "prereq": "Statistics 323.",
+    "antireq": "Credit for Mathematics 585 and Statistics 407 will not be allowed.",
+    "difficulty": 5,
+    "total_ratings": 89
+  }
+]

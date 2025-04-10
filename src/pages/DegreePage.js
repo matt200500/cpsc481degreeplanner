@@ -20,8 +20,10 @@ const codeToName = code => code.replace(/([A-Z]+)\s?(\d{3})/, '$1 $2');
  * @param {string} selectedYear - Optional year filter, e.g. 'Y1'
  * @returns {{name: string, id: string, term: string}[]} Filtered list of courses
  */
-function getCourses(programKey = 'CPSC', selectedYear = '') {
+function getCourses(programKey='MATH',selectedYear = '') {
+    console.log("Fetching courses for program:", programKey);
     const plan = degreePlans[programKey]?.plan ?? [];
+    console.log("Available courses:", plan);
 
     return plan
         .filter(item => /^[A-Z]{3,4}\s?\d{3}$/.test(item.code))
@@ -40,17 +42,22 @@ function getCourses(programKey = 'CPSC', selectedYear = '') {
 
 export default function DegreePage() {
 
-    const { program } = useParams();
+    const { degreeName } = useParams();
+    console.log("Program from URL:", degreeName);
+
+
     const navigate     = useNavigate();
 
     /* -------- state -------- */
     const [selectedYear, setSelectedYear] = useState('');
 
 
-    const courses = useMemo(
-        () => getCourses(program || 'CPSC', selectedYear),
-        [program, selectedYear]
-    );
+    const courses = useMemo(() => {
+        console.log("Program:", degreeName);
+        console.log("Selected Year:", selectedYear);
+        return getCourses(degreeName, selectedYear);
+    }, [degreeName, selectedYear]);
+
     const handleYearChange = (e) => setSelectedYear(e.target.value);
 
 
@@ -61,7 +68,7 @@ export default function DegreePage() {
     return (
         <div className="DegreePage">
             <h1>
-                Bachelor of {program ? program.toUpperCase() : 'CPSC'}
+                Bachelor of {degreeName ? degreeName.toUpperCase() : 'CPSC'}
             </h1>
 
             <h2 className="year-heading">

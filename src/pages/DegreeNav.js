@@ -33,8 +33,8 @@ function DegreeNav() {
       })
     : degreeData;
 
-  const handleDegreeClick = (facultyName, degreeName) => {
-    navigate(`/degree/${facultyName}${degreeName}`);
+  const handleDegreeClick = (programCode) => {
+    navigate(`/degree/${programCode}`);
   };
 
   return (
@@ -86,7 +86,7 @@ function DegreeNav() {
           {filteredDegrees.map((item, index) => (
             <li key={index}>
               {item.faculty} {item.degree}
-              <button onClick={() => handleDegreeClick(item.faculty, item.degree)}>
+              <button onClick={() => handleDegreeClick(item.programCode)}>
                 View Details
               </button>
             </li>

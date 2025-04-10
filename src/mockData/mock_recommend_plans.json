@@ -2,46 +2,387 @@
   "CPSC": {
     "name": "Computer Science (Honours)",
     "plan": [
-      { "code": "CPSC 231", "type": "required",   "term": "Y1‑F" },
-      { "code": "CPSC 233", "type": "required",   "term": "Y1‑W" },
-      { "code": "CPSC 251", "type": "required",   "term": "Y1‑W" },
-      { "code": "MATH 211", "type": "required",   "term": "Y1‑F" },
-      { "code": "MATH 249", "type": "required",   "term": "Y1‑W", "note": "only if no MATH231" },
-      { "code": "PHIL 279", "type": "required",   "term": "Y1‑F" },
-      { "code": "Breadth Option",     "type": "breadth",   "term": "Y1‑F" },
-      { "code": "Breadth Option",     "type": "breadth",   "term": "Y1‑W" },
-      { "code": "Non‑Major Field",    "type": "nonMajor",  "term": "Y1‑F" },
-      { "code": "Non‑Major Field",    "type": "nonMajor",  "term": "Y1‑W" },
-
-      { "code": "CPSC 331", "type": "required",   "term": "Y2‑F" },
-      { "code": "CPSC 351", "type": "required",   "term": "Y2‑W" },
-      { "code": "CPSC 355", "type": "required",   "term": "Y2‑F" },
-      { "code": "SENG 300", "type": "required",   "term": "Y2‑W" },
-      { "code": "PHIL 314", "type": "required",   "term": "Y2‑F" },
-      { "code": "Field 300+", "type": "field300", "term": "Y2‑F" },
-      { "code": "Field 300+", "type": "field300", "term": "Y2‑W" },
-      { "code": "Breadth Option",  "type": "breadth",  "term": "Y2‑F" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y2‑F" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y2‑W" },
-
-      { "code": "CPSC 413", "type": "required",   "term": "Y3‑F" },
-      { "code": "CPSC 449", "type": "required",   "term": "Y3‑F" },
-      { "code": "CPSC 457", "type": "required",   "term": "Y3‑W" },
-      { "code": "Field 300+", "type": "field300", "term": "Y3‑F" },
-      { "code": "Field 400+", "type": "field400", "term": "Y3‑W" },
-      { "code": "Field 400+", "type": "field400", "term": "Y3‑F" },
-      { "code": "Breadth Option",  "type": "breadth",  "term": "Y3‑F" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y3‑F" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y3‑W" },
-
-      { "code": "Field 400+", "type": "field400", "term": "Y4‑F" },
-      { "code": "Field 400+", "type": "field400", "term": "Y4‑F" },
-      { "code": "Field 500+", "type": "field500", "term": "Y4‑W" },
-      { "code": "Field 500+", "type": "field500", "term": "Y4‑W" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y4‑F" },
-      { "code": "Non‑Major Field", "type": "nonMajor", "term": "Y4‑W" },
-      { "code": "Open Option",     "type": "open",    "term": "Y4‑F" },
-      { "code": "Open Option",     "type": "open",    "term": "Y4‑W" }
+      {
+        "code": "CPSC 231",
+        "type": "required",
+        "term": "Y1‑F"
+      },
+      {
+        "code": "CPSC 233",
+        "type": "required",
+        "term": "Y1‑W"
+      },
+      {
+        "code": "CPSC 251",
+        "type": "required",
+        "term": "Y1‑W"
+      },
+      {
+        "code": "MATH 211",
+        "type": "required",
+        "term": "Y1‑F"
+      },
+      {
+        "code": "MATH 249",
+        "type": "required",
+        "term": "Y1‑W",
+        "note": "only if no MATH231"
+      },
+      {
+        "code": "PHIL 279",
+        "type": "required",
+        "term": "Y1‑F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y1‑F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y1‑W"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y1‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y1‑W"
+      },
+      {
+        "code": "CPSC 331",
+        "type": "required",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "CPSC 351",
+        "type": "required",
+        "term": "Y2‑W"
+      },
+      {
+        "code": "CPSC 355",
+        "type": "required",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "SENG 300",
+        "type": "required",
+        "term": "Y2‑W"
+      },
+      {
+        "code": "PHIL 314",
+        "type": "required",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y2‑W"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y2‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y2‑W"
+      },
+      {
+        "code": "CPSC 413",
+        "type": "required",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "CPSC 449",
+        "type": "required",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "CPSC 457",
+        "type": "required",
+        "term": "Y3‑W"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y3‑W"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y3‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y3‑W"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y4‑F"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y4‑F"
+      },
+      {
+        "code": "Field 500+",
+        "type": "field500",
+        "term": "Y4‑W"
+      },
+      {
+        "code": "Field 500+",
+        "type": "field500",
+        "term": "Y4‑W"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y4‑F"
+      },
+      {
+        "code": "Non‑Major Field",
+        "type": "nonMajor",
+        "term": "Y4‑W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4‑F"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4‑W"
+      }
+    ]
+  },
+  "MATH": {
+    "name": "Mathematics (Honours)",
+    "plan": [
+      {
+        "code": "MATH 249 or 265",
+        "type": "required",
+        "term": "Y1-F"
+      },
+      {
+        "code": "MATH 267",
+        "type": "required",
+        "term": "Y1-W"
+      },
+      {
+        "code": "MATH 211",
+        "type": "required",
+        "term": "Y1-F"
+      },
+      {
+        "code": "MATH 271",
+        "type": "required",
+        "term": "Y1-W"
+      },
+      {
+        "code": "CPSC 217",
+        "type": "required",
+        "term": "Y1-F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y1-F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y1-W"
+      },
+      {
+        "code": "Non-Science Option",
+        "type": "nonScience",
+        "term": "Y1-W"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y1-F"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y1-W"
+      },
+      {
+        "code": "MATH 311",
+        "type": "required",
+        "term": "Y2-F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y2-F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y2-W"
+      },
+      {
+        "code": "STAT 321",
+        "type": "required",
+        "term": "Y2-F"
+      },
+      {
+        "code": "STAT 323",
+        "type": "required",
+        "term": "Y2-W"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y2-F"
+      },
+      {
+        "code": "Non-Science Option",
+        "type": "nonScience",
+        "term": "Y2-W"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y2-F"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y2-W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y2-W"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Non-Science Option",
+        "type": "nonScience",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y3-F"
+      },
+      {
+        "code": "MATH 516, 518 or STAT 517",
+        "type": "required",
+        "term": "Y4-F"
+      },
+      {
+        "code": "Field 300+",
+        "type": "field300",
+        "term": "Y4-F"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y4-W"
+      },
+      {
+        "code": "Field 400+",
+        "type": "field400",
+        "term": "Y4-W"
+      },
+      {
+        "code": "Breadth Option",
+        "type": "breadth",
+        "term": "Y4-F"
+      },
+      {
+        "code": "Non-Major Field Option",
+        "type": "nonMajor",
+        "term": "Y4-F"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4-W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4-F"
+      }
     ]
   }
 }

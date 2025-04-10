@@ -1,46 +1,57 @@
 [
     {
         "degree": "Computer Science",
-        "faculty": "STEM"
+        "faculty": "STEM",
+        "programCode": "CPSC"
     },
     {
         "degree": "Chemistry",
-        "faculty": "STEM"
+        "faculty": "STEM",
+        "programCode": "CHEM"
     },
     {
         "degree": "Mathematics",
-        "faculty": "STEM"
+        "faculty": "STEM",
+        "programCode": "MATH"
     },
     {
         "degree": "Physics",
-        "faculty": "STEM"
+        "faculty": "STEM",
+        "programCode": "PHYS"
     },
     {
         "degree": "Biology",
-        "faculty": "STEM"
+        "faculty": "STEM",
+        "programCode": "BIOL"
     },
     {
         "degree": "Art History",
-        "faculty": "ART"
+        "faculty": "ART",
+        "programCode": "ARTH"
     },
     {
         "degree": "Arts",
-        "faculty": "ART"
+        "faculty": "ART",
+        "programCode": "ARTS"
     },
     {
         "degree": "Graphic Design",
-        "faculty": "ART"
+        "faculty": "ART",
+        "programCode": "DESI"
     },
     {
         "degree": "Business Administration",
-        "faculty": "BUSINESS"
+        "faculty": "BUSINESS",
+        "programCode": "BSAD"
     },
     {
         "degree": "Marketing",
-        "faculty": "BUSINESS"
+        "faculty": "BUSINESS",
+        "programCode": "MARK"
     },
     {
         "degree": "Finance",
-        "faculty": "BUSINESS"
+        "faculty": "BUSINESS",
+        "programCode": "FINA"
     }
 ]
