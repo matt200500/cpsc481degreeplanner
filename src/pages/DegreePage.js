@@ -1,25 +1,9 @@
-// ------------------------------------------------------------
-// DegreePage.js
-// Shows the recommended course list for a given degree program.
-// Program key is read from the URL:  /degree/:program
-// Data source:  src/mockData/mock_recommend_plans.json
-// ------------------------------------------------------------
-
 import React, { useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import '../styles/DegreePage.css';
 
-// JSON file that contains the full recommended‑plan data.
-//   {
-//     "CPSC": { "plan": [ { "code": "CPSC 231", ... }, ... ] },
-//     "MATH": { "plan": [ ... ] },
-//     ...
-//   }
 import degreePlans from '../mockData/mock_recommend_plans.json';
 
-/* ------------------------------------------------------------------
-   Helper functions
-------------------------------------------------------------------- */
 
 /**
  * Convert "CPSC231" or "CPSC 231" to "CPSC 231"
@@ -29,11 +13,12 @@ import degreePlans from '../mockData/mock_recommend_plans.json';
 const codeToName = code => code.replace(/([A-Z]+)\s?(\d{3})/, '$1 $2');
 
 /**
- * * Return an array of { name, id, term } objects for the requested program.
- *  * Filters by year prefix if a year is selected (e.g., "Y1").
- * @param {string} programKey
- * * @param {string} selectedYear
- * * @returns {{name:string,id:string,term:string}[]}
+ * Return an array of { name, id, term } objects for the requested program.
+ * Filters by year prefix if a year is selected (e.g., "Y1").
+ *
+ * @param {string} programKey - The program code, e.g. 'CPSC'
+ * @param {string} selectedYear - Optional year filter, e.g. 'Y1'
+ * @returns {{name: string, id: string, term: string}[]} Filtered list of courses
  */
 function getCourses(programKey = 'CPSC', selectedYear = '') {
     const plan = degreePlans[programKey]?.plan ?? [];
@@ -51,31 +36,28 @@ function getCourses(programKey = 'CPSC', selectedYear = '') {
         }));
 }
 
-/* ------------------------------------------------------------------
-   Component
-------------------------------------------------------------------- */
+
 
 export default function DegreePage() {
-    /* -------- routing -------- */
-    // URL pattern is  /degree/:program
+
     const { program } = useParams();
     const navigate     = useNavigate();
 
     /* -------- state -------- */
     const [selectedYear, setSelectedYear] = useState('');
 
-    /* -------- memoised data -------- */
-    // Re‑compute the list only when the program key or selected year changes.
+
     const courses = useMemo(
         () => getCourses(program || 'CPSC', selectedYear),
         [program, selectedYear]
     );
     const handleYearChange = (e) => setSelectedYear(e.target.value);
 
-    /* -------- handlers -------- */
+
     const handleViewDetails = id => navigate(`/course/${id}`);
 
-    /* -------- render -------- */
+    const shouldShowNote = courses.length > 0 && (!selectedYear || courses.some(c => c.term.startsWith(selectedYear)));
+
     return (
         <div className="DegreePage">
             <h1>
@@ -97,7 +79,13 @@ export default function DegreePage() {
                 </select>
             </h2>
 
-            {!selectedYear ? (
+
+
+            {courses.length === 0 && !selectedYear ? (
+                <p>No course plan found for this program.</p>
+            ) : selectedYear && courses.filter(c => c.term.startsWith(selectedYear)).length === 0 ? (
+                <p>No recommended courses for the selected year. Please plan accordingly.</p>
+            ) : !selectedYear ? (
                 <ul className="course-list">
                     {courses.map(c => (
                         <li className="course-item" key={c.id}>
@@ -142,6 +130,14 @@ export default function DegreePage() {
                         ))}
                     </ul>
                 </>
+            )}
+            {shouldShowNote && (
+                <div className="course-note">
+                    <ul>
+                        <li>Each term is recommended to include approximately 5 courses.</li>
+                        <li>The listed courses are all required; please fill in remaining courses as needed.</li>
+                    </ul>
+                </div>
             )}
         </div>
     );

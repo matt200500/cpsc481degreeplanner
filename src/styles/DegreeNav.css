@@ -18,7 +18,6 @@
     color: #a50034;
     font-family:monospace;
     font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
-    padding-bottom: 0px;
     margin-bottom: 30px;
     margin-top: 0;
 }
@@ -145,8 +144,15 @@
     border-bottom: 1px solid #444;
 }
 
+.degree-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
 .degree-list li button {
-    margin-left: 10px; 
+    margin-left: 10px;
     background-color: #a50034;
     border: none;
     border-radius: 5px;
@@ -160,4 +166,4 @@
 .degree-list li button:hover {
     background-color: #c72c41; 
 }
- 
+

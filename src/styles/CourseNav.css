@@ -18,7 +18,6 @@
     color: #a50034;
     font-family:monospace;
     font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
-    padding-bottom: 0px;
     margin-bottom: 30px;
     margin-top: 0;
 }
@@ -158,4 +157,10 @@
 .course-list li button:hover {
     background-color: #c72c41; 
 }
- 
+
+
+.course-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
