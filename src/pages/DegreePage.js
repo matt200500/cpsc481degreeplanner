@@ -5,7 +5,7 @@
 // Data source:  src/mockData/mock_recommend_plans.json
 // ------------------------------------------------------------
 
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import '../styles/DegreePage.css';
 
@@ -29,20 +29,25 @@ import degreePlans from '../mockData/mock_recommend_plans.json';
 const codeToName = code => code.replace(/([A-Z]+)\s?(\d{3})/, '$1 $2');
 
 /**
- * Return an array of { name, id } objects for the requested program.
- * If the program key is missing, fall back to "CPSC".
+ * * Return an array of { name, id, term } objects for the requested program.
+ *  * Filters by year prefix if a year is selected (e.g., "Y1").
  * @param {string} programKey
- * @returns {{name:string,id:string}[]}
+ * * @param {string} selectedYear
+ * * @returns {{name:string,id:string,term:string}[]}
  */
-function getCourses(programKey = 'CPSC') {
+function getCourses(programKey = 'CPSC', selectedYear = '') {
     const plan = degreePlans[programKey]?.plan ?? [];
 
     return plan
-        // Keep only real course codes, ignore placeholders like "Breadth Option"
         .filter(item => /^[A-Z]{3,4}\s?\d{3}$/.test(item.code))
+        .filter(item => {
+            if (!selectedYear) return true;
+            return item.term?.startsWith(selectedYear);
+        })
         .map(item => ({
-            name: codeToName(item.code),      // e.g. "CPSC 231"
-            id:   item.code.replace(' ', '')  // e.g. "CPSC231"
+            name: codeToName(item.code),
+            id: item.code.replace(' ', ''),
+            term: item.term || ''
         }));
 }
 
@@ -56,12 +61,16 @@ export default function DegreePage() {
     const { program } = useParams();
     const navigate     = useNavigate();
 
+    /* -------- state -------- */
+    const [selectedYear, setSelectedYear] = useState('');
+
     /* -------- memoised data -------- */
-    // Re‑compute the list only when the program key changes.
+    // Re‑compute the list only when the program key or selected year changes.
     const courses = useMemo(
-        () => getCourses(program || 'CPSC'),
-        [program]
+        () => getCourses(program || 'CPSC', selectedYear),
+        [program, selectedYear]
     );
+    const handleYearChange = (e) => setSelectedYear(e.target.value);
 
     /* -------- handlers -------- */
     const handleViewDetails = id => navigate(`/course/${id}`);
@@ -73,11 +82,22 @@ export default function DegreePage() {
                 Bachelor of {program ? program.toUpperCase() : 'CPSC'}
             </h1>
 
-            <h2>Recommended Courses</h2>
+            <h2 className="year-heading">
+                Recommended Courses{' '}
+                <select
+                    className="year-dropdown"
+                    value={selectedYear}
+                    onChange={handleYearChange}
+                >
+                    <option value="">All Years</option>
+                    <option value="Y1">Year 1</option>
+                    <option value="Y2">Year 2</option>
+                    <option value="Y3">Year 3</option>
+                    <option value="Y4">Year 4</option>
+                </select>
+            </h2>
 
-            {courses.length === 0 ? (
-                <p>No course plan found for this program.</p>
-            ) : (
+            {!selectedYear ? (
                 <ul className="course-list">
                     {courses.map(c => (
                         <li className="course-item" key={c.id}>
@@ -91,6 +111,37 @@ export default function DegreePage() {
                         </li>
                     ))}
                 </ul>
+            ) : (
+                <>
+                    <h3>Fall Term</h3>
+                    <ul className="course-list">
+                        {courses.filter(c => c.term.endsWith('F')).map(c => (
+                            <li className="course-item" key={c.id}>
+                                <span className="course-name">{c.name}</span>
+                                <button
+                                    className="view-button"
+                                    onClick={() => handleViewDetails(c.id)}
+                                >
+                                    View Details
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                    <h3>Winter Term</h3>
+                    <ul className="course-list">
+                        {courses.filter(c => c.term.endsWith('W')).map(c => (
+                            <li className="course-item" key={c.id}>
+                                <span className="course-name">{c.name}</span>
+                                <button
+                                    className="view-button"
+                                    onClick={() => handleViewDetails(c.id)}
+                                >
+                                    View Details
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </>
             )}
         </div>
     );
