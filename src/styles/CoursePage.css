@@ -1,89 +1,96 @@
 .CoursePage {
-    padding: 20px;
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-  }
+  padding: 20px;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
 
-  .CourseBox {
-    background-color: #dfdfdf; /* light background */
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* soft shadow */
-    max-width: 1200px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .CoursePage h1 {
-    color: #a50034; 
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-size: clamp(1vw, calc(3vw + 1vh), 5rem); /*dynamically change font size*/
-    font-family: monospace;
+.CourseBox {
+  background-color: #dfdfdf;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
-  
-  .CoursePage h2 {
-    color: #413839;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    font-size: clamp(1rem, 10vw, 1.5rem);
-  }
+.CoursePage h1 {
+  color: #a50034;
+  font-family: monospace;
+  font-size: clamp(1vw, calc(3vw + 1vh), 5rem);
+  margin-bottom: 20px;
+}
 
-  .CoursePage h3 {
-    color: #c72c41;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    font-size: clamp(1rem, 10vw, 1.5rem);
-  }
-  
-  .value {
-    color: #413839; 
-  }
-  
+.CoursePage h2,
+.CoursePage h3 {
+  color: #413839;
+  font-size: clamp(1rem, 10vw, 1.5rem);
+  margin-bottom: 30px;
+}
 
-  /*--------------------------------- FOR SELECTING DIFFICULTY ------------------------------*/
+.label {
+  color: #c72c41;
+}
+
+.value {
+  color: #413839;
+}
+
 .difficulty_selector {
-    margin-bottom: 20px;
-    display: flex;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .difficulty_selector select {
-    background-color: #f4f4f4; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    padding: 10px;
-    font-size: 1rem;
-    color: #333; 
-    cursor: pointer;
-    max-width: 300px; 
-    transition: all 0.3s ease; 
-    margin-right: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+  margin-right: 20px;
 }
 
-
 .CourseBox button {
-    background-color: #a50034;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-size: 1rem;
-    transition: background-color 0.3s;
+  background-color: #a50034;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
 }
 
 .CourseBox button:hover {
-    background-color: #c72c41; 
+  background-color: #c72c41;
 }
 
 .CourseBox button:disabled {
-    background-color: #b0b0b0; 
-    cursor: not-allowed; 
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.taken-checkbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.taken-checkbox input {
+  margin-right: 10px;
+}
+
+.taken-checkbox label {
+  color: #000;
+}
+
+.taken-checkbox input:disabled + label {
+  color: #999;
 }

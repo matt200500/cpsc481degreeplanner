@@ -1,67 +1,46 @@
 .course-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;  
-    justify-content: center; 
-    min-height: 100vh;  
-    text-align: center; 
-  }
-
-.course-search {
-    align-items: center; 
-}
-
-
-/*---------------------- FOR MAIN TEXT AND ALL h1 and h2 -----------------------------------*/
-.course-nav h1 {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     text-align: center;
-    color: #a50034;
-    font-family:monospace;
-    font-size: clamp(3rem, 10vw, 3rem); /*dynamically changes font size*/
-    margin-bottom: 30px;
-    margin-top: 0;
-}
-
-.course-nav h2{
-    color: #c72c41;
-    flex-wrap: wrap; /*wrap header when it cant fit*/
-    font-size: clamp(10px, calc(2vw + 1vh), 2rem); /*dynamically changes font size*/
-    grid-area: header;
-}
-
-/*---------------------------------- FOR THE COURSE SEARCH --------------------------------*/
-
-.course-search  {
+  }
+  
+  .course-search {
     margin-bottom: 20px;
     display: flex;
-}
-
-.course-search input {
-    background-color: #f4f4f4; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .course-nav h1 {
+    color: #a50034;
+    font-family: monospace;
+    font-size: clamp(3rem, 10vw, 3rem);
+    margin: 0 0 30px 0;
+  }
+  
+  .course-nav h2 {
+    color: #c72c41;
+    font-size: clamp(10px, calc(2vw + 1vh), 2rem);
+    flex-wrap: wrap;
+  }
+  
+  .course-search input,
+  .course-search select {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
-    color: #333; 
-    max-width: 300px; 
-    transition: all 0.3s ease; 
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.course-search select {
-    background-color: #f4f4f4; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    padding: 10px;
-    font-size: 1rem;
-    color: #333; 
-    cursor: pointer;
-    max-width: 300px; 
-    transition: all 0.3s ease; 
-}
-
-.course-search button {
+    color: #333;
+    max-width: 300px;
+    transition: all 0.3s ease;
+  }
+  
+  .course-search button {
     background-color: #a50034;
     border: none;
     border-radius: 5px;
@@ -70,47 +49,43 @@
     padding: 10px 20px;
     font-size: 1rem;
     transition: background-color 0.3s;
-}
-
-.course-search button:hover {
-    background-color: #c72c41; 
-}
-
-.course-search button:disabled {
-    background-color: #b0b0b0; 
-    cursor: not-allowed; 
-}
-
-/* For the predictive search for the course number input */
-
-.dropdown-select {
+  }
+  
+  .course-search button:hover {
+    background-color: #c72c41;
+  }
+  
+  .course-search button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+  }
+  
+  .dropdown-select {
     display: flex;
     flex-direction: column;
     position: absolute;
     background-color: #f5f5f5;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
-    color: #333; 
-    max-width: 300px; 
-    transition: all 0.3s ease; 
-    margin-right: 20px;
-    margin-left: 20px;
+    color: #333;
+    max-width: 300px;
     z-index: 10;
-}
-
-.dropdown-select:empty {
+    margin-top: 5px;
+  }
+  
+  .dropdown-select:empty {
     display: none;
-}
-
-.dropdown-row {
+  }
+  
+  .dropdown-row {
     cursor: pointer;
     text-align: start;
     margin: 2px 0;
-}
-
-/*---------------------- FOR OUTPUT LIST -----------------------------------*/
-.course-list {
+  }
+  
+  /* OUTPUT LIST */
+  .course-list {
     max-width: 50%;
     width: 100%;
     border: 2px solid #d9d9d9;
@@ -122,28 +97,33 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    text-align: left; /* Align the content to the left */
-}
-
-.course-list ul {
+    text-align: left;
+  }
+  
+  .course-list ul {
     color: #a50034;
     list-style-type: none;
     font-weight: bold;
     font-size: 20px;
     padding: 0;
-    margin: 0; /* Remove default margin */
-}
-
-.course-list li {
-    display: flex; /* Enable flexbox */
-    justify-content: space-between; /* Space between the course name and button */
-    align-items: center; /* Vertically align items */
+    margin: 0;
+  }
+  
+  .course-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid #444;
-}
-
-.course-list li button {
-    margin-left: 10px; 
+    transition: background-color 0.2s ease;
+  }
+  
+  .course-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .course-list li button {
+    margin-left: 10px;
     background-color: #a50034;
     border: none;
     border-radius: 5px;
@@ -152,15 +132,32 @@
     padding: 5px 10px;
     font-size: 1rem;
     transition: background-color 0.3s;
-}
-
-.course-list li button:hover {
-    background-color: #c72c41; 
-}
-
-
-.course-list li:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+  }
+  
+  .course-list li button:hover {
+    background-color: #c72c41;
+  }
+  
+  /* BADGE STYLING */
+  .taken-status {
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .taken-status.taken {
+    color: #800;
+  }
+  
+  .taken-status.not-taken {
+    color: #999;
+  }
+  
+  .no-results {
+    color: gray;
+    font-style: italic;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
