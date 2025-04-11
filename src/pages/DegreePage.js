@@ -57,6 +57,9 @@ export default function DegreePage() {
         return getCourses(degreeName, selectedYear);
     }, [degreeName, selectedYear]);
 
+    const filteredCourses = selectedYear ? courses.filter(c => c.term.startsWith(selectedYear)) : courses;
+    const hasSemesterSuffix = selectedYear ? filteredCourses.some(c => c.term.length > selectedYear.length) : true;
+
     const handleYearChange = (e) => setSelectedYear(e.target.value);
 
 
@@ -65,8 +68,8 @@ export default function DegreePage() {
     const shouldShowNote = courses.length > 0 && (!selectedYear || courses.some(c => c.term.startsWith(selectedYear)));
 
     const isViewDetailsButtonVisible = (courseName) => {
-        return !courseName.includes("Open Option") && 
-               !courseName.includes("Field") && 
+        return !courseName.includes("Option") &&
+               !courseName.includes("Field") &&
                !courseName.includes("Non-Major") &&
                !courseName.includes("Breadth");
     };
@@ -95,34 +98,52 @@ export default function DegreePage() {
             </h2>
 
 
-            
-                {courses.length === 0 && !selectedYear ? (
-                    <p>No course plan found for this program.</p>
-                ) : selectedYear && courses.filter(c => c.term.startsWith(selectedYear)).length === 0 ? (
-                    <p>No recommended courses for the selected year. Please plan accordingly.</p>
-                ) : !selectedYear ? (
-                    <ul className="course-list">
-                        {courses.map(c => (
-                            <li className="course-item" key={c.id}>
-                                <span className="course-name">{c.name}</span>
-                                {isViewDetailsButtonVisible(c.name) && (
-                                    <button
-                                        className="view-button"
-                                        onClick={() => handleViewDetails(c.id)}
-                                    >
-                                        View Details
-                                    </button>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
-                ) : (
-                    <>
-                        <h3>Fall Term</h3>
+
+            {courses.length === 0 && !selectedYear ? (
+                <p>No course plan found for this program.</p>
+            ) : selectedYear && filteredCourses.length === 0 ? (
+                <p>No recommended courses for the selected year. Please plan accordingly.</p>
+            ) : !selectedYear ? (
+                <ul className="course-list">
+                    {courses.map(c => (
+                        <li className="course-item" key={c.id}>
+                            <span className="course-name">{c.name}</span>
+                            {isViewDetailsButtonVisible(c.name) && (
+                                <button
+                                    className="view-button"
+                                    onClick={() => handleViewDetails(c.id)}
+                                >
+                                    View Details
+                                </button>
+                            )}
+                        </li>
+                    ))}
+                </ul>
+            ) : (
+                <>
+                    {!hasSemesterSuffix ? (
                         <ul className="course-list">
-                            {courses.filter(c => c.term.endsWith('F')).map(c => (
+                            {filteredCourses.map(c => (
                                 <li className="course-item" key={c.id}>
                                     <span className="course-name">{c.name}</span>
+                                    {isViewDetailsButtonVisible(c.name) && (
+                                        <button
+                                            className="view-button"
+                                            onClick={() => handleViewDetails(c.id)}
+                                        >
+                                            View Details
+                                        </button>
+                                    )}
+                                </li>
+                            ))}
+                        </ul>
+                    ) : (
+                        <>
+                            <h3>Fall Term</h3>
+                            <ul className="course-list">
+                                {filteredCourses.filter(c => c.term.endsWith('F')).map(c => (
+                                    <li className="course-item" key={c.id}>
+                                        <span className="course-name">{c.name}</span>
                                         {isViewDetailsButtonVisible(c.name) && (
                                             <button
                                                 className="view-button"
@@ -131,14 +152,14 @@ export default function DegreePage() {
                                                 View Details
                                             </button>
                                         )}
-                                </li>
-                            ))}
-                        </ul>
-                        <h3>Winter Term</h3>
-                        <ul className="course-list">
-                            {courses.filter(c => c.term.endsWith('W')).map(c => (
-                                <li className="course-item" key={c.id}>
-                                    <span className="course-name">{c.name}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                            <h3>Winter Term</h3>
+                            <ul className="course-list">
+                                {filteredCourses.filter(c => c.term.endsWith('W')).map(c => (
+                                    <li className="course-item" key={c.id}>
+                                        <span className="course-name">{c.name}</span>
                                         {isViewDetailsButtonVisible(c.name) && (
                                             <button
                                                 className="view-button"
@@ -147,11 +168,13 @@ export default function DegreePage() {
                                                 View Details
                                             </button>
                                         )}
-                                </li>
-                            ))}
-                        </ul>
-                    </>
-                )}
+                                    </li>
+                                ))}
+                            </ul>
+                        </>
+                    )}
+                </>
+            )}
             {shouldShowNote && (
                 <div className="course-note">
                     <ul>

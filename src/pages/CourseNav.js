@@ -74,7 +74,7 @@ function CourseNav() {
           <option value="" disabled hidden>Select Course Program...</option>
           <option value="Default">All Programs</option>
           <option value="ART">Art</option>
-          <option value="BIO">Biology</option>
+          <option value="BIOL">Biology</option>
           <option value="CHEM">Chemistry</option>
           <option value="CPSC">Computer Science</option>
           <option value="MATH">Math</option>

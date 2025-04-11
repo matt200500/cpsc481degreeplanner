@@ -20,7 +20,7 @@
         "programCode": "PHYS"
     },
     {
-        "degree": "Biology",
+        "degree": "Biological Sciences",
         "faculty": "STEM",
         "programCode": "BIOL"
     },
@@ -33,16 +33,6 @@
         "degree": "Arts",
         "faculty": "ART",
         "programCode": "ARTS"
-    },
-    {
-        "degree": "Graphic Design",
-        "faculty": "ART",
-        "programCode": "DESI"
-    },
-    {
-        "degree": "Business Administration",
-        "faculty": "BUSINESS",
-        "programCode": "BSAD"
     },
     {
         "degree": "Marketing",

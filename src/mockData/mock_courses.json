@@ -958,5 +958,1864 @@
     "antireq": "Credit for Mathematics 585 and Statistics 407 will not be allowed.",
     "difficulty": 5,
     "total_ratings": 89
+  },
+  {
+    "program": "CHEM",
+    "course_number": "201",
+    "title": "General Chemistry: Structure and Bonding",
+    "info": "An introduction to university chemistry from theoretical and practical perspectives, that focuses on an exploration of the fundamental links between electronic structure, chemical bonding, molecular structure and the interactions of molecules using inorganic and organic examples.",
+    "prereq": "One of Chemistry 30, 212, or Chemistry 2 (offered by Continuing Education); and one of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 43
+  },
+  {
+    "program": "CHEM",
+    "course_number": "203",
+    "title": "General Chemistry: Change and Equilibrium",
+    "info": "An introduction to university chemistry from theoretical and practical perspectives that focuses on an exploration of the fundamental links between kinetics, equilibria and thermodynamics and explores acidity/basicity and redox behaviour using inorganic and organic examples.",
+    "prereq": "One of Chemistry 30, 212 or Chemistry 2 (offered by Continuing Education); and one of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 50
+  },
+  {
+    "program": "CHEM",
+    "course_number": "209",
+    "title": "General Chemistry for Engineers",
+    "info": "Basic chemical concepts. Atomic and molecular structure. Chemical bonding. Chemical kinetics and equilibria. Acid-base and solubility equilibria. Oxidation-reduction phenomena and electrochemistry. The chemistry of water. The chemistry of energy sources. Basic environmental issues.",
+    "prereq": "One of Chemistry 30, 212 or Chemistry 2 (offered by Continuing Education); and one of Mathematics 30-1 or Mathematics 2 (offered by Continuing Education); and admission to the Schulich School of Engineering.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 47
+  },
+  {
+    "program": "CHEM",
+    "course_number": "211",
+    "title": "Foundations of Chemistry: Structure and Bonding",
+    "info": "Same core topics as Chemistry 201 but taught with a greater emphasis on critical thinking, scientific observation and problem solving and the application of chemistry to topics such as drug design and environmental issues.",
+    "prereq": "A grade of 80 per cent or higher in Chemistry 30 or a grade of \"B+\" or higher in one of Chemistry 212 or Chemistry 2 (offered by Continuing Education); and one of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 53
+  },
+  {
+    "program": "CHEM",
+    "course_number": "212",
+    "title": "Chemical Ways of Thinking",
+    "info": "An exploration course that is designed to build up knowledge and bridge gaps in chemistry to prepare students for further study in chemistry and to meet the chemistry requirements for their program of study. This course parallels elements from high school chemistry and introductory university chemistry with Indigenous Ways of Knowing.",
+    "prereq": "Chemistry 20 and admission to an Indigenous Pathway program.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 60
+  },
+  {
+    "program": "CHEM",
+    "course_number": "213",
+    "title": "Foundations of Chemistry: Change and Equilibrium",
+    "info": "Same core topics as Chemistry 203 but taught with a greater emphasis on critical thinking, scientific observation and problem solving and the application of chemistry to topics such as materials, explosives and medicine.",
+    "prereq": "Chemistry 201 or 211.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 53
+  },
+  {
+    "program": "CHEM",
+    "course_number": "311",
+    "title": "Analytical Chemistry: Quantitative Analysis",
+    "info": "Lectures: Principles and practice of precision measurement in chemistry. Statistical treatment of data. Acid-base and oxidation-reduction equilibria. Complexometric analysis. Laboratory: Quantitative analysis of organic and inorganic materials.",
+    "prereq": "Chemistry 201 or 211; and Chemistry 203 or 213; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 32
+  },
+  {
+    "program": "CHEM",
+    "course_number": "315",
+    "title": "Analytical Chemistry: Introductory Instrumental Analysis",
+    "info": "Lectures: Principles and practice of instrumental measurements for the quantitative determination of substances. Spectroscopic analysis. Analytical separations: liquid-liquid extraction, solid phase extraction, chromatography. Electrochemical methods: potentiometry, voltammetry, coulometry. Automated methods of analysis. Laboratory: Quantitative analysis of organic and inorganic materials using simple instrumental techniques.",
+    "prereq": "Chemistry 311.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "CHEM",
+    "course_number": "321",
+    "title": "Environmental Chemistry",
+    "info": "A survey course of major aspects of environmental chemistry including the natural chemical cycles in the biosphere, geosphere, hydrosphere and atmosphere and the consequences of anthropogenic disturbances to these cycles. Topics discussed will include: Aquatic Chemistry and water pollution. Atmospheric Chemistry and its alteration. Soil Chemistry and the fate of pollutants. Hazardous waste. Toxicological Chemistry.",
+    "prereq": "3 units from Chemistry 203, 209, 213 or Engineering 204.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "CHEM",
+    "course_number": "351",
+    "title": "Organic Chemistry I",
+    "info": "An introduction to Organic Chemistry from a mechanistic perspective. Structure, bonding, and function, e.g. physical properties and reactivity. Stereochemistry; kinetics and thermodynamics. Spectroscopy (nuclear magnetic resonance, infrared, ultra-violet/visible, and mass spectrometric techniques). Substitution and elimination reactions of saturated functional groups - the chemistry of alkanes, alkyl halides, alcohols and their derivatives. Laboratory: Practical techniques.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "CHEM",
+    "course_number": "353",
+    "title": "Organic Chemistry II",
+    "info": "The concept and implications of aromaticity. The reactions of unsaturated functional groups via substitution, elimination and addition mechanisms - the chemistry of alkenes, alkynes, aromatics, aldehydes, ketones and carboxylic acids and their derivatives. Laboratory: Characteristic functional group reactivity, synthesis, and qualitative organic analysis.",
+    "prereq": "Chemistry 351.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "CHEM",
+    "course_number": "355",
+    "title": "Organic Chemistry II (for Chemists)",
+    "info": "Mechanisms and synthetic applications of the reactions of alkenes, alkynes, aromatics, carbonyl compounds, carboxylic acids and derivatives, and conjugated systems such as 1, 3-dienes and enones. The concept of aromaticity and its effect on chemical behaviour. Laboratory: Emphasis on organic synthesis and the methods of qualitative organic analysis.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213; and 351 and admission to the Chemistry major, Applied Chemistry major or Chemical Physics major.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "CHEM",
+    "course_number": "357",
+    "title": "Industrial Organic Chemistry for Engineers",
+    "info": "The hybridization of the carbon atom and covalent bonding. Typical reactions of alkanes, alkenes, alkynes and industrial applications. Substitution; halogenation, nitration and oxidation of aromatic hydrocarbons; polymerization and industrial applications. Functional groups and their reactions; oxidation, reduction, addition and elimination reactions, and industrial applications.",
+    "prereq": "Chemistry 209 or Engineering 204; or Chemistry 201 or 211, and Chemistry 203 or 213.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "CHEM",
+    "course_number": "371",
+    "title": "Physical Chemistry: Thermodynamics Chemistry",
+    "info": "Lectures: A study of the states of matter. The basic laws of thermodynamics and their applications. Development of the concept of chemical potential. Changes of state and phase diagrams of pure substances and mixtures. Equilibrium electrochemistry. Laboratory: Experimental measurements, interpretations, and calculations relating to the topics discussed in lectures.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213; Physics 223 or admission to a Major program offered by the Department of Physics and Astronomy and 6 units of Physics; and Mathematics 267 or 277.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "CHEM",
+    "course_number": "373",
+    "title": "Physical Chemistry: Quantum Chemistry",
+    "info": "Lectures: Elementary quantum mechanical treatment of the energy levels of atoms and molecules. Atomic spectra. Symmetry elements, operations, and point groups. Laboratory: Experimental measurements, interpretations, and calculations relating to the topics discussed in lectures.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213; and Physics 223 or 355; and Mathematics 267 or 277.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "CHEM",
+    "course_number": "379",
+    "title": "Materials Chemistry",
+    "info": "An introduction to materials chemistry with industrial applications. Theories of chemical bonding and the relationship between chemical structure and observable properties. Chemical and physical properties of mixtures and interfaces. Structure and applications of polymers and soft materials. ",
+    "prereq": "3 units from Chemistry 201, 209, 211, or Engineering 204; and Chemistry 203 or 213.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "CHEM",
+    "course_number": "409",
+    "title": "Applied Chemistry and Chemical Pathways for Engineers",
+    "info": "Analysis of industrial chemical processes based on reaction pathways to infer system performance including co-product formation and the role of catalysts. Examples from oil, gas, coal and petrochemical processing.",
+    "prereq": "Chemistry 209 or Engineering 204; and Chemistry 357.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "CHEM",
+    "course_number": "417",
+    "title": "Modern Chromatographic Analysis",
+    "info": "Fundamental concepts and methods of chromatographic separation science: Partition theory, sample preparation, chromatographic theory, gas and liquid chromatography, principles of detection. Emerging concepts such as micro-fluidic separation platforms, column technology and novel mobile phases.",
+    "prereq": "Chemistry 311 and 315.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "CHEM",
+    "course_number": "423",
+    "title": "Green Chemistry: Principles and Techniques",
+    "info": "Green Chemistry focuses on the science and techniques that chemists and chemical and process engineers use to generate less waste, and to develop products and processes that are more atom- and energy-efficient, environmentally sensitive, and cost-effective. A look at the principles behind green chemistry, some techniques and processes used in achieving atom- and energy-efficiency, and waste reduction.",
+    "prereq": "Chemistry 333 or 433; and Chemistry 353 or 355; or Chemistry 357 and 409.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "CHEM",
+    "course_number": "425",
+    "title": "Industrial Chemistry",
+    "info": "Electrochemical processes and the applications of some of their products. Unit operations and reactor types in the chemical industry. Petroleum refining including heavy oil and bitumen. Industrial organic synthesis including monomers for subsequent polymerization. Design of specialized polymers.",
+    "prereq": "Chemistry 353 or 355.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "CHEM",
+    "course_number": "431",
+    "title": "Inorganic Chemistry: Main Group Elements",
+    "info": "Lectures: The structure of many-electron atoms. Bonding, stereochemistry and symmetry in inorganic compounds. Solid-state science and aspects of inorganic solution chemistry. The chemistry of the main group elements. Laboratory: Applications of chemical principles to inorganic synthetic and qualitative analytical problems.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213; and 351.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "CHEM",
+    "course_number": "433",
+    "title": "Inorganic Chemistry: Transition Metals",
+    "info": "Lectures: Bonding models for metals and for transition metal compounds. Interpretation of redox and thermodynamic properties based on ligand field theory. Coordination and organometallic compounds of the transition metals. Metal complexes as catalysts in industry and biology. Laboratory: Synthesis, analysis, and physical investigations of transition metal compounds which illustrate their important properties.",
+    "prereq": "Chemistry 201 or 211; and 203 or 213; and 331 or 431.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 34
+  },
+  {
+    "program": "CHEM",
+    "course_number": "453",
+    "title": "Advanced Organic Chemistry",
+    "info": "Introduction to molecular orbital (MO) theory. Pericyclic reactions, the Woodward-Hoffmann rules. Photochemistry. Elucidation of reaction mechanism, and reactive intermediates. Laboratory: Multi-step synthesis and computer modelling of organic reactions.",
+    "prereq": "Chemistry 351; and Chemistry 353 or 355.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "CHEM",
+    "course_number": "471",
+    "title": "Physical Chemistry: Kinetics and Spectroscopy",
+    "info": "Vibrational, electronic and magnetic resonance spectra. Reaction kinetics and transport properties in the gas phase and in solution. Catalysis. Laboratory: Experimental measurements, interpretations, and calculations relating to the topics discussed in lectures.",
+    "prereq": "Chemistry 371 and 373.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "CHEM",
+    "course_number": "502",
+    "title": "Research in Chemistry",
+    "info": "Research project in a specific field of chemistry under direction of a faculty member in the Department of Chemistry. Original and independent thought, practical research, and a written thesis and oral presentations on completion of this course.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 20
+  },
+  {
+    "program": "CHEM",
+    "course_number": "515",
+    "title": "Advanced Instrumental Analysis",
+    "info": "Lectures: Fundamental aspects of modern instrumental methods. Spectroscopic methods: UV-visible and atomic absorption spectroscopy, flame and plasma emission methods. Chromatographic methods; liquid and gas chromatography. Mass spectrometry. Laboratory: Analysis of inorganic and organic samples using spectroscopic, electrochemical, and chromatographic instrumental methods.",
+    "prereq": "Chemistry 311 and 315.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 24
+  },
+  {
+    "program": "CHEM",
+    "course_number": "521",
+    "title": "Introduction to Atmospheric Chemistry",
+    "info": "An introduction to Tropospheric and Stratospheric Chemistry. The detailed chemistry of the stratosphere and troposphere. Gas-phase chemical kinetics. Photochemistry and atmospheric radiation. Aerosols. Anthropogenic pollution and air quality. Climate forcing. Introduction to modelling and atmospheric transport.",
+    "prereq": "Chemistry 315 and 373.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 21
+  },
+  {
+    "program": "CHEM",
+    "course_number": "531",
+    "title": "Advanced Inorganic Chemistry: Transition Metals",
+    "info": "Co-ordination and organometallic chemistry of the transition elements, incorporating the lanthanoids and actinoids. Fundamental and applied aspects, including characterization techniques, reaction mechanisms, catalysis and bioinorganic chemistry.",
+    "prereq": "Chemistry 331 or 431; and 333 or 433; and 353 or 355.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 23
+  },
+  {
+    "program": "CHEM",
+    "course_number": "533",
+    "title": "Advanced Inorganic Chemistry: Main Group Elements",
+    "info": "Chemistry of the s- and p-block elements. Interpretation of nuclear magnetic resonance, electron paramagnetic resonance, vibrational and mass spectra. Fundamental concepts and industrial uses of inorganic heterocycles and polymers, electron-deficient and organometallic compounds. Solid-state chemistry.",
+    "prereq": "Chemistry 331 or 431; and 333 or 433; and 353 or 355.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 23
+  },
+  {
+    "program": "CHEM",
+    "course_number": "535",
+    "title": "Advanced Inorganic Laboratory",
+    "info": "Advanced laboratory techniques for the synthesis and characterization of main group compounds, organometallics and solid-state materials using modern spectroscopic and structural methods. Includes a short project.",
+    "prereq": "Chemistry 431, 433 and 453; and admission to the Chemistry major.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 20
+  },
+  {
+    "program": "CHEM",
+    "course_number": "541",
+    "title": "Concepts in Biochemical Toxicology",
+    "info": "An interdisciplinary course focused on the diverse biomolecular mechanisms by which organic (e.g. PCB\u2019s) and inorganic pollutants (e.g. Cd, Hg, As) adversely affect cell function examined at multiple levels of organization, from molecules to whole organisms. Topics include how natural toxins exert toxicity, how toxins/light generate free radicals within cells, how the speciation of metals in the environment affects their bioavailability/toxicity, and the toxicity mechanisms that lead to homeostatic dysfunction.",
+    "prereq": "Chemistry 311, 321, 351; and Biochemistry 341 or 393.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 22
+  },
+  {
+    "program": "CHEM",
+    "course_number": "551",
+    "title": "Organic Synthesis",
+    "info": "Concepts and strategies of synthesizing molecules with emphasis on carbon-carbon bond-forming reactions, protecting groups, chemo-, regio- and stereoselectivity.",
+    "prereq": "Chemistry 453.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 27
+  },
+  {
+    "program": "CHEM",
+    "course_number": "552",
+    "title": "Medicinal Chemistry",
+    "info": "Introduction to concepts in medicinal chemistry with a focus on synthesis while including lead discovery and rational drug design. Basic metabolism, physiochemical properties, and structural alerts in the context of drug development.",
+    "prereq": "Chemistry 351 and 353",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 21
+  },
+  {
+    "program": "CHEM",
+    "course_number": "553",
+    "title": "Bio-organic Chemistry",
+    "info": "Organic chemistry applied to the understanding of biomolecules: Selected topics from carbohydrate, peptide/protein, lipid and nucleoside chemistry, enzyme inhibition and drug design.",
+    "prereq": "Chemistry 453.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 20
+  },
+  {
+    "program": "CHEM",
+    "course_number": "555",
+    "title": "Advanced Organic Laboratory",
+    "info": "Advanced laboratory techniques: Methods of purification and identification of products, purification of reagents, experimental design, working with air/moisture sensitive reagents. Includes a short research project.",
+    "prereq": "Chemistry 453 and admission to the Chemistry major, Applied Chemistry major or Chemical Physics major.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 29
+  },
+  {
+    "program": "CHEM",
+    "course_number": "559",
+    "title": "Organic Spectroscopy",
+    "info": "The instrumentation, theory and practical aspects of spectroscopy (e.g. UV/vis, MS, IR, 1H and 13C NMR including 2D-techniques). The emphasis will be on the application for structural elucidation through a problem solving approach.",
+    "prereq": "Chemistry 351; and 353 or 355.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 22
+  },
+  {
+    "program": "CHEM",
+    "course_number": "571",
+    "title": "Physical Chemistry of Interfaces",
+    "info": "The chemical and electrical nature, as well as basic thermodynamics, of interfaces. Surface films and aqueous interfaces, including micelles and bilayers. Interfaces involving solids such as metals and semiconductors. Absorption phenomena and surface catalysis. Survey of experimental approaches for interfacial studies.",
+    "prereq": "Chemistry 371 and 373.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 29
+  },
+  {
+    "program": "CHEM",
+    "course_number": "573",
+    "title": "Nature of the Condensed Phase in Chemistry",
+    "info": "Theoretical models of liquids and solids. Dielectric continuum, polarizabilities and magnetism. Ionic crystal, insulators, conductors, semiconductors and super conductors. Some aspects of scattering techniques for structure determination.",
+    "prereq": "Chemistry 371 and 373.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 22
+  },
+  {
+    "program": "CHEM",
+    "course_number": "575",
+    "title": "Advanced Electronic Structure Theory",
+    "info": "A discussion of the theories of modern electronic structure illustrated by applications to molecular structure and bonding, electronic spectroscopy, as well as chemical reactivity and dynamics.",
+    "prereq": "Chemistry 371 and 373.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 21
+  },
+  {
+    "program": "CHEM",
+    "course_number": "579",
+    "title": "Surface and Colloid Chemistry for Engineers",
+    "info": "Introduces the fundamental and applied aspects of interfacial phenomena including capillarity, surface and interfacial tension, films, wetting and contact angles, adsorption, micellization, solubilization and emulsification. Examples drawn from colloids, foams, aerosols and macromolecules.",
+    "prereq": "Chemistry 209 or Engineering 204; and Chemistry 357 or 379; and Chemical Engineering 427.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 27
+  },
+  {
+    "program": "PHYS",
+    "course_number": "106",
+    "title": "Module M6 Thermal Physics",
+    "info": "Thermal Physics. Gas laws; kinetic theory of gases; temperature; internal energy; specific heat; energy transfer; laws of thermodynamics; PVT diagrams.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 43
+  },
+  {
+    "program": "PHYS",
+    "course_number": "211",
+    "title": "Mechanics",
+    "info": "Introductory Newtonian particle mechanics and rigid bodies in rotational equilibrium: Kinematics, Newton's laws, conservation of momentum and mechanical energy.",
+    "prereq": "One of Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education).",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 51
+  },
+  {
+    "program": "PHYS",
+    "course_number": "221",
+    "title": "Mechanics",
+    "info": "Introductory Newtonian particle mechanics and rigid bodies in rotational equilibrium: Kinematics, Newton's laws, conservation of momentum and mechanical energy.",
+    "prereq": "Physics 30; and Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education); and Mathematics 31.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 54
+  },
+  {
+    "program": "PHYS",
+    "course_number": "223",
+    "title": "Introductory Electromagnetism, and Thermal Physics",
+    "info": "Electrical forces and energy. Static electric fields due to point charges. Parallel-plate capacitor. Simple DC circuits. Lorentz force. Static magnetic fields generated by electric currents. Electromagnetic induction. Gas Laws; kinetic theory of gases; temperature, thermal energy, specific heat; energy transfer; laws of thermodynamics; PVT diagrams.",
+    "prereq": "3 units from Physics 211, 221 or 227.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 60
+  },
+  {
+    "program": "PHYS",
+    "course_number": "227",
+    "title": "Classical Physics",
+    "info": "Vector algebra; statics and kinematics of rigid bodies; Newton\u2019s laws of motion; conservation laws; collisions; rotational mechanics; computer modelling of physical systems; approximation methods.",
+    "prereq": "Physics 30; and Mathematics 30-1, 212 or Mathematics 2 (offered by Continuing Education); and Mathematics 31; and admission to a Major or Minor in Physics or Astrophysics or a Major in Chemistry, Natural Science (Physics Concentration), or Environmental Science (Physics Concentration).",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 51
+  },
+  {
+    "program": "PHYS",
+    "course_number": "229",
+    "title": "Modern Physics",
+    "info": "Special Theory of Relativity. Origins of quantum mechanics. Wave mechanics and applications. Nuclear physics and radioactivity.",
+    "prereq": "3 units from Physics 211, 221, 227 or Engineering 349; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 48
+  },
+  {
+    "program": "PHYS",
+    "course_number": "259",
+    "title": "Electricity and Magnetism (for students in Engineering)",
+    "info": "Electric and magnetic fields related to charges and current through Maxwell\u2019s equations. Energy stored in fields, potential energy, and voltage. Conductors, insulators, and dielectrics. Resistance, capacitance, and inductance with applications to RC/RL circuits.",
+    "prereq": "Mathematics 211; and 3 units from Mathematics 249, 265 or 275; and admission to the Schulich School of Engineering.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 58
+  },
+  {
+    "program": "PHYS",
+    "course_number": "321",
+    "title": "Harmonic Motion, Waves, and Rotation",
+    "info": "Newtonian mechanics of rigid body rotation. Simple harmonic oscillations. Progressive waves in one dimension. Energy of a wave. Superposition. Standing waves. Fluids.",
+    "prereq": "3 units from Physics 211, 221 or 227; and Mathematics 211 or 213; and Mathematics 267 or 277.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "PHYS",
+    "course_number": "323",
+    "title": "Optics and Electromagnetism",
+    "info": "Static electric fields due to charge distributions. Static magnetic fields due to current distributions. Time-dependent behaviour of capacitors and inductances. Geometrical optics: Thin lenses and curved mirrors. Physical optics: Interference and diffraction.",
+    "prereq": "Physics 223 and 3 units from Physics 211, 221 or 227; and 3 units from Mathematics 249, 265 or 275.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "PHYS",
+    "course_number": "341",
+    "title": "Classical Mechanics I",
+    "info": "Conservative and non-conservative forces; forced and damped harmonic oscillations; phase-space analysis; central force motion and scattering; non-inertial frames; applications of ordinary differential equations.",
+    "prereq": "3 units from Physics 211, 221 or 227; and Mathematics 211 or 213; and Mathematics 267 or 277.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "PHYS",
+    "course_number": "343",
+    "title": "Classical Mechanics II",
+    "info": "Lagrangian and Hamiltonian mechanics; general rotations of rigid bodies; moment of inertia tensor; eigenvalues and eigenvectors; perturbation theory; applications to multiple-particle systems.",
+    "prereq": "Physics 341.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "PHYS",
+    "course_number": "355",
+    "title": "Electromagnetic Theory I",
+    "info": "Electrostatics, DC circuits, calculation of magnetic intensity from currents, motion of charged particles in electric and magnetic fields, electromagnetic induction, transient effects in capacitors and inductors, electric and magnetic properties of materials.",
+    "prereq": "3 units from Physics 211, 221 or 227; and Mathematics 375 or 376.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "PHYS",
+    "course_number": "365",
+    "title": "Acoustics, Optics and Modern Physics (for students in Engineering)",
+    "info": "Wave motion as applied to acoustics and physical optics. Wave-particle duality applied to light and matter; electron energy levels of atoms and crystals.",
+    "prereq": "Mathematics 277 and Physics 259 and admission to a program in Engineering. ",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "PHYS",
+    "course_number": "369",
+    "title": "Acoustics, Optics and Radiation (for students in Engineering)",
+    "info": "Wave motion as applied to acoustics, geometric and physical optics, and radiant energy transfer. Traditional and modern applications.",
+    "prereq": "Mathematics 277 and Physics 259 and admission to a program in Engineering.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "PHYS",
+    "course_number": "375",
+    "title": "Introduction to Optics and Waves",
+    "info": "Geometrical Optics: lenses, mirrors, and other basic optical components. Wave motion. Description of light as a wave. Fermat\u2019s principle. Refraction, scattering, interference, diffraction, and polarization. Optical instruments (including telescopes and microscopes). Lasers and fibre optics if time allows.",
+    "prereq": "3 units from Physics 211, 221 or 227; and Mathematics 267 or 277.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "PHYS",
+    "course_number": "381",
+    "title": "Computational Physics I",
+    "info": "Python environments and tools, numerical representation, polynomials and Taylor\u2019s theorem, iterated functions and fractals, root finding, numerical integration, ordinary differential equations.",
+    "prereq": "Physics 341; and 3 units from Computer Science 217, 231 or Data Science 211.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "PHYS",
+    "course_number": "397",
+    "title": "Applied Physics Laboratory I",
+    "info": "Basic laboratory electronics, vacuum systems, and optical devices. Introduction to experimental control, data collection, and analysis. Fundamentals of error analysis and error propagation.",
+    "prereq": "Physics 229 or 325.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "PHYS",
+    "course_number": "435",
+    "title": "Mathematical Methods in Physics",
+    "info": "Partial differential equations. Fourier analysis. Laplace Transforms. Special functions and orthogonal polynomials. Complex analysis. Applications in Physics and Astronomy",
+    "prereq": "Physics 343 and Mathematics 367; and one Mathematics 375 or 376.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 37
+  },
+  {
+    "program": "PHYS",
+    "course_number": "443",
+    "title": "Quantum Mechanics I",
+    "info": "Basic concepts of quantum systems and their physical interpretation. Operator, matrix, and wave mechanics. Dirac notation. Schr\u00f6dinger\u2019s time-independent and time-dependent equations. Applications.",
+    "prereq": "Physics 343; and 229 or 325; and Mathematics 311 or 313; and Physics 435 or Mathematics 433. Or, admission to the Engineering Physics program and Physics 229 or 325; and Physics Engineering 383; and Physics Engineering 435.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "PHYS",
+    "course_number": "449",
+    "title": "Statistical Mechanics I",
+    "info": "State-counting; classical distributions and probability theory; origins and role of entropy; equilibrium; ensemble theory; concepts of work, heat, and temperature; equations of state; heat capacity; equipartition theorem; engines; laws of thermodynamics; non-equilibrium systems; Maxwell-Boltzmann distribution; thermodynamic potentials.",
+    "prereq": "Physics 229 or 325; and Mathematics 375 or 376; and either Physics 343 and Mathematics 367; or Physics Engineering 383.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "PHYS",
+    "course_number": "451",
+    "title": "Statistical Mechanics II",
+    "info": "Quantum statistical mechanics; bosons and fermions; quantum counting; classical-quantum transition; blackbody radiation; applications of statistical mechanics to phase transitions, critical phenomena and complex systems, Ising model, mean-field theory.",
+    "prereq": "Physics 449.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 40
+  },
+  {
+    "program": "PHYS",
+    "course_number": "455",
+    "title": "Electromagnetic Theory II",
+    "info": "Macroscopic Maxwell equations. Scalar and vector potentials. Electrostatics and magnetostatics. Dielectric and magnetic properties of materials. Superconductors.",
+    "prereq": "3 units from Physics 255, 355, 259 or 323; and Mathematics 375 or 376; and Mathematics 367.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "PHYS",
+    "course_number": "457",
+    "title": "Electromagnetic Theory III",
+    "info": "Electromagnetic wave solutions to Maxwell's equations, in vacuum and in insulating and conducting media. Waveguides. Electromagnetic radiation from accelerated charges. Relativistic formulation of electrodynamics.",
+    "prereq": "Physics 455 or Electrical Engineering 475; and one of Physics 435, Mathematics 433 or Physics Engineering 435.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "PHYS",
+    "course_number": "481",
+    "title": "Computational Physics II",
+    "info": "Random walks, cellular automata, pseudo-random number generation, Monte Carlo methods, numerical solution of ordinary and partial differential equations, introduction to Fourier transforms.",
+    "prereq": "Physics 381 or Computer Engineering 335; and Mathematics 375 or 376.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "PHYS",
+    "course_number": "497",
+    "title": "Applied Physics Laboratory II",
+    "info": "Intermediate laboratory electronics. AC circuit theory and semiconductor devices, including operational amplifiers. Digital sampling theory and frequency-domain signal processing. Computer automation of experimental control, data collection, and analysis, including error analysis and error propagation.",
+    "prereq": "Physics 397; and Mathematics 433 or Physics 435.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "PHYS",
+    "course_number": "501",
+    "title": "Relativity",
+    "info": "Lorentz transformations in classical mechanics; relativistic kinematics; spacetime diagrams; relativistic energy and momentum conservation; Geometrical interpretation; applications of relativistic kinematics; four-vector formalism and tensors; introduction to general relativity; applications.",
+    "prereq": "Physics 455 or Electrical Engineering 475.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 24
+  },
+  {
+    "program": "PHYS",
+    "course_number": "507",
+    "title": "Solid State Physics",
+    "info": "Crystal structure. Classification of solids and their bonding. Fermi surface. Elastic, electric and magnetic properties of solids.",
+    "prereq": "Physics 443 and 449; and Physics 455 or Electrical Engineering 475.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 23
+  },
+  {
+    "program": "PHYS",
+    "course_number": "509",
+    "title": "Plasma Physics",
+    "info": "Occurrence of plasmas in nature, single particle motion, plasmas as fluids, waves in plasmas, diffusion, resistivity, equilibrium and stability, kinetic theory of plasmas, non-linear effects.",
+    "prereq": "Physics 343 or Physics Engineering 383; and Physics 455 or Electrical Engineering 475.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 25
+  },
+  {
+    "program": "PHYS",
+    "course_number": "521",
+    "title": "Non-linear Dynamics and Chaos",
+    "info": "Introduction to non-linear dynamical systems: Phase space representation, bifurcations, normal forms, non-linear oscillators, deterministic chaos, attractors, fractals, universality, renormalization, and synchronization.",
+    "prereq": "Physics 381 and 449; and Physics 435 or Mathematics 433.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 24
+  },
+  {
+    "program": "PHYS",
+    "course_number": "543",
+    "title": "Quantum Mechanics II",
+    "info": "Intermediate quantum mechanics. Theory of angular momentum, symmetries, perturbation theory. Identical particles. Applications to atomic physics, spectroscopy. Entanglement.",
+    "prereq": "Physics 443.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 25
+  },
+  {
+    "program": "PHYS",
+    "course_number": "561",
+    "title": "Stable and Radioactive Isotope Studies, Fundamentals",
+    "info": "A multidisciplinary course. Topics include nucleosynthesis, radioactive decay, isotope exchange phenomena, kinetic isotope effects, tracer techniques, molecular spectra and instrumentation.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 28
+  },
+  {
+    "program": "PHYS",
+    "course_number": "577",
+    "title": "Implementations of Quantum Information",
+    "info": "Proposals and realizations of quantum information tasks including quantum computation, quantum communication, and quantum cryptography in optical, atomic, molecular, and solid state systems.",
+    "prereq": "Physics 455 and 543.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 26
+  },
+  {
+    "program": "PHYS",
+    "course_number": "581",
+    "title": "Computational Physics III",
+    "info": "Linear inversion, spectral methods, calling external libraries, data formats, parallelization, numeric and symbolic programming languages.",
+    "prereq": "Physics 481; and Mathematics 433, Physics 435 or Physics Engineering 435.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 27
+  },
+  {
+    "program": "PHYS",
+    "course_number": "593",
+    "title": "Topics in Contemporary Physics",
+    "info": "Study in advanced topics that may include reading projects, seminars, lectures, term papers and other aspects of training in theory or research methodology",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 26
+  },
+  {
+    "program": "PHYS",
+    "course_number": "597",
+    "title": "Senior Physics Laboratory",
+    "info": "Selected advanced experiments. Where possible, students may choose those experiments most suited to their interests. Development of technical and computer-based skills, technical writing and presentation skills.",
+    "prereq": "Physics 497.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 27
+  },
+  {
+    "program": "BIOL",
+    "course_number": "212",
+    "title": "Biological Ways of Thinking",
+    "info": "An exploration course that is designed to build up knowledge and bridge gaps in biology to prepare students for further study in biology and to meet the biology requirements for their program of study. This course parallels elements from high school biology and introductory university biology with Indigenous Ways of Knowing.",
+    "prereq": "Biology 20 and admission to an Indigenous Pathway program.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 49
+  },
+  {
+    "program": "BIOL",
+    "course_number": "241",
+    "title": "Energy Flow in Biological Systems",
+    "info": "An introduction to the energetics of life from molecules through ecosystems. Topics include: energy in biological systems; how different organisms obtain, store and use energy; energy budgets of organisms; and energy flow through cells and ecosystems.",
+    "prereq": "Biology 30 or 212 and Chemistry 30 or 212.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "BIOL",
+    "course_number": "243",
+    "title": "DNA, Inheritance and Evolution",
+    "info": "An introduction to central concepts in evolution and DNA as a vehicle for inheritance of genetic information. Topics include: the nature of genetic information and inheritance including transcription, translation and replication; natural selection and speciation; origin and history of biodiversity.",
+    "prereq": "Biology 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 49
+  },
+  {
+    "program": "BIOL",
+    "course_number": "305",
+    "title": "The Human Organism",
+    "info": "An introduction to human biology that analyzes the structure and function of systems in our bodies. Leads to an appreciation of how the human body maintains itself and carries out the functions necessary to sustain any organism. A course for non-majors that will develop their understanding of the anatomy and physiology of their own species in a zoological and evolutionary context.",
+    "prereq": "One of Biology 30, 205, 212 or 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "BIOL",
+    "course_number": "307",
+    "title": "Ecology and Human Affairs",
+    "info": "The major principles of ecology. How the physical environment affects organisms; behavioural ecology and life histories; species interactions; the biology of populations, communities, and ecosystems; biodiversity and conservation. The non-biologists will gain an understanding of ecological and evolutionary principles that will allow them to better appreciate the natural world, and the increasing environmental impacts of humans.",
+    "prereq": "24 units.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "BIOL",
+    "course_number": "309",
+    "title": "Plants and People",
+    "info": "A review of the structure and function of plants. A survey of the nature of people's basic food plants and an overview of agricultural and forestry practices. Plant improvement by traditional and modern methods, and plant propagation.",
+    "prereq": "Biology 205 or 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "BIOL",
+    "course_number": "311",
+    "title": "Principles of Genetics",
+    "info": "Topics will include Mendelian inheritance, allelic relationships, genetic linkage, sex linkage, changes in chromosome structure, segregation and recombination, epistasis, molecular genetics, genetics of bacteria and viruses, gene fine structure, gene function, complementation, bioinformatics and regulation of gene expression. Several selected organisms will be used in the laboratories to illustrate pertinent genetic principles.",
+    "prereq": "Biology 241 and 243.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "BIOL",
+    "course_number": "313",
+    "title": "Principles of Ecology",
+    "info": "The ecological principles, theories and interactions of organisms at individual, population, community and ecosystem levels will be explored. Ecological principles will be applied to examine current issues involving conservation of species, habitats, biodiversity and ecosystem function.",
+    "prereq": "Biology 241 and 243.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "BIOL",
+    "course_number": "315",
+    "title": "Quantitative Biology I",
+    "info": "Data collection, presentation and analysis in the biological sciences. Basic design of biological experiments including concepts of control, replication, and interspersion. Analysis of biological data will include tests of statistical hypotheses and estimation techniques.",
+    "prereq": "Biology 241 and 243.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "BIOL",
+    "course_number": "331",
+    "title": "Introduction to Cellular and Molecular Biology",
+    "info": "The principles of cellular structure and function. Molecular organization of membranes, organelles, nucleus and cytoplasmic structures; the integration of cellular functions; assembly of organelles; the regulation of cell proliferation; and the interaction of cells with their neighbours and their environment.",
+    "prereq": "Biology 311.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "BIOL",
+    "course_number": "371",
+    "title": "Comparative Biology of Plants and Animals",
+    "info": "An exploration of how multicellular organisms meet the challenges of living, both as individuals, and in an evolutionary context. Parallels and divergence between plants and animals are illustrated in their responses to the challenges they face, with the water-to-land transition forming a central theme in shaping the form and function of plant and animal life.",
+    "prereq": "Biology 241 and 243.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "BIOL",
+    "course_number": "375",
+    "title": "Insects, Science and Society",
+    "info": "Examination of insects as the most diverse and abundant form of animal life on the planet, why they are so successful and how they influence our lives. Topics include how insects are built, what they do, and how they interact with people and have come to be so important economically and culturally, as pests, pollinators, experimental animals, maintaining our environment and forming complex societies. Other topics include evolution of insects, insects in history and culture and how insects can help us address issues such as biological conservation, climate change and animal rights.",
+    "prereq": "24 units.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 31
+  },
+  {
+    "program": "BIOL",
+    "course_number": "401",
+    "title": "Evolutionary Biology",
+    "info": "An introduction to the micro- and macro-evolutionary processes responsible for the diversity of organisms. Topics include heredity, genetic variation, population structure, genetic drift, natural selection and adaptation, sexual selection, evolution of interactions between species, speciation, phylogeny and biogeography.",
+    "prereq": "Biology 313 and 315.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "BIOL",
+    "course_number": "435",
+    "title": "Biology of Fungi",
+    "info": "Morphology, life history patterns and systematics of fungi. Fungal ecology including fungi as parasites, symbionts and decomposers. Basic molecular biology, genetics and physiology.",
+    "prereq": "Biology 313 and 331.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "BIOL",
+    "course_number": "451",
+    "title": "Conservation Biology",
+    "info": "The application of ecological theory and principles to the conservation and management of natural and modified ecosystems, with emphasis on preservation of biodiversity and sustainable development. Topics include disturbance as an ecological process, ecological and evolutionary responsiveness of natural systems, ecology of resource harvesting, management of endangered habitats and populations, implications of human population growth and global change.",
+    "prereq": "Biology 313.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "BIOL",
+    "course_number": "453",
+    "title": "Plants in their Environment",
+    "info": "An integration of physiological and ecological aspects of plant adaptation to different environments. Topics include interactions between plants and other organisms (e.g., bacterial and fungal symbionts, animal pollinators, herbivores) as well as the influence of abiotic stressors on plant growth and distribution. The ecological consequences and possible applications of such interactions are discussed.",
+    "prereq": "Biology 313; and 3 units from Botany 303, Biology 371 or Plant Biology 403.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "BIOL",
+    "course_number": "501",
+    "title": "Principles and Mechanism of Pharmacology",
+    "info": "Basic principles of pharmacology, with emphasis on mechanisms of drug action and receptor signaling. The application of pharmacological principles in the treatment of disease will also be explored.",
+    "prereq": "Biochemistry 341 or 393; and Zoology 463 or Medical Science 404.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 22
+  },
+  {
+    "program": "BIOL",
+    "course_number": "503",
+    "title": "Pharmacology of Organ Systems",
+    "info": "Through analysis and discussion of research literature, this course explores topics in pharmacology including the nervous, cardiovascular, renal, respiratory and immune systems, as well as anti-cancer therapies.",
+    "prereq": "Biology 501 (Medical Science 501).",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 30
+  },
+  {
+    "program": "BIOL",
+    "course_number": "505",
+    "title": "Medicinal Plant Biochemistry",
+    "info": "Deals with biochemical, molecular, and cellular aspects of plant metabolism, natural product diversity in the plant kingdom, and modern molecular and biochemical methods to understand plant metabolism. The focus is on the metabolic pathways that are either unique to plants, or that exhibit unique features in, plants. Several key plant pathways that produce plant-derived medicines will be discussed.",
+    "prereq": "Biology 331; and Biochemistry 341 or 393.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 26
+  },
+  {
+    "program": "BIOL",
+    "course_number": "515",
+    "title": "Cellular Mechanisms of Disease",
+    "info": "The cellular and molecular mechanisms underlying basic human disease processes and how these can be influenced by lifestyle and environmental factors. The ways in which this knowledge can be used in the laboratory diagnosis of disease.",
+    "prereq": "Biochemistry 341 or 393; and Biology 331 or Medical Science 351.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 20
+  },
+  {
+    "program": "BIOL",
+    "course_number": "520",
+    "title": "Field Course in Tropical Biology",
+    "info": "An examination of biodiversity in a selected region of the tropics, including aspects of ecology of animals and plants, animal behaviour and an introduction to field techniques for observing and censusing selected taxa. Field studies will take place at diverse habitats with consideration of community-based conservation efforts.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 30
+  },
+  {
+    "program": "BIOL",
+    "course_number": "530",
+    "title": "Honours Research Project in Biological Sciences",
+    "info": "Research project under the co/supervision of faculty members in the Department of Biological Sciences. Original and independent thought, practical research, and written and oral reports presented on completion of this course. Open only to Honours Biological Sciences students.",
+    "prereq": "72 units and consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 23
+  },
+  {
+    "program": "BIOL",
+    "course_number": "591",
+    "title": "Invertebrate Biodiversity",
+    "info": "Field course in the natural history and classification of invertebrates as they are encountered in their natural habitat. Course material will include: techniques for collection and identification of major groups of invertebrates; aspects of behaviour and ecology of local species; use of invertebrates as indicators of environmental change; censusing/monitoring invertebrates populations.",
+    "prereq": "3 units from Zoology 375, 401 or 435.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 27
+  },
+  {
+    "program": "HIST",
+    "course_number": "411",
+    "title": "Topics in the History of Art",
+    "info": "An in-depth examination of a particular topic related to the study of Art History.",
+    "prereq": "6 units of courses labelled Art History.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "HIST",
+    "course_number": "431",
+    "title": "Art and the Body",
+    "info": "A critical analysis of the power dynamics inherent to forms of looking and representations of the body in a variety of historical periods and geographical locations. May include gendered representations, the medicalized body, the body in classical art, and displays of marginalized bodies.",
+    "prereq": "3 units from Art History 331, 333, 357 and 3 additional units of courses labelled Art History at the 300 level or above.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "HIST",
+    "course_number": "471",
+    "title": "Topics in Global Art",
+    "info": "An advanced exploration of topics and issues relevant to art-making and exhibitions within global contexts. Topics may include World\u2019s Fairs, art biennales, outsider art, and souvenirs.",
+    "prereq": "6 units in courses labelled Art History at the 300 level or above.  ",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 36
+  },
+  {
+    "program": "HIST",
+    "course_number": "501",
+    "title": "Independent Research in Art History",
+    "info": "Independent research projects for advanced students in art history.",
+    "prereq": "18 units of courses labelled Art History at the 300 level or above and consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 26
+  },
+  {
+    "program": "HIST",
+    "course_number": "511",
+    "title": "Capstone in the History of Art",
+    "info": "A critical investigation of a particular subject related to the advanced study of Art History and Visual Culture.",
+    "prereq": "18 units of courses labelled Art History at the 300 level or above and consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 26
+  },
+  {
+    "program": "ART",
+    "course_number": "243",
+    "title": "Drawing II",
+    "info": "Developing observational and representational skills through figure drawing and exploration of the contemporary field. Approaches will include a more developed understanding of colour, research, problem solving, visual fluency and conceptual development.",
+    "prereq": "Art 241.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 55
+  },
+  {
+    "program": "ART",
+    "course_number": "312",
+    "title": "Net Video Art",
+    "info": "Introduction to contemporary approaches to video art production and web dissemination. Students will gain experience and a working knowledge of concept development, video shooting and editing in the context of digital art and social media.",
+    "prereq": "Art 235.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "ART",
+    "course_number": "313",
+    "title": "Video Art",
+    "info": "Focuses on concepts, issues, and techniques of video as an art medium. Students will gain experience and a working knowledge of concept development, video shooting and digital editing, in the context of contemporary art theory and practice.",
+    "prereq": "Art 235.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "ART",
+    "course_number": "315",
+    "title": "Programming for Artists",
+    "info": "An introduction to computer programming techniques used to create interactive art projects.",
+    "prereq": "3 units of courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "ART",
+    "course_number": "317",
+    "title": "Electronics for Artists",
+    "info": "Theoretical and practical applications of basic electronic principles and techniques involving the use of electronics in contemporary art practices. Will include applied experiences with hardware and visual programming environments.",
+    "prereq": "3 units of courses labelled Art.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 32
+  },
+  {
+    "program": "ART",
+    "course_number": "319",
+    "title": "Digital Illustration",
+    "info": "Introduces students to vector-based illustration techniques, their historical context, and terminology. The course provides a focus on the fundamentals of designing with imagery, and the relationship between verbal and visual communication.",
+    "prereq": "3 units in courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "ART",
+    "course_number": "323",
+    "title": "Digital Sculpture",
+    "info": "Introduces students to 3D modelling by means of digital sculpting techniques, their historical context and terminology. Provides a focus on the fundamentals of working and designing in three-dimensional space.",
+    "prereq": "3 units in courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "ART",
+    "course_number": "327",
+    "title": "Art Now I",
+    "info": "A series of presentations by visiting artists and scholars that introduces students to professional practices of contemporary visual artists.",
+    "prereq": "15 units of courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "ART",
+    "course_number": "329",
+    "title": "Art Now II",
+    "info": "A series of presentations by visiting artists and scholars that introduces students to professional practices of contemporary visual artists.",
+    "prereq": "15 units of courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "331",
+    "title": "2D Digital Imaging",
+    "info": "Electronic visualization involving computer applications in artistic practice.",
+    "prereq": "3 units in courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "ART",
+    "course_number": "332",
+    "title": "Topics in Photography",
+    "info": "Studio inquiry in photography developing students\u2019 foundational, technical and conceptual skills. Exploration of topics in photography such as large format, projection, narrative and fine art printing processes will enable research creation directed toward self-generated practice. Activities will include workshops, studio practice and critique.",
+    "prereq": "Art 336.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 35
+  },
+  {
+    "program": "ART",
+    "course_number": "334",
+    "title": "Time-Based Art",
+    "info": "Exploration of time and duration as a component of artistic practice, that may include the use of frame-based media and camera-less animation.",
+    "prereq": "3 units in courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "336",
+    "title": "Digital Photography",
+    "info": "Fundamental technical, aesthetic and conceptual considerations in digital photography, camera use and the use of desktop editing software in support of fine art photography. Introduction to digital printing for photographic artists. A portion of assigned course work will be output as inkjet prints.",
+    "prereq": "Art 235.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "ART",
+    "course_number": "338",
+    "title": "Film Photography",
+    "info": "Further work in photography, using film and silver-based photographic materials including intensive use of the variables of exposure, film development and silver-based printing of photographic materials.",
+    "prereq": "Art 235.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 34
+  },
+  {
+    "program": "ART",
+    "course_number": "340",
+    "title": "Panorama and 360 Virtual Reality Photography",
+    "info": "Students learn how to use software and hardware needed to create panoramas and virtual tours.",
+    "prereq": "Art 235.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "341",
+    "title": "Drawing the Figure",
+    "info": "Theory and practice of drawing the human figure at a developing level involving an extended range of drawing media.",
+    "prereq": "Art 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "ART",
+    "course_number": "343",
+    "title": "Drawing: Construction of Pictorial Space",
+    "info": "Extends the range of concepts and practices in drawing to include pictorial space.",
+    "prereq": "Art 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "ART",
+    "course_number": "345",
+    "title": "Anatomical Drawing I",
+    "info": "Perceptual and drawing skills pertaining to human anatomical relationships.",
+    "prereq": "Art 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "347",
+    "title": "Anatomical Drawing II",
+    "info": "Further development of anatomical drawing skills including anatomical structures of the hands and the muscles of facial expression.",
+    "prereq": "Art 345.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "ART",
+    "course_number": "350",
+    "title": "Painting: Materials and Processes",
+    "info": "Technical and conceptual exploration of painting, with experimentation in at least two media, including acrylic and/or oil. May include colour theory, painting style, application of materials and different painting supports.",
+    "prereq": "Art 231 or 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "ART",
+    "course_number": "351",
+    "title": "Painting: Figuration",
+    "info": "Exploration of painting proceeding from observation and traditions of figuration. Media will include acrylic and/or oil.",
+    "prereq": "Art 231 or 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "ART",
+    "course_number": "353",
+    "title": "Painting: Abstraction",
+    "info": "Exploration of painting proceeding from traditions of abstraction. Media will include acrylic and/or oil.",
+    "prereq": "Art 231 or 241",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "ART",
+    "course_number": "361",
+    "title": "Visual Research Methods",
+    "info": "Students utilize arts-based research methods to formulate and develop an independent project. Projects normally will be completed using digital photography.",
+    "prereq": "6 units of courses labelled Art at the 300 level.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 32
+  },
+  {
+    "program": "ART",
+    "course_number": "363",
+    "title": "Advanced Visual Research Methods",
+    "info": "Students pursue individually designed arts-based research projects, examine approaches to editing, sequencing, and presenting projects to an audience. Projects normally will be completed using digital photography.",
+    "prereq": "Art 361.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 40
+  },
+  {
+    "program": "ART",
+    "course_number": "381",
+    "title": "Sculpture: Materials and Processes",
+    "info": "Technical and conceptual exploration of sculpture through materials and processes. This may include a range of methods such as mold-making, casting, assemblage, carving, welding, forging, riveting, time-based media, installation or digital media.",
+    "prereq": "Art 233.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "ART",
+    "course_number": "383",
+    "title": "Sculpture: Concepts and Strategies",
+    "info": "Conceptual and professional exploration of sculpture introducing students to strategies and concepts to assist in research and problem solving. Approaches may include understanding object-hood, material as content, serial art, art movements impacting sculpture, public art, and sculpture and the market.",
+    "prereq": "Art 233.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 33
+  },
+  {
+    "program": "ART",
+    "course_number": "397",
+    "title": "Professional Development",
+    "info": "Professional development activities, documentation and dissemination associated with working as a professional artist, including intellectual property, ethics, and the context of different art communities.",
+    "prereq": "12 units of courses labelled Art.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 31
+  },
+  {
+    "program": "ART",
+    "course_number": "414",
+    "title": "Advanced Topics in Indigenous Art",
+    "info": "Advanced studio inquiry into Indigenous art developing students\u2019 technical and conceptual skills. Explores advanced practices through topics that may include beading, quilling, and hide.",
+    "prereq": "Art 314.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 35
+  },
+  {
+    "program": "ART",
+    "course_number": "421",
+    "title": "Advanced Topics in Digital Arts",
+    "info": "Advanced studio inquiry into digital art forms developing students\u2019 technical and conceptual skills. Advanced exploration of digital media topics such as 2D graphics, 3D graphics, animation, motion capture, and modelling will enable research creation directed toward self-generated practice.",
+    "prereq": "15 units of courses labelled Art at the 300 level including 3 units from Art 313, 331, 319, 323, 334.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "431",
+    "title": "3D Digital Imaging",
+    "info": "Creative research in 3D digital visualization and fabrication involving multimedia software and hardware. May include 3D printing, rapid prototyping, laser cutting, and computer controlled milling.",
+    "prereq": "15 units of courses labelled Art at the 300 level, including 3 units from Art 313, 319, 323, 331, 334, 336.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 40
+  },
+  {
+    "program": "ART",
+    "course_number": "438",
+    "title": "Advanced Topics in Photography",
+    "info": "Advanced studio inquiry into photography developing students\u2019 foundational, technical and conceptual skills. Deeper exploration of topics in photography such as long term projects, narrative, projection, printing and alternative processes will enable research creation directed toward self-generated practice. Activities will include workshops, studio practice and critique.",
+    "prereq": "15 units of courses labelled Art at the 300 level including Art 332 or 338.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "445",
+    "title": "Advanced Topics in Drawing",
+    "info": "Advanced studio inquiry into drawing that develops foundational, technical and conceptual skills. Deeper exploration of topics in drawing such as mixed media, street art and socio-political issues will enable research and creation directed toward self-generated practice.",
+    "prereq": "15 units of courses labelled Art at the 300 level, including 3 units from Art 341, 343, 345, 347, 349.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 34
+  },
+  {
+    "program": "ART",
+    "course_number": "451",
+    "title": "Painting: Expanded Field",
+    "info": "Students explore an expanded field of painting through installing and contextualizing their work. This may include pictorial, spatial, performative, and conceptual responses to site. Students may engage in collage/assemblage, shaped canvases, text/image, objects, paint, and unconventional materials.",
+    "prereq": "Art 231 or 241.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "455",
+    "title": "Advanced Topics in Painting",
+    "info": "Advanced studio inquiry into painting developing students\u2019 foundational, technical and conceptual skills. Deeper exploration of painting will enable research creation directed toward self-generated practice. Activities will include workshops, studio practice and critique. Topics offered may include murals, gender and the body, figure and landscape, or materiality.",
+    "prereq": "15 units of courses labelled Art at the 300 level including 3 units from Art 351 or 353.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "465",
+    "title": "Topics in Studio Research and Critique",
+    "info": "A studio-based topics course that provides students with an opportunity for developing their exploration of contemporary and emerging creative research practices, contextualized via critique. Examples of topics: visiting artist, studio research, figure painting, visual research. Topics offered may include installation, research creation, site specific art.",
+    "prereq": "15 units of courses labelled Art at the 300 level including Art History 333.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "475",
+    "title": "Advanced Topics in Printmaking",
+    "info": "Advanced studio inquiry into printmaking developing students\u2019 technical and conceptual skills. The course will explore advanced practices in areas such as lithography, screenprinting, intaglio and photomechanical print processes.",
+    "prereq": "15 units of courses labelled Art at the 300 level, including 3 units from Art 373, 377, 379.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "481",
+    "title": "Sculpture: Mold Making and Casting",
+    "info": "An exploration of mold making and casting techniques in the realization of sculptural forms.",
+    "prereq": "Art 233.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "485",
+    "title": "Advanced Topics in Sculpture",
+    "info": "Advanced studio inquiry into sculpture that develops technical and conceptual skills. Activities will include studio practice and critique enabling research creation directed toward self-initiated practice. Topics may include sculptural exploration of installation, performance, and site specific art.",
+    "prereq": "15 units of courses labelled Art at the 300 level including 3 units from Art 381 or 383.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 38
+  },
+  {
+    "program": "ART",
+    "course_number": "499",
+    "title": "Art in Theory and Practice II",
+    "info": "Examination and discussion of theoretical issues associated with current practice in art.",
+    "prereq": "Art 399 and admission to the BFA or BFA Honours in Visual Studies.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 37
+  },
+  {
+    "program": "ART",
+    "course_number": "501",
+    "title": "Advanced Topics in Media Arts",
+    "info": "Advanced studio inquiry into media art forms developing students\u2019 technical and conceptual skills. Topics may include: sound and interactivity, immersive art, tele-arts and projection mapping that will enable research creation directed toward self-generated practice.",
+    "prereq": "15 units of courses labelled Art at the 300 level including 3 units from Art 323, 315, 317, 321.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 20
+  },
+  {
+    "program": "ART",
+    "course_number": "503",
+    "title": "Computer Game Design",
+    "info": "The game design process will be explored, including a history of video games, genres, game mechanics, design documents, and a summary of the development process. The focus will be on design, rather than development, and the artistic and creative assets, rather than the software. Students will design a game and will create a playable prototype. The principles will be applicable to other sorts of games, and to media art in general.",
+    "prereq": "Art 251.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 21
+  },
+  {
+    "program": "ART",
+    "course_number": "509",
+    "title": "Curriculum Building for Art",
+    "info": "Developing curriculum and program structures for formal and community art education. Program design includes current theory and practice and a field research component.",
+    "prereq": "12 units of courses labelled Art at the 300 level or above.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 21
+  },
+  {
+    "program": "ART",
+    "course_number": "513",
+    "title": "Directed Study",
+    "info": "Independent studio research under the supervision of a faculty member.",
+    "prereq": "Consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 28
+  },
+  {
+    "program": "ART",
+    "course_number": "560",
+    "title": "Honours Thesis",
+    "info": "Independent studio research and production supported by a research paper for BFA Honours Visual Studies students, culminating in a Thesis Exhibition.",
+    "prereq": "Admission to the BFA Honours Visual Studies Program.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 25
+  },
+  {
+    "program": "ART",
+    "course_number": "561",
+    "title": "Honours Studio Research I",
+    "info": "Directed studio research and production for honours students.",
+    "prereq": "Admission to Honours in Visual Studies and consent of the Department.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 21
+  },
+  {
+    "program": "ART",
+    "course_number": "563",
+    "title": "Honours Studio Research II",
+    "info": "Further directed studio research and production for honours students.",
+    "prereq": "Admission to Honours in Visual Studies and Art 561.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 21
+  },
+  {
+    "program": "ART",
+    "course_number": "565",
+    "title": "Advanced Studio Research and Critique",
+    "info": "Advanced studio course that develops self-generated approaches to creative research and critique. Encourages engagement with contemporary and emerging practices and leads to critical fluency, contextualized via critique. Situated in an interdisciplinary setting, students can expect to encounter a wide range of themes and approaches to support their practice.",
+    "prereq": "Art 465.",
+    "antireq": null,
+    "difficulty": 5,
+    "total_ratings": 28
+  },
+  {
+    "program": "MARK",
+    "course_number": "317",
+    "title": "Foundations of Marketing",
+    "info": "An introductory marketing course designed for management students to introduce the principles and practices of marketing. Topics will cover basic marketing concepts, societal issues, and the decision-making process of marketers in developing marketing strategies and plans. The focus of the course will be on the implementation of specific product, pricing, distribution and communication strategies for specific market situations.",
+    "prereq": "Admission to the Haskayne School of Business, and 30 units including Strategy and Global Management 217.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "MARK",
+    "course_number": "431",
+    "title": "Retail Management",
+    "info": "A strategic approach to the retail industry. Managing the retail operation, including site selection, store design, consumer behaviour in retail situations, buying, inventory management, and visual merchandising. The role of retailing in the global economy.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "MARK",
+    "course_number": "433",
+    "title": "Business-To-Business Marketing",
+    "info": "Marketing management and theory applied to the purchase of products and services by organizations. Topics include industrial market dynamics, organizational buying behaviour, relationship development, technology, and the importance of innovation.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "MARK",
+    "course_number": "435",
+    "title": "Marketing Communications",
+    "info": "Evaluations of the roles of various communication tools including advertising, sales promotion, personal selling and public relations.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "MARK",
+    "course_number": "449",
+    "title": "Sales Management",
+    "info": "Strategic and managerial aspects of professional selling and sales force management. Topics include sales forecasting, recruitment, training, motivation, compensation and territory management, CRM, integration of technology, sales professionalism/ethics.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "MARK",
+    "course_number": "465",
+    "title": "Marketing Research",
+    "info": "Understanding how to conduct and evaluate research for management decision making. Emphasis on research design, measurement concepts, sample design, field work, statistical concepts, data analysis and reporting research findings. Practical application by doing a field research study.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 40
+  },
+  {
+    "program": "MARK",
+    "course_number": "467",
+    "title": "International Marketing",
+    "info": "A course on the environment and basic principles underlying the design and implementation of marketing strategies across national and cross-cultural boundaries. Topics will follow the decision process of international marketers in researching the environment, planning the entry strategy and designing their activities on product, distribution, promotion and pricing.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 39
+  },
+  {
+    "program": "MARK",
+    "course_number": "475",
+    "title": "Digital Marketing",
+    "info": "Examination of specific digital strategies, tactics and platforms to understand the concepts of digital and interactive marketing. Topics include social media, user-generated content, mobile marketing and display advertising.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 39
+  },
+  {
+    "program": "MARK",
+    "course_number": "477",
+    "title": "Product Management",
+    "info": "An in-depth examination of product management issues facing organizations. This includes strategic innovation, product portfolio, new product/service development, brand management, and diffusion of technology.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "MARK",
+    "course_number": "483",
+    "title": "Consumer Behaviour",
+    "info": "Study of factors influencing consumer behaviour. Topics include consumer judgment and decision-making, persuasion, emotional, motivational, social, cultural and contextual influences on decision-making, as well as methods of gaining consumer insights.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "MARK",
+    "course_number": "487",
+    "title": "Services Marketing",
+    "info": "Application of the managerial practices and theory related to services marketing. Topics include management and measurement of service quality, service recovery. The linking of customer measurement to performance measurement, and cross-function issues through integration of marketing with disciplines such as operations and human resources.",
+    "prereq": "Admission to the Haskayne School of Business and Marketing 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "MARK",
+    "course_number": "493",
+    "title": "Strategic Marketing",
+    "info": "Marketing strategy is explored in the context of overall corporate strategy. Integrates the aspects of the market mix into formal planning systems. The focus of the course is on strategic responses to changing customer needs and competitive activities.",
+    "prereq": "Admission to the Haskayne School of Business and 84 units including Marketing 317. ",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 35
+  },
+  {
+    "program": "FINA",
+    "course_number": "317",
+    "title": "Financial Management",
+    "info": "An introduction to the allocation of financial capital, from a theoretical as well as a practical perspective. The course builds on a modern understanding of how risk, time horizon, and market imperfections each affect the value of real and financial assets. Topics include time value of money, the risk-return trade-off, financial investing, corporate financing, and corporate investing.",
+    "prereq": "Admission to the Haskayne School of Business, 30 units including Mathematics 249 or 265, Economics 201 and 203, Accounting 217, Management Studies 217, and either a) Statistics 213 and 217 or b) Mathematics 211 and one of Digital Engineering 319, Electrical Engineering 419 or Engineering 319.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 35
+  },
+  {
+    "program": "FINA",
+    "course_number": "341",
+    "title": "Canadian Business Finance",
+    "info": "An introduction to business financial management practices in Canada including investment decision, capital markets, and sources, uses and costs of capital over short, intermediate and long run situations.",
+    "prereq": "30 units.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "FINA",
+    "course_number": "343",
+    "title": "Personal Financial Management",
+    "info": "An introduction to personal financial management practices in Canada. Topics discussed may include goal setting, personal financial statements, the mathematics of personal finance, taxation, general and life insurance, retirement planning, investments, and estate planning. Completion of the course should enable students to properly prepare and plan their own financial future.",
+    "prereq": "30 units.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "FINA",
+    "course_number": "443",
+    "title": "Security Analysis and Investments",
+    "info": "A comprehensive exploration of security analysis and investments aimed at advancing understanding of financial markets, valuation techniques, and portfolio selection under various investment objectives. Topics such as capital allocation, diversification, security (stocks, bonds, derivatives) valuation, and market efficiency are covered.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "FINA",
+    "course_number": "445",
+    "title": "Futures and Options",
+    "info": "Extensive introduction to the operation of derivative markets and the valuation of derivative securities. Typical derivatives including forward and future contracts, options, and interest rate derivatives will be covered.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 443.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "FINA",
+    "course_number": "447",
+    "title": "Capital Budgeting",
+    "info": "Capital investment policies, real options, required rate of return calculation, tax factors, risk analysis, buy versus lease, abandonment considerations.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 451.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "FINA",
+    "course_number": "449",
+    "title": "Trading and Market Data Management",
+    "info": "Introduction to accessing data feeds as they are used by professional financial market traders and analysts. Data for stock, bond, futures and options markets, accounting statements and securities commission filings, as well as real-time and historical news events and analysis will be studied.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and consent of the Haskayne School of Business.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "FINA",
+    "course_number": "451",
+    "title": "Corporate Finance",
+    "info": "A deeper understanding of topics such as capital budgeting, capital structure, valuation, payout policy, and financing decisions.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "FINA",
+    "course_number": "461",
+    "title": "International Finance",
+    "info": "A study of the forces affecting the financial environment of the corporate sector which appear to stem from requirements in the international sector. Balance-of-payments problems, exchange rates, currency risk hedging techniques, international reserve creations and transfers are some of the major elements studied.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 443.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "FINA",
+    "course_number": "463",
+    "title": "Portfolio Theory and Management",
+    "info": "Analysis of the major aspects of the grouping of financial assets. Portfolio analysis and its application to portfolio management, capital market theory and the measurement of financial performance in the presence of risk.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 443.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 40
+  },
+  {
+    "program": "FINA",
+    "course_number": "465",
+    "title": "Mergers and Acquisitions",
+    "info": "A study of the economic theory and practical issues around takeover and takeover defence strategies. Valuation issues, corporate restructuring, corporate governance, and methods of ensuring congruence between management and shareholder goals are also discussed.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 451.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 33
+  },
+  {
+    "program": "FINA",
+    "course_number": "467",
+    "title": "Financial Risk Management",
+    "info": "A framework for evaluating financial risks and managing them with the use of financial securities including derivatives. Includes firm valuation with risk management, value-at-risk, testing financial models, optimal hedging strategies, energy risk management, market risk, static versus dynamic strategies, interest rate risk, credit risk and liquidity risk. Case analysis of financial disasters due to risk management failures.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 443.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 34
+  },
+  {
+    "program": "FINA",
+    "course_number": "469",
+    "title": "UCeed Haskayne Student Fund",
+    "info": "A comprehensive hands-on course on the financing of early-stage companies. Students will be responsible for evaluating investment opportunities, performing due diligence, working as a team to select investment recommendations, writing investment recommendation reports to an Investment Advisory Group, and participating in quarterly Investment Review Meetings.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and consent of the Haskayne School of Business.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "FINA",
+    "course_number": "471",
+    "title": "The Calgary Portfolio Management Trust",
+    "info": "Hands-on application of portfolio management theory. Students report to a board as fiduciary fund managers their evaluation of risk-return tradeoffs, security selection, financial reporting, and program management.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and consent of the Haskayne School of Business.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 36
+  },
+  {
+    "program": "FINA",
+    "course_number": "473",
+    "title": "New Venture Finance",
+    "info": "Application of financial theory and analysis to the valuation and financing of new ventures. Course balances learning of concepts, development of analytical skills, and practice in decision making. Opportunity to apply learning to live projects.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "FINA",
+    "course_number": "475",
+    "title": "Management of Financial Institutions",
+    "info": "Management of funds and their allocation among cash, primary reserves, loans and investments to provide liquidity and earnings. Services to depositors. Consideration of factors involved in the lending decision, pricing of services, branch location, etc. Strategies for maintaining profitability and liquidity in the face of changing monetary policy.",
+    "prereq": "Admission to the Haskayne School of Business, Finance 317 and 451.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 32
+  },
+  {
+    "program": "FINA",
+    "course_number": "477",
+    "title": "Personal Financial Management in Canada",
+    "info": "An introduction to personal financial management in Canada. Topics covered may include goal setting, personal financial statements analysis, the time value of money, the Canadian personal income tax system, taxation issues for small businesses, risk management, an introduction to investments, retirement planning and estate planning. Students will be expected to display a comprehensive knowledge of the tools necessary to complete their own personal financial plan.",
+    "prereq": "Admission to the Haskayne School of Business and 48 units including Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "FINA",
+    "course_number": "479",
+    "title": "Corporate Risk Management",
+    "info": "Introduction to the management of operational and hazard risks based on contemporary financial theories, including risk identification, loss estimation, risk control, risk financing with insurance and other techniques, and enterprise risk management.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 30
+  },
+  {
+    "program": "FINA",
+    "course_number": "481",
+    "title": "FinTech",
+    "info": "Links conventional finance theory to FinTech-new technological innovations and their applications in finance. Topics include blockchain, cryptocurrency, smart contracts, crowdfunding, ICOs, machine learning, and other current topics.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 3,
+    "total_ratings": 37
+  },
+  {
+    "program": "FINA",
+    "course_number": "483",
+    "title": "Financial Analysis and Valuation",
+    "info": "Cross-disciplinary course merges the principles of corporate financial valuation and advanced financial statement analysis. Course delivery focuses on cases and practical, evidenced-based applications, and features interaction with industry experts.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 37
+  },
+  {
+    "program": "FINA",
+    "course_number": "559",
+    "title": "Selected Topics in Financial Management",
+    "info": "Investigation of selected topics related to financial management, emphasizing the application of financial management principles to actual problems in the corporate sector.",
+    "prereq": "Admission to the Haskayne School of Business and Finance 317. For certain topics, consent of the Haskayne School of Business will also be required.",
+    "antireq": null,
+    "difficulty": 4,
+    "total_ratings": 29
+  },
+  {
+    "program": "BIOC",
+    "course_number": "393",
+    "title": "Introduction to Biochemistry",
+    "info": "Emphasis is placed on analyzing the chemistry of biochemical molecules including proteins, carbohydrates, lipids, and nucleic acids. The chemistry of biomolecules is applied to prerequisite knowledge of cell structures and life processes. Basic concepts of metabolism are introduced, focusing on the breakdown of carbohydrates for energy. The laboratory component reinforces learning of the lecture material, while teaching technical skills and the analysis and interpretation of experiments involving biochemical molecules.",
+    "prereq": "Chemistry 351, Biology 311 and admission to a Major offered by the Department of Biological Sciences or the Neuroscience Major or a primary concentration in Biological Sciences in either the Natural Sciences or Environmental Science Major. Or, Chemistry 351, and Medical Science 341, and admission to either the Biomedical Science or Bioinformatics Major.",
+    "antireq": "Credit for Biochemistry 393 and 341 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 35
+  },
+  {
+    "program": "PHYS",
+    "course_number": "598",
+    "title": "Honours Research Thesis",
+    "info": "Each student will be assigned a project in consultation with a supervisor. Written reports and oral presentations are required.",
+    "prereq": "Physics 443 and 449 and 455 and consent of the Department.",
+    "difficulty": 5,
+    "total_ratings": 25
+  },
+  {
+    "program": "PHYS",
+    "course_number": "599",
+    "title": "Senior Research Thesis",
+    "info": "Each student will be assigned a project in consultation with a supervisor. Written reports and oral presentations are required.",
+    "prereq": "Consent of the Department.",
+    "notes": "A maximum of 6 units may be taken. MAY BE REPEATED FOR CREDIT",
+    "difficulty": 5,
+    "total_ratings": 25
   }
 ]
