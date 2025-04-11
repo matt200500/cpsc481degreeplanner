@@ -87,7 +87,12 @@ function CourseNav() {
             type="text"
             placeholder="Enter Course Number..."
             value={levelInput}
-            onChange={(e) => setLevelInput(e.target.value)}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (/^\d*$/.test(value)) {
+                setLevelInput(value); 
+              }
+            }}
           />
           <div className="dropdown-select">
             {syncedCourses.filter(
