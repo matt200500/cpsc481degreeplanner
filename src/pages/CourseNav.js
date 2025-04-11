@@ -16,6 +16,7 @@ function CourseNav() {
   const [searched, setSearched] = useState(false);
   const [takenFilter, setTakenFilter] = useState("");
   const [syncedCourses, setSyncedCourses] = useState(courseData);
+  const [searchTakenFilter, setSearchTakenFilter] = useState("");
 
   const navigate = useNavigate();
 
@@ -40,21 +41,24 @@ function CourseNav() {
       setError("");
       setCourse(courseInput);
       setLevel(levelInput);
+      setSearchTakenFilter(takenFilter); // <-- sync only on search
       setSearched(true);
     }
   };
+  
 
   const filteredCourses = searched
-    ? syncedCourses.filter(item => {
-        const matchesProgram = course === "Default" || item.program === course;
-        const matchesLevel = level === "" || item.course_number.startsWith(level);
-        const matchesTaken =
-          takenFilter === ""
-            || (takenFilter === "taken" && item.taken === true)
-            || (takenFilter === "not_taken" && item.taken === false);
-        return matchesProgram && matchesLevel && matchesTaken;
-      })
-    : syncedCourses;
+  ? syncedCourses.filter(item => {
+      const matchesProgram = course === "Default" || item.program === course;
+      const matchesLevel = level === "" || item.course_number.startsWith(level);
+      const matchesTaken =
+        searchTakenFilter === ""
+          || (searchTakenFilter === "taken" && item.taken === true)
+          || (searchTakenFilter === "not_taken" && item.taken === false);
+      return matchesProgram && matchesLevel && matchesTaken;
+    })
+  : syncedCourses;
+
 
   const handleCourseClick = (program, course_number) => {
     navigate(`/course/${program}${course_number}`);
