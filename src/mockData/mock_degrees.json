@@ -27,12 +27,12 @@
     {
         "degree": "Art History",
         "faculty": "ART",
-        "programCode": "ARTH"
+        "programCode": "HIST"
     },
     {
         "degree": "Arts",
         "faculty": "ART",
-        "programCode": "ARTS"
+        "programCode": "ART"
     },
     {
         "degree": "Marketing",

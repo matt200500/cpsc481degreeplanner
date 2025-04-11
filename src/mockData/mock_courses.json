@@ -2037,7 +2037,7 @@
     "prereq": "3 units of courses labelled Art.",
     "antireq": null,
     "difficulty": 4,
-    "total_ratings": 32
+    "total_ratings": 323
   },
   {
     "program": "ART",
@@ -2817,5 +2817,35 @@
     "notes": "A maximum of 6 units may be taken. MAY BE REPEATED FOR CREDIT",
     "difficulty": 5,
     "total_ratings": 25
+  },
+  {
+    "program": "STAT",
+    "course_number": "327",
+    "title": "Statistics for the Physical and Environmental Sciences",
+    "info": "Introduction to the collection of data. Probability and probability distributions. Single and Multi-sample estimation of distribution parameters. Regression and Goodness of Fit tests. Experimental Design and Analysis of Variance.",
+    "prereq": "3 units from Mathematics 249, 265 or 275.",
+    "antireq": "Credit for Statistics 327 and any one of Statistics 205, 213 or 217 will not be allowed.",
+    "difficulty": 3,
+    "total_ratings": 38
+  },
+  {
+    "program": "STAT",
+    "course_number": "321",
+    "title": "Introduction to Probability",
+    "info": "A calculus-based introduction to probability theory and applications. Elements of probabilistic modelling, Basic probability computation techniques, Discrete and continuous random variables and distributions, Functions of random variables, Expectation and variance, Multivariate random variables, Conditional distributions, Covariance, Conditional expectation, Central Limit Theorem, Applications to real-world modelling.",
+    "prereq": "Mathematics 267 or 277.",
+    "antireq": "Credit for Statistics 321 and Engineering 319 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 42
+  },
+  {
+    "program": "STAT",
+    "course_number": "323",
+    "title": "Introduction to Theoretical Statistics",
+    "info": "Statistics and their distributions. Introduction to statistical inference through point estimation and confidence interval estimation of a population parameter. Properties of statistics including unbiasedness and consistency in estimation. Single parameter hypothesis testing, Type I and Type II Error. Multi-parameter estimation through confidence interval estimation and hypothesis testing. The analysis of bivariate data through simple linear regression, including inferences on the parameters of the linear model and the analysis of variance. Chi-square test of independence and goodness of fit test.",
+    "prereq": "Statistics 321.",
+    "antireq": "Credit for Statistics 323 and Data Science 305 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 40
   }
 ]
