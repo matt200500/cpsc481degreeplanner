@@ -2,11 +2,11 @@
 CPSC481 Degree Planner is a customizable academic planning tool developed to help students visualize and organize their university courses over a 4-year period. Built with a focus on clarity and flexibility, the planner allows users to assign courses to specific terms, categorize them by type and view their academic progression at a glance. This tool is especially helpful for students trying to meet graduation requirements while balancing electives and major-specific classes. The project is designed to be easily extended or adapted for different programs or institutions.
 
 ## Our Group members
-Matthew Cusanelli
-Raaja Varshiny
-Jam Gammuac
-Taimoor Abrar
-Lei Fang
+* Matthew Cusanelli
+* Raaja Varshiny
+* Jam Gammuac
+* Taimoor Abrar
+* Lei Fang
 
 # System Instructions
 To get started first open our app at the link _____.  
