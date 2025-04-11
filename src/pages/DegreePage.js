@@ -175,6 +175,11 @@ export default function DegreePage() {
                     )}
                 </>
             )}
+
+            <button id='return' onClick={() => window.history.back()} className="back-button">
+                Back to Search
+            </button>
+
             {shouldShowNote && (
                 <div className="course-note">
                     <ul>
