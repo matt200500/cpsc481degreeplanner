@@ -73,7 +73,7 @@ function CourseNav() {
         <select value={courseInput} onChange={(e) => setCourseInput(e.target.value)}>
           <option value="Default">All Programs</option>
           <option value="ART">Art</option>
-          <option value="BIO">Biology</option>
+          <option value="BIOL">Biology</option>
           <option value="CHEM">Chemistry</option>
           <option value="CPSC">Computer Science</option>
           <option value="MATH">Math</option>

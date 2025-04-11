@@ -20,29 +20,19 @@
         "programCode": "PHYS"
     },
     {
-        "degree": "Biology",
+        "degree": "Biological Sciences",
         "faculty": "STEM",
         "programCode": "BIOL"
     },
     {
         "degree": "Art History",
         "faculty": "ART",
-        "programCode": "ARTH"
+        "programCode": "HIST"
     },
     {
         "degree": "Arts",
         "faculty": "ART",
-        "programCode": "ARTS"
-    },
-    {
-        "degree": "Graphic Design",
-        "faculty": "ART",
-        "programCode": "DESI"
-    },
-    {
-        "degree": "Business Administration",
-        "faculty": "BUSINESS",
-        "programCode": "BSAD"
+        "programCode": "ART"
     },
     {
         "degree": "Marketing",
