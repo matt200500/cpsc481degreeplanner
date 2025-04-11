@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import HomePage from './pages/HomePage'; // Import your custom pages
 import DegreeNav from './pages/DegreeNav';
 import CourseNav from './pages/CourseNav';
@@ -18,11 +19,11 @@ function App() {
           {/* Navigation Links */}
           <nav>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/Degrees">Degree Search</a></li>
-              <li><a href="/Courses">Course Search</a></li>
-              <li><a href="/Login">Login</a></li>
-              <li><a href="/Signup">Signup</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Degrees">Degree Search</Link></li>
+            <li><Link to="/Courses">Course Search</Link></li>
+            <li><Link to="/Login">Login</Link></li>
+            <li><Link to="/Signup">Signup</Link></li>
             </ul>
           </nav>
         </div>
@@ -36,7 +37,6 @@ function App() {
           <Route path="/degree/:degreeName" element={<DegreePage />} />
           <Route path="/Login" element={<LoginPage />} />
           <Route path="/Signup" element={<SignupPage />} />
-
         </Routes>
         
         {/* Footer Component */}
