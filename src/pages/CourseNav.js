@@ -80,6 +80,7 @@ function CourseNav() {
           <option value="MATH">Math</option>
           <option value="PSYC">Psychology</option>
           <option value="PHYS">Physics</option>
+          <option value="PHIL">Philosophy</option>
         </select>
 
         <div className="dropdown">

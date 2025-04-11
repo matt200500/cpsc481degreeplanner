@@ -1,5 +1,34 @@
 [
-
+    {
+    "program": "PHIL",
+    "course_number": "279",
+    "title": "Logic 1",
+    "info": "Sentential and first-order logic from both deductive and semantic points of view. Some elementary metatheorems.",
+    "prereq": null,
+    "antireq": "Credit for Philosophy 279 and 377 will not be allowed.",
+    "difficulty": 1,
+    "total_ratings": 32
+    },
+    {
+    "program": "SENG",
+    "course_number": "300",
+    "title": "Introduction to Software Engineering",
+    "info": "Introduction to the development and evolution of software. Covers key conceptual foundations as well as key methods and techniques used in the different phases of the software lifecycle. Emphasis on both technical and soft skills needed for high quality software and software-based products developed in teams.",
+    "prereq": "3 units from Computer Science 219, 233 or 235.",
+    "antireq": "Credit for Software Engineering 300 and any of Software Engineering 301, 311, 403, 411, Computer Science 301, 333, 451 or Software Engineering for Engineers 480 will not be allowed.",
+    "difficulty": 4,
+    "total_ratings": 178
+    },
+    {
+    "program": "PHIL",
+    "course_number": "314",
+    "title": "Logic 2",
+    "info": "A critical and analytical examination of ethical and legal problems arising in and about information technology. May include hacking, online privacy, intellectual property rights, artificial intelligence, globalization and regulation issues, cheating in online games, and others.",
+    "prereq": null,
+    "antireq": null,
+    "difficulty": 1,
+    "total_ratings": 38
+    },
   {
     "program": "CPSC",
     "course_number": "203",
