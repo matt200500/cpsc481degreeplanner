@@ -341,7 +341,7 @@
       {
         "code": "Non-Science Option",
         "type": "nonScience",
-        "term": "Y3-F"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field Option",
@@ -416,202 +416,202 @@
       {
         "code": "PHYS 227",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "PHYS 229",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 249 or 265",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 267",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 211",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "CHEM 201 or BIOL 241",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "CHEM 203 or BIOL 205 or CPSC 219",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "CPSC 217",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "PHYS 341",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "PHYS 343",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "PHYS 355",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "PHYS 375",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "PHYS 381",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "MATH 311",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "MATH 367",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "MATH 376",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "PHYS 397",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "PHYS 435",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "PHYS 443",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "PHYS 449",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "PHYS 455",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "PHYS 457",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "PHYS 497",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Field Science",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "PHYS 501",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "PHYS 599 or PHYS 598A",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+ or PHYS 598B",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field Science",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       }
     ]
   },
@@ -621,202 +621,202 @@
       {
         "code": "CHEM 201",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "CHEM 203",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 249 or 265",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 267",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "PHYS 211 or 221 or 227",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "PHYS 223",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "STAT 327 or 205",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "CHEM 311",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "CHEM 315",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "CHEM 351",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "CHEM 353",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "CHEM 371",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "MATH 211",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "PHYS 323",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "BCEM 341",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "CHEM 373",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "CHEM 471",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "CHEM 431",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "CHEM 433",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "CHEM 453",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "SCIE 311",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "breadth",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "CHEM 531 or 533",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 300+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 300+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 500",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 500",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 500",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       }
     ]
   },
@@ -826,202 +826,202 @@
       {
         "code": "BIOL 241",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "BIOL 243",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "CHEM 201",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "CHEM 203",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 249 or 265",
         "type": "choice",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MATH 211 or 267 or STAT 327",
         "type": "choice",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Junior Science Breadth",
         "type": "scienceBreadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Junior Science Breadth",
         "type": "scienceBreadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "BIOL 311",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "BIOL 313",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "BIOL 331",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "BIOL 371",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "BCEM 393",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "CHEM 351",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Field 300+",
         "type": "field300",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 300+",
         "type": "field300",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 300+",
         "type": "field300",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 300+",
         "type": "field300",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 300+",
         "type": "field300",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Science Option ",
         "type": "breadth",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Field 400+",
         "type": "field400",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+",
         "type": "field400",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+",
         "type": "field400",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+",
         "type": "field400",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       }
     ]
   },
@@ -1031,387 +1031,411 @@
       {
         "code": "MARK 317",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "MARK 431",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
+
       {
         "code": "MARK 433",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "MARK 435",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
+      },
+      {
+        "code": "Non-Major Field",
+        "type": "nonMajor",
+        "term": "Y2-F"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y2-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y2"
-      },
+
       {
         "code": "MARK 449",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "MARK 465",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
+      },
+      {
+        "code": "Non-Major Field",
+        "type": "nonMajor",
+        "term": "Y3-F"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y3-W"
+      },
+      {
+        "code": "Non-Major Field",
+        "type": "nonMajor",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Non-Major Field",
+        "type": "nonMajor",
+        "term": "Y3-W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y3-W"
+      },
+
+      {
+        "code": "Field 400+",
+        "type": "required",
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-F"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
+      },
+      {
+        "code": "Open Option",
+        "type": "open",
+        "term": "Y4-W"
       }
     ]
   },
-  "FINA": {
+    "FINA": {
     "name": "Finance",
     "plan": [
-      {
-        "code": "FINA 317",
-        "type": "required",
-        "term": "Y1"
+      { 
+        "code": "FINA 317", 
+        "type": "required", 
+        "term": "Y1-F" 
       },
-      {
-        "code": "FINA 341",
-        "type": "required",
-        "term": "Y1"
+      { 
+        "code": "FINA 341", 
+        "type": "required", 
+        "term": "Y1-F" 
       },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y1"
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y1-F" 
       },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y1"
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y1-F" 
       },
-      {
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y1-F" 
+      },
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y1-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y1-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor",
+        "term": "Y1-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y1-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y1-W" 
+      },
+
+      { 
+        "code": "FINA 343", 
+        "type": "required", 
+        "term": "Y2-F" 
+      },
+      { 
+        "code": "FINA 443", 
+        "type": "required", 
+        "term": "Y2-F" 
+      },
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y2-F" 
+      },
+      { 
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y2-F" 
+        },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y2-F" 
+      },
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y2-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y2-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y2-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y2-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y2-W" 
+      },
+      { 
+        "code": "FINA 445", 
+        "type": "required", 
+        "term": "Y3-F" 
+      },
+      { 
+        "code": "FINA 447", 
+        "type": "required", 
+        "term": "Y3-F" 
+      },  
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y3-F" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y3-F" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y3-F" 
+      },
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y3-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y3-W" 
+      },
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y3-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y3-W" 
+      },
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y3-W"
+      },
+      { 
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y4-F" 
       },
       {
+        "code": "Field 400+", 
+        "type": "required", 
+        "term": "Y4-F" 
+      },
+      { 
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y4-F"
       },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y1"
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y4-F" 
       },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y1"
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y4-F" 
       },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y1"
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y4-W" 
       },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y1"
+      { 
+        "code": "Non-Major Field", 
+        "type": "nonMajor", 
+        "term": "Y4-W" 
       },
-      {
-        "code": "FINA 343",
-        "type": "required",
-        "term": "Y2"
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y4-W" 
       },
-      {
-        "code": "FINA 443",
-        "type": "required",
-        "term": "Y2"
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y4-W" 
       },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y2"
-      },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y2"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y2"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y2"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y2"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y2"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y2"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y2"
-      },
-      {
-        "code": "FINA 445",
-        "type": "required",
-        "term": "Y3"
-      },
-      {
-        "code": "FINA 447",
-        "type": "required",
-        "term": "Y3"
-      },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y3"
-      },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y3"
-      },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y4"
-      },
-      {
-        "code": "Field 400+",
-        "type": "required",
-        "term": "Y4"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y4"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y4"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y4"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y4"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y4"
-      },
-      {
-        "code": "Open Option",
-        "type": "open",
-        "term": "Y4"
+      { 
+        "code": "Open Option", 
+        "type": "open", 
+        "term": "Y4-W" 
       }
     ]
   },
@@ -1421,387 +1445,382 @@
       {
         "code": "ART 243",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "ART 312",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "ART 313",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "ART 319",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "ART 323",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "ART 327",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       }
     ]
   },
-  "HIST": {
+    "HIST": {
     "name": "Art History",
     "plan": [
       {
         "code": "Art 511",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Art 327",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y1"
+        "term": "Y1-F"
       },
       {
         "code": "HIST 501",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "HIST 471",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y2"
+        "term": "Y2-W"
       },
       {
         "code": "HIST 411",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "HIST 431",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y3-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y1"
-      },
-      {
-        "code": "Non-Major Field",
-        "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y3"
+        "term": "Y3-F"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Field 400+",
         "type": "required",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y2"
+        "term": "Y4-W"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Non-Major Field",
         "type": "nonMajor",
-        "term": "Y3"
+        "term": "Y3-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-F"
       },
       {
         "code": "Open Option",
         "type": "open",
-        "term": "Y4"
+        "term": "Y4-W"
       }
     ]
   }
