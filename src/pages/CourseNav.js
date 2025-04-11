@@ -8,7 +8,7 @@ localStorage.removeItem("takenCourses");
 const courseData = require("../mockData/mock_courses.json");
 
 function CourseNav() {
-  const [courseInput, setCourseInput] = useState("");
+  const [courseInput, setCourseInput] = useState("Default");
   const [levelInput, setLevelInput] = useState("");
   const [course, setCourse] = useState("");
   const [level, setLevel] = useState("");
@@ -71,7 +71,6 @@ function CourseNav() {
 
       <div className="course-search">
         <select value={courseInput} onChange={(e) => setCourseInput(e.target.value)}>
-          <option value="" disabled hidden>Select Course Program...</option>
           <option value="Default">All Programs</option>
           <option value="ART">Art</option>
           <option value="BIO">Biology</option>

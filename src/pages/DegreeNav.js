@@ -5,8 +5,8 @@ import '../styles/DegreeNav.css';
 const degreeData = require("../mockData/mock_degrees.json"); // Ensure correct data file
 
 function DegreeNav() {
-  const [facultyInput, setFacultyInput] = useState("");
-  const [degreeInput, setDegreeInput] = useState(""); 
+  const [facultyInput, setFacultyInput] = useState("Default");
+  const [degreeInput, setDegreeInput] = useState("Default"); 
   const [faculty, setFaculty] = useState(""); 
   const [degree, setDegree] = useState(""); 
   const [error, setError] = useState(""); 
@@ -45,7 +45,6 @@ function DegreeNav() {
       <div className='degree-search'>
         {/* Faculty dropdown */}
         <select value={facultyInput} onChange={(e) => setFacultyInput(e.target.value)}>
-          <option value="" disabled hidden>Select Faculty...</option>
           <option value="Default">All Faculties</option>
           <option value="ART">Art</option>
           <option value="BUSINESS">Business</option>
@@ -54,7 +53,6 @@ function DegreeNav() {
 
         {/* Degree Program dropdown */}
         <select value={degreeInput} onChange={(e) => setDegreeInput(e.target.value)}>
-          <option value="" disabled hidden>Select Degree Program...</option>
           <option value="Default">All Programs</option>
           <option value="Arts">Art</option>
           <option value="Art History">Art History</option>
@@ -72,7 +70,7 @@ function DegreeNav() {
         </select>
 
         {/* Search button */}
-        <button onClick={handleSearch} disabled={!facultyInput}>
+        <button onClick={handleSearch} disabled={!facultyInput && !degreeInput}>
           Search
         </button>
       </div>
