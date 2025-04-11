@@ -9,7 +9,7 @@ CPSC481 Degree Planner is a customizable academic planning tool developed to hel
 * Lei Fang
 
 # System Instructions
-To get started first open our app at the link _____.  
+To get started first open our app at the link https://matt200500.github.io/cpsc481degreeplanner.  
 
 * Once you are on it you can either choose to click on the "Degree Search" button at the top to view degrees or the ```Course Search``` button.
 * Once you have pressed either of these buttons, you are able to search for a degree or course you are interested in.  In this case, if you chose to view courses you can filter courses via their program in the dropdown alongside courses you have taken in your account or via a course number.  Once you have changed one of these fields, you can press ```search``` to see the results!
