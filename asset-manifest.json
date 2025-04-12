@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cpsc481degreeplanner/static/css/main.9ce4a205.css",
-    "main.js": "/cpsc481degreeplanner/static/js/main.789471eb.js",
+    "main.js": "/cpsc481degreeplanner/static/js/main.78de202e.js",
     "index.html": "/cpsc481degreeplanner/index.html",
     "main.9ce4a205.css.map": "/cpsc481degreeplanner/static/css/main.9ce4a205.css.map",
-    "main.789471eb.js.map": "/cpsc481degreeplanner/static/js/main.789471eb.js.map"
+    "main.78de202e.js.map": "/cpsc481degreeplanner/static/js/main.78de202e.js.map"
   },
   "entrypoints": [
     "static/css/main.9ce4a205.css",
-    "static/js/main.789471eb.js"
+    "static/js/main.78de202e.js"
   ]
 }
